@@ -22,6 +22,7 @@ ALLOWED_EMAILS = {
     "grace@unibas.ch",
     "moritz.maehr@gmail.com",
     "noreply@anthropic.com",
+    "l.j.wagner@proton.me",
 }
 
 EMAIL = re.compile(
