@@ -77,18 +77,6 @@ Do not run a live demonstration. Describe the findings, and refer to the paper.
 Ask the group to name assistants and their designed voice or gender. Then ask which human work they claim to replace.
 :::
 
-## 5. Personalization and non-consent
-
-- Almost 35,000 downloadable "deepfake" model variants of identifiable people, downloaded almost 15 million times.
-- 96% targeted women. Many signalled the intent to create non-consensual intimate imagery.
-- As few as 20 images and 15 minutes on consumer hardware.
-
-[Hawkins, Mittelstadt, and Russell (2025), FAccT.]{.source}
-
-::: notes
-Keep the discussion on structures: platforms, licenses, moderation. Do not name targeted persons.
-:::
-
 ## Case: the LAION-5B pathway
 
 [Documented case]{.label}
@@ -156,6 +144,40 @@ Read the fields aloud: URL, label, score, license, caption. The label says NSFW 
 The dataset was open, so outsiders could audit it. Ask: "What would an audit of a closed dataset require?"
 :::
 
+## 5. Type "woman". Type "man". {.smaller}
+
+![](../../assets/cases/02-checkpoint-bias.png){fig-alt="Grid of generated images for the ten most downloaded community checkpoints on CivitAI and for Stable Diffusion 1.5 and XL. The left block shows seven images each for the prompt woman: mostly nude or partly nude women, with nudity pixelated. The right block shows seven images each for the prompt man: mostly clothed men, often in jackets or suits."}
+
+[Same prompts, same seeds. Women mostly nude, men mostly dressed. Nudity pixelated by the authors. Figure 6 in Wagner and Cetinić (2026), CC BY 4.0.]{.source}
+
+::: notes
+Content note: nudity is pixelated. Do not linger on single images. The prompts are only "woman" and "man", for the ten most downloaded checkpoints on CivitAI as of 19 January 2025. The two bottom rows are the baselines Stable Diffusion 1.5 and XL. They show less of this pattern. The community checkpoints show more of it. Across two years, sexualized images rose from 41% to 80% of all images on the platform (Wagner and Cetinić, 2026). One platform, an exploratory study. Ask: who tuned these models, and what did the platform reward?
+:::
+
+## 6. Models of real people {.smaller}
+
+- 15.27% of all adapters on CivitAI (33,804) were tagged as models of identifiable people.
+- Among 8,243 identified targets: women are the large majority. Actors are the most common profession (3,115), then adult performers (1,198) and singers (1,180). The US, Japan, and the UK lead the countries.
+- Method: names read from model titles, checked by three language models. Public figures only.
+
+![](../../assets/cases/02-deepfake-targets.png){fig-alt="Two bar charts. Left: number of identified targets by gender, with far more women than men, split by profession. Right: number of targets by country, led by the US, Japan, and the UK, split by profession. Actors are the largest group."}
+
+[Figure 8 in Wagner and Cetinić (2026), CC BY 4.0. We name no targets.]{.source}
+
+::: notes
+Hawkins et al. (2025) counted the most popular variants and found a more extreme gender gap. This study counts all models, so the gap is smaller but still large. The professions are labels from language models and can be wrong. Private persons can be targeted too, but this method cannot find them. Keep the discussion on structures: platform rewards, tagging tools, licenses, moderation. Never name targeted persons.
+:::
+
+## A page of models of real people {.smaller}
+
+![](../../assets/cases/02-civitai-persons-of-interest.png){fig-alt="Grid of four rows of portrait thumbnails of young women from a model-sharing platform's celebrity category. All faces are blurred and all names are covered."}
+
+[Screenshot by Laura Wagner of the CivitAI "celebrity" category, May 2025. Faces blurred, names covered.]{.source}
+
+::: notes
+Each tile is a downloadable model made to reproduce one real person. The faces are blurred and the names are covered. Do not try to identify anyone, and do not name anyone in the room. Shortly after this screenshot, CivitAI removed such models. The authors report that about 5,000 of them moved to another platform, so they did not disappear (Wagner and Cetinić, 2026). Ask: "Who decided that this category should exist, and who was asked?"
+:::
+
 ## Activity · 15 minutes
 
 **Analyze a representation pathway.** Groups of three or four, on paper or on a laptop. Do not search for harmful images.
@@ -185,6 +207,7 @@ A **representation and harm pathway** for each group:
 - Buschek and Thorp (2024): [Models All the Way Down](https://knowingmachines.org/models-all-the-way).
 - Birhane, Prabhu, and Kahembwe (2021): [Multimodal Datasets](https://arxiv.org/abs/2110.01963). Content note.
 - LAION (2024): [Releasing Re-LAION-5B](https://laion.ai/blog/relaion-5b/).
+- Wagner and Cetinić (2026): [Perpetuating misogyny with generative AI](https://doi.org/10.1177/20539517261467361). Content note.
 
 ## Takeaway
 

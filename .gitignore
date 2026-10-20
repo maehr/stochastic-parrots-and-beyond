@@ -458,5 +458,7 @@ $RECYCLE.BIN/
 
 # End of https://www.toptal.com/developers/gitignore/api/r,git,node,linux,macos,dotenv,python,windows,visualstudiocode
 
+# Local reference papers; not part of the course material
+_reference/
 # Raw LAION sample; the public metadata is in assets/cases/laion-sample/
 assets/cases/laion_example/

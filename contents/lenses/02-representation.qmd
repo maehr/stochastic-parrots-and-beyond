@@ -12,7 +12,7 @@ description: >-
 - **Output:** a representation and harm pathway.
 - **Worksheet:** [Lens 2 worksheet: representation and harm pathway](../handouts/lens-2-harm-pathway.qmd).
 - **Slides:** [Lens 2 slide deck](../slides/02-representation.qmd).
-- **Anchor sources:** Erscoi, Kleinherenbrink, and Guest [-@erscoi2023]; Birhane, Prabhu, and Kahembwe [-@birhane2021]; Buschek and Thorp [-@buschek2024], a Knowing Machines investigation.
+- **Anchor sources:** Erscoi, Kleinherenbrink, and Guest [-@erscoi2023]; Birhane, Prabhu, and Kahembwe [-@birhane2021]; Buschek and Thorp [-@buschek2024], a Knowing Machines investigation; Wagner and Cetinić [-@wagner2026].
 
 :::
 
@@ -50,9 +50,16 @@ Birhane, Prabhu, and Kahembwe audited LAION-400M, a predecessor of LAION-5B. The
 
 Erscoi, Kleinherenbrink, and Guest use the myth of Pygmalion as a lens [-@erscoi2023]. Pygmalion, repulsed by women, carved a statue that came to life. The authors trace a repeated pattern: women are replaced by inanimate objects, from automata to algorithms. They call this pattern **Pygmalion displacement** and find it, unacknowledged, in Turing's imitation game [@erscoi2023]. The pattern helps to ask why assistants and companions are so often designed as feminine, and whose work and presence they displace.
 
-### 6. Personalization and non-consensual imagery
+### 6. Personalization, objectification, and non-consensual imagery
 
-Open image models can be fine-tuned on a few images of one person. Hawkins, Mittelstadt, and Russell found almost 35,000 publicly downloadable "deepfake" model variants of identifiable people, downloaded almost 15 million times since November 2022 [@hawkins2025]. Of these variants, 96% targeted women, and many signalled the intent to generate non-consensual intimate imagery. Such a variant needs as few as 20 images and 15 minutes on consumer hardware [@hawkins2025].
+Open image models can be fine-tuned with small adapters (for example LoRA) on a few images, for a style or for one person. Wagner and Cetinić studied CivitAI, a platform for sharing such models and adapters. Their data cover 40,630,560 images and 231,252 models from late November 2022 to December 2024 [@wagner2026]. They report four patterns:
+
+- **Rising share of sexualized content.** The share of images with a platform rating above "safe for all ages" rose from 41% in January 2023 to 80% in December 2024.
+- **Women as the default subject.** In a 0.1% sample, a classifier estimated 6.24 female for each male subject. Estimated mean ages were 23.7 years for women and 31.2 years for men. The tag "sexy" appeared in 21% of the models tagged "woman" and in 1.3% of the models tagged "man".
+- **Neutral prompts, unequal outputs.** The ten most downloaded checkpoints received only the prompts "woman" and "man". The images of women were predominantly nude. The images of men often showed professional attire.
+- **Models of real people.** 15.27% of all adapters (33,804 of 221,304) were flagged as models of identifiable individuals.
+
+The authors read these patterns as misogyny in the sense of Manne: hostile mechanisms that reinforce patriarchal power. They link the replacement of women by tailored synthetic figures to Pygmalion displacement [@wagner2026; @erscoi2023]. They also point to design choices that shape the outcome. Most identified training captions come from tagging tools built on Danbooru, an anime imageboard with many sexually explicit tags. Platform rewards favor engagement [@wagner2026].
 
 ## Evidence and limits
 
@@ -60,7 +67,7 @@ Open image models can be fine-tuned on a few images of one person. Hawkins, Mitt
 
 - The structure of LAION-5B is documented: its sources, its filter, its aesthetic subsets [@buschek2024; @laion2024].
 - Audits found harmful content and stereotypes in the dataset and in the outputs of models [@birhane2021; @bianchi2023; @thiel2023].
-- The rise of non-consensual model variants is measured on two public platforms [@hawkins2025].
+- The shift toward sexualized content and models of real people is measured over two years on one model-sharing platform [@wagner2026].
 
 :::
 
@@ -68,7 +75,7 @@ Open image models can be fine-tuned on a few images of one person. Hawkins, Mitt
 
 - An audit of one dataset or one model version does not describe every model. Commercial providers rarely publish their training data, so outside audits are hard.
 - A biased output does not prove one specific cause. Training data, fine-tuning, prompts, and filters interact.
-- Counts of model variants describe what is offered for download, not how often each variant is used.
+- The platform study covers one platform and sets no causal claim. Gender and age come from a classifier that infers them from appearance, and the platform's own content ratings may be biased. Counts of adapters describe what is offered, not how often people use them [@wagner2026].
 - Pygmalion displacement is an interpretive lens. It explains patterns. It is not a measurement.
 
 :::
@@ -130,7 +137,7 @@ A **representation and harm pathway** on one sheet for each group. It shows each
 ## Reading
 
 - **Required:** Bender et al. [-@bender2021], section 4: training data.
-- **Recommended:** Erscoi, Kleinherenbrink, and Guest [-@erscoi2023]; Buschek and Thorp [-@buschek2024]; Birhane, Prabhu, and Kahembwe [-@birhane2021] (see the content note); Buolamwini [-@buolamwini2023], chapter 1, "Daughter of Art and Science", and chapter 11, "Gender Shades".
+- **Recommended:** Wagner and Cetinić [-@wagner2026] (see the content note); Erscoi, Kleinherenbrink, and Guest [-@erscoi2023]; Buschek and Thorp [-@buschek2024]; Birhane, Prabhu, and Kahembwe [-@birhane2021] (see the content note); Buolamwini [-@buolamwini2023], chapter 1, "Daughter of Art and Science", and chapter 11, "Gender Shades".
 - **For the case:** Thiel [-@thiel2023]; LAION [-@laion2024]; Bianchi et al. [-@bianchi2023].
 
 ## Slides

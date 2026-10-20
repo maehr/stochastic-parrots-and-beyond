@@ -19,6 +19,7 @@ exclude = [
   "https://time.com/",
   "https://direct.mit.edu/",
   "https://doi.org/10.7551/mitpress/",
+  "https://doi.org/10.1177/",
   "https://www.iea.org/",
   # Placeholders for the Zenodo badge after the first release.
   "ZENODO_RECORD",
