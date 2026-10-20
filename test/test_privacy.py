@@ -23,6 +23,7 @@ ALLOWED_EMAILS = {
     "moritz.maehr@gmail.com",
     "noreply@anthropic.com",
     "l.j.wagner@proton.me",
+    "maehr@users.noreply.github.com",
 }
 
 EMAIL = re.compile(
