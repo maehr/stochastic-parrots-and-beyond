@@ -9,6 +9,7 @@ description: >-
 ::: {.callout-note title="At a glance"}
 
 - **Slot:** about 35 minutes in the morning, with a 15-minute group activity.
+- **Instructor:** Laura Wagner.
 - **Output:** a stakeholder and incentive map.
 - **Worksheet:** [Lens 4 worksheet: stakeholder and incentive map](../handouts/lens-4-stakeholder-map.qmd).
 - **Slides:** [Lens 4 slide deck](../slides/04-political-economy.qmd).
