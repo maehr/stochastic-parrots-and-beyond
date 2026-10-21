@@ -47,6 +47,17 @@ Detailed program: {{< edition hs2026 detailed_program >}}.
 
 {{< include ../_timetable.qmd >}}
 
+### Lens instructors
+
+Confirmed instructor assignments for this edition:
+
+| Lens                                                                       | Instructor                               |
+| -------------------------------------------------------------------------- | ---------------------------------------- |
+| [Lens 1: Scale and environment](../lenses/01-scale.qmd)                    | {{< edition hs2026 lens_1_instructor >}} |
+| [Lens 2: Representation and Displacement](../lenses/02-representation.qmd) | {{< edition hs2026 lens_2_instructor >}} |
+| [Lens 3: Lifecycle and labor](../lenses/03-lifecycle-labor.qmd)            | {{< edition hs2026 lens_3_instructor >}} |
+| [Lens 4: Political economy](../lenses/04-political-economy.qmd)            | {{< edition hs2026 lens_4_instructor >}} |
+
 ## Credits
 
 - Credits: {{< edition hs2026 credits >}}

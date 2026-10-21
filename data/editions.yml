@@ -27,6 +27,11 @@ editions:
     organizer: 'Graduate Center (GRACE), University of Basel, Transferable Skills'
     contact: 'grace@unibas.ch'
     instructors: 'Laura Wagner and Moritz Mähr'
+    # Confirmed instructor agreement, supplied by the maintainer on 2026-10-21.
+    lens_1_instructor: 'Moritz Mähr'
+    lens_2_instructor: 'Laura Wagner'
+    lens_3_instructor: 'Moritz Mähr'
+    lens_4_instructor: 'Laura Wagner'
     ects: 1
     ai_skills_module: 3
     workload_hours: { preparation: 8, attendance: 8, follow_up: 14 }
@@ -58,6 +63,10 @@ editions:
     organizer: null
     contact: null
     instructors: null
+    lens_1_instructor: null
+    lens_2_instructor: null
+    lens_3_instructor: null
+    lens_4_instructor: null
     ects: null
     ai_skills_module: null
     workload_hours: null

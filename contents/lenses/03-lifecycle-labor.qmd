@@ -9,6 +9,7 @@ description: >-
 ::: {.callout-note title="At a glance"}
 
 - **Slot:** about 35 minutes in the morning, with a 15-minute group activity.
+- **Instructor (HS 2026, confirmed):** {{< edition hs2026 lens_3_instructor >}}.
 - **Output:** a lifecycle risk matrix.
 - **Worksheet:** [Lens 3 worksheet: lifecycle risk matrix](../handouts/lens-3-lifecycle-matrix.qmd).
 - **Slides:** [Lens 3 slide deck](../slides/03-lifecycle-labor.qmd).

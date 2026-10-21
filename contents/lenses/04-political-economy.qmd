@@ -9,6 +9,7 @@ description: >-
 ::: {.callout-note title="At a glance"}
 
 - **Slot:** about 35 minutes in the morning, with a 15-minute group activity.
+- **Instructor (HS 2026, confirmed):** {{< edition hs2026 lens_4_instructor >}}.
 - **Output:** a stakeholder and incentive map.
 - **Worksheet:** [Lens 4 worksheet: stakeholder and incentive map](../handouts/lens-4-stakeholder-map.qmd).
 - **Slides:** [Lens 4 slide deck](../slides/04-political-economy.qmd).
