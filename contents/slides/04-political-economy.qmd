@@ -1,7 +1,11 @@
 ---
 title: 'Lens 4: Political Economy'
 subtitle: 'Power and Markets'
-author: Laura Wagner
+author:
+  - name: Laura Wagner
+    affiliation: University of Zurich
+    orcid: 0009-0003-4244-6342
+    url: https://laurajul.github.io/
 license: 'CC BY'
 format:
   revealjs:

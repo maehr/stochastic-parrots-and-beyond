@@ -1,7 +1,12 @@
 ---
 title: 'Lens 3: Lifecycle and Labor'
 subtitle: 'Materiality and Extraction'
-author: Moritz Mähr
+author:
+  - name: Moritz Mähr
+    affiliation: University of Bern
+    email: moritz.maehr@gmail.com
+    orcid: 0000-0002-1367-1618
+    url: https://moritzmaehr.ch/
 license: 'CC BY'
 format:
   revealjs:
