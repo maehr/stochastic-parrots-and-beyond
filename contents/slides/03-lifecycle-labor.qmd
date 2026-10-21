@@ -1,7 +1,7 @@
 ---
 title: 'Lens 3: Lifecycle and Labor'
 subtitle: 'Materiality and Extraction'
-author: Laura Wagner and Moritz Mähr
+author: Moritz Mähr
 license: 'CC BY'
 format:
   revealjs:

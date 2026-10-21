@@ -9,7 +9,7 @@ description: >-
 ::: {.callout-note title="At a glance"}
 
 - **Slot:** about 35 minutes in the morning, with a 15-minute group activity.
-- **Instructor (HS 2026, confirmed):** {{< edition hs2026 lens_1_instructor >}}.
+- **Instructor:** Moritz Mähr.
 - **Output:** a material-and-provenance map.
 - **Worksheet:** [Lens 1 worksheet: material-and-provenance map](../handouts/lens-1-provenance-map.qmd).
 - **Slides:** [Lens 1 slide deck](../slides/01-scale.qmd).
