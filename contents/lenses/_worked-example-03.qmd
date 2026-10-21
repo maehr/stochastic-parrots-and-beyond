@@ -1,0 +1,14 @@
+[Hypothetical worked analysis]{.label}
+
+**System:** ChatGPT. **Selected stages:** Data; Governance.
+
+| Question                         | Data                                           | Governance                                              |
+| -------------------------------- | ---------------------------------------------- | ------------------------------------------------------- |
+| Who does the work?               | Sama text labelers                             | OpenAI commissions; Sama manages                        |
+| Who carries the risk?            | Workers exposed to harmful text                | Workers relying on supplier safeguards                  |
+| Who has recourse?                | Effective remedy: Unknown; counseling disputed | Effective complaint route: Unknown from this report     |
+| Possible intervention (PROPOSED) | Require support designed with workers          | Request labor safeguards through university procurement |
+
+**Highest risk among selected stages:** Data. **Most influence for our fictional university team:** Governance. **One intervention:** Request evidence of worker support through procurement.
+
+[Case: @perrigo2023. Matrix: a fictional team's analysis. Interventions are proposals. Other stages: Not examined.]{.source}

@@ -1,29 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 244" width="680" height="244" role="img" aria-labelledby="title desc">
-  <title id="title">Life cycle footprint of BLOOM's final training: 50.5 tonnes of CO2 equivalent</title>
-  <desc id="desc">Horizontal bar chart. Dynamic power use during training: 24.69 tonnes (48.9 percent). Idle infrastructure: 14.6 tonnes (28.9 percent). Manufacture of the hardware: 11.2 tonnes (22.2 percent). Total 50.5 tonnes. Data: Luccioni, Viguier, and Ligozat 2023, Journal of Machine Learning Research 24(253). Chart: CC BY 4.0, Stochastic Parrots and Beyond.</desc>
-  <rect width="680" height="244" fill="#ffffff"/>
-  <text x="16" y="26" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" fill="#0b0b0b">BLOOM, final training: 50.5 t CO₂eq in total</text>
-  <line x1="250.0" y1="44" x2="250.0" y2="178" stroke="#dcdbd6" stroke-width="1"/>
-  <text x="250.0" y="196" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#52514e" text-anchor="middle">0</text>
-  <line x1="363.3" y1="44" x2="363.3" y2="178" stroke="#dcdbd6" stroke-width="1"/>
-  <text x="363.3" y="196" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#52514e" text-anchor="middle">10</text>
-  <line x1="476.7" y1="44" x2="476.7" y2="178" stroke="#dcdbd6" stroke-width="1"/>
-  <text x="476.7" y="196" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#52514e" text-anchor="middle">20</text>
-  <line x1="590.0" y1="44" x2="590.0" y2="178" stroke="#dcdbd6" stroke-width="1"/>
-  <text x="590.0" y="196" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#52514e" text-anchor="middle">30</text>
-  <text x="420.0" y="214" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#52514e" text-anchor="middle">tonnes of CO₂ equivalent</text>
-  <g><title>Power used during training: 24.69 t (48.9%)</title>
-    <path d="M250,52 H525.8 A4,4 0 0 1 529.8,56 V70 A4,4 0 0 1 525.8,74 H250 Z" fill="#33322f"/></g>
-  <text x="238" y="67" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#0b0b0b" text-anchor="end">Power used during training</text>
-  <text x="537.8" y="67" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#0b0b0b">24.69 t (48.9%)</text>
-  <g><title>Idle infrastructure: 14.6 t (28.9%)</title>
-    <path d="M250,98 H411.5 A4,4 0 0 1 415.5,102 V116 A4,4 0 0 1 411.5,120 H250 Z" fill="#33322f"/></g>
-  <text x="238" y="113" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#0b0b0b" text-anchor="end">Idle infrastructure</text>
-  <text x="423.5" y="113" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#0b0b0b">14.6 t (28.9%)</text>
-  <g><title>Manufacture of the hardware: 11.2 t (22.2%)</title>
-    <path d="M250,144 H372.9 A4,4 0 0 1 376.9,148 V162 A4,4 0 0 1 372.9,166 H250 Z" fill="#33322f"/></g>
-  <text x="238" y="159" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#0b0b0b" text-anchor="end">Manufacture of the hardware</text>
-  <text x="384.9" y="159" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#0b0b0b">11.2 t (22.2%)</text>
-  <line x1="250" y1="44" x2="250" y2="178" stroke="#52514e" stroke-width="1"/>
-  <text x="16" y="238" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#52514e">Data: Luccioni, Viguier, and Ligozat (2023), JMLR 24(253). Chart: CC BY 4.0.</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" width="1000" height="400" role="img" aria-labelledby="title desc">
+  <title id="title">BLOOM&#x27;s final training footprint depends on the accounting boundary</title>
+  <desc id="desc">Training power alone: 24.69 tonnes CO2 equivalent. The expanded boundary also includes 14.6 tonnes from idle infrastructure and 11.2 tonnes from hardware manufacture, for a rounded total of 50.5 tonnes. These are estimates for final training, not intermediate experiments or later use. Source: Luccioni, Viguier, and Ligozat (2023), Table 3. Original chart, CC BY 4.0.</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+  <rect width="1000" height="400" fill="#ffffff"/>
+  <g font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" fill="#0b0b0b">
+    <text x="24" y="35" font-size="30" font-weight="600" fill="#0b0b0b" text-anchor="start">One training run, two accounting boundaries</text>
+    <text x="24" y="100" font-size="23" font-weight="400" fill="#0b0b0b" text-anchor="start">Training power</text>
+    <text x="24" y="213" font-size="23" font-weight="400" fill="#0b0b0b" text-anchor="start">Expanded boundary</text>
+    <rect x="290" y="70" width="283.94" height="50" fill="#33322f"/>
+    <text x="590" y="104" font-size="26" font-weight="600" fill="#0b0b0b" text-anchor="start">24.69 t CO₂eq</text>
+    <rect x="290.00" y="180" width="283.94" height="50" fill="#33322f"/>
+    <rect x="573.93" y="180" width="167.90" height="50" fill="#8f8d88"/>
+    <rect x="741.83" y="180" width="128.80" height="50" fill="#dcdbd6"/>
+    <text x="885" y="213" font-size="26" font-weight="600" fill="#0b0b0b" text-anchor="start">50.5 t</text>
+    <text x="290" y="155" font-size="20" font-weight="400" fill="#52514e" text-anchor="start">Final training only; estimates rounded in the total</text>
+    <rect x="24" y="267" width="20" height="20" fill="#33322f"/>
+    <text x="54" y="285" font-size="22" font-weight="600" fill="#0b0b0b" text-anchor="start">Training power</text>
+    <text x="54" y="319" font-size="24" font-weight="400" fill="#0b0b0b" text-anchor="start">24.69 t (48.9%)</text>
+    <rect x="350" y="267" width="20" height="20" fill="#8f8d88"/>
+    <text x="380" y="285" font-size="22" font-weight="600" fill="#0b0b0b" text-anchor="start">Idle infrastructure</text>
+    <text x="380" y="319" font-size="24" font-weight="400" fill="#0b0b0b" text-anchor="start">14.6 t (28.9%)</text>
+    <rect x="680" y="267" width="20" height="20" fill="#dcdbd6"/>
+    <text x="710" y="285" font-size="22" font-weight="600" fill="#0b0b0b" text-anchor="start">Hardware manufacture</text>
+    <text x="710" y="319" font-size="24" font-weight="400" fill="#0b0b0b" text-anchor="start">11.2 t (22.2%)</text>
+    <text x="24" y="361" font-size="20" font-weight="400" fill="#52514e" text-anchor="start">Boundary excludes intermediate experiments and later use.</text>
+    <text x="24" y="390" font-size="17" font-weight="400" fill="#52514e" text-anchor="start">Data: Luccioni, Viguier, and Ligozat (2023), Table 3. Original chart, CC BY 4.0.</text>
+  </g>
 </svg>

@@ -1,0 +1,26 @@
+# Reused photographs. Keep each asset's source license and credit.
+verified: 2026-10-21
+assets:
+  - file: 01-jean-zay-site.jpg
+    creator: Clemcloum8
+    title: Supercalculateur Jean Zay panneau d'information
+    date: 2026-05-18
+    source: https://commons.wikimedia.org/wiki/File:Supercalculateur_Jean_Zay_panneau_d%27information.jpg
+    download: https://upload.wikimedia.org/wikipedia/commons/7/7f/Supercalculateur_Jean_Zay_panneau_d%27information.jpg
+    license: CC0-1.0
+    license_url: https://creativecommons.org/publicdomain/zero/1.0/
+    modifications: None. Displayed at a smaller size.
+    context: A site information panel photographed after BLOOM's training. It does not establish the training hardware configuration or footprint.
+    bibliography_key: clemcloum2026
+  - file: 03-data-workers-documentary.jpg
+    creator: Richard Mathenge
+    videography_and_editing: P. Teka
+    title: Data Workers Organizing - The African Content Moderators Union
+    year: 2024
+    source: https://data-workers.org/richard/
+    download: https://peertube.dair-institute.org/lazy-static/thumbnails/437b7f9b-88d1-4861-9b49-3ed648d92af3.jpg
+    license: CC-BY-4.0
+    license_url: https://creativecommons.org/licenses/by/4.0/
+    modifications: None. Uses the published documentary preview still.
+    context: A separate worker-led documentary about Sama and organizing. It does not show the Kenya labeling task reported by TIME or identify TIME's anonymous interviewees.
+    bibliography_key: mathenge2024

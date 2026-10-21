@@ -50,6 +50,7 @@ The preview server reloads the site after each change.
 - **Claims.** Cite each claim next to the claim, with a key from `references.bib`. Mark each example as a documented case or as a hypothetical example.
 - **Slides.** Put no edition fact in a deck. The decks serve every edition.
 - **Handouts.** Edit the `.qmd` source in `contents/handouts/`. Then run `npm run handouts:build` and commit the generated files in the same commit. CI fails when a generated file is older than its source.
+- **Wide Word worksheets.** Lenses 1 and 3 use `_reference-landscape.docx`. Run `npm run handouts:reference -- --landscape` after you update the shared Word reference. Then rebuild both worksheets.
 - **Diagrams.** The SVG files are the editable sources. Keep the `<title>` and the `<desc>` elements up to date. They are the text alternative.
 
 ## Check

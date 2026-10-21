@@ -92,3 +92,37 @@ html:root {
   white-space: pre-wrap;
   overflow-wrap: anywhere;
 }
+
+/* Short visual prompts for lenses 1 and 3. */
+.reveal .trace-cards {
+  margin: 0.8em 0;
+}
+
+.reveal .trace-cards .column {
+  box-sizing: border-box;
+  border-left: 4px solid #33322f;
+  padding: 0 0.6em;
+}
+
+.reveal .trace-cards h3 {
+  font-size: 0.9em;
+}
+
+.reveal .worked-example {
+  font-size: 0.77em;
+}
+
+.reveal .worked-example table {
+  font-size: 0.88em;
+  width: 100%;
+}
+
+.reveal .worked-example th,
+.reveal .worked-example td {
+  padding: 0.3em;
+  vertical-align: top;
+}
+
+.reveal .worked-example .source {
+  font-size: 0.72em;
+}
