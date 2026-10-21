@@ -1,0 +1,14 @@
+[Hypothetical worked analysis]{.label}
+
+**System:** BLOOM. **Selected stages:** Training; Deployment and use.
+
+| Stage              | Known                          | Unknown                       | Avoidable (PROPOSED)                            |
+| ------------------ | ------------------------------ | ----------------------------- | ----------------------------------------------- |
+| Training           | Final training: 50.5 t CO₂eq   | Cost of training for our task | Test an existing model before new training      |
+| Deployment and use | One 18-day deployment: 914 kWh | Energy for our intended use   | Compare fewer requests and a task-specific tool |
+
+**Largest unknown:** Energy for our task. **One avoidable cost:** A new training run, if an existing model meets the need.
+
+**Plenary sentence:** "Performance hides the cost of our intended use."
+
+[Figures: @luccioni2023. The research team is fictional. Actions are proposals with unmeasured savings. Other stages: Not examined.]{.source}

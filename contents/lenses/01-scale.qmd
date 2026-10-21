@@ -91,7 +91,7 @@ The BigScience project published unusual detail about the footprint of the model
 
 : The published footprint of BLOOM. Source: Luccioni, Viguier, and Ligozat [-@luccioni2023]. {.striped}
 
-![The life cycle footprint of BLOOM's final training: 50.5 tonnes of CO₂ equivalent. Dynamic power use accounts for 24.69 t, idle infrastructure for 14.6 t, and the manufacture of the hardware for 11.2 t. Original chart. Data: Luccioni, Viguier, and Ligozat (2023).](../../assets/cases/01-bloom-footprint.svg){fig-alt="Horizontal stacked bar chart of the 50.5 tonnes of CO2 equivalent for BLOOM's final training. Dynamic power use: 24.69 tonnes, 48.9 percent. Idle infrastructure: 14.6 tonnes, 28.9 percent. Manufacture of the hardware: 11.2 tonnes, 22.2 percent."}
+![The life cycle footprint of BLOOM's final training: 50.5 tonnes of CO₂ equivalent. Dynamic power use accounts for 24.69 t, idle infrastructure for 14.6 t, and the manufacture of the hardware for 11.2 t. Original chart. Data: Luccioni, Viguier, and Ligozat (2023).](../../assets/cases/01-bloom-footprint.svg){fig-alt="Two bars compare accounting boundaries for BLOOM's final training. Training power alone is 24.69 tonnes CO2 equivalent. Adding 14.6 tonnes of idle infrastructure and 11.2 tonnes of hardware manufacture gives a rounded total of 50.5 tonnes. Experiments and later use are excluded."}
 
 The figures also show what usually stays hidden:
 
@@ -100,18 +100,28 @@ The figures also show what usually stays hidden:
 - **Use.** The authors ran BLOOM as an API on 16 GPUs for about 18 days. The instance answered 230,768 requests and used 914 kWh. They estimate about 19 kg CO₂eq per day, and note that roughly 75% of the energy went into keeping the model in memory, ready for requests [@luccioni2023].
 - **Data governance.** The ROOTS corpus came with a data governance effort. Its authors propose a multi-party international structure to manage language data across stakeholders, values, and rights [@jernite2022].
 
-**Why this case.** BLOOM is not a typical commercial model. Its makers chose to measure and publish. The case shows what a material-and-provenance map can contain when data exist. For most systems that researchers use, many cells of the same map stay empty. The empty cells are a finding.
+**Why this case.** BLOOM is not a typical commercial model. Its makers chose to measure and publish. The case shows what a material-and-provenance map can contain when data exist. For systems with less public documentation, many entries remain unknown. Mark these entries Unknown. The evidence gaps are a finding.
+
+### Worked map before the activity
+
+::: {.callout-note title="How to complete a focused map"}
+
+{{< include _worked-example-01.qmd >}}
+
+:::
+
+The figures describe BLOOM under the paper's stated conditions [@luccioni2023]. The fictional team's unknowns concern a different intended task. Its proposed alternatives need testing at comparable quality. They are not measured savings.
 
 ## Activity
 
 **Trace one model or use case from its data sources to its use.** Work in groups of three or four, for 15 minutes, on paper or on a laptop.
 
-1. Choose the example. First choice: one research-use description from your group. Use the ready-made BLOOM case only when no description fits. (3 minutes)
-2. Fill in the [worksheet](../handouts/lens-1-provenance-map.qmd). For each stage, note what is known, what is unknown, and what is avoidable. Note the source of each entry. (8 minutes)
+1. Choose one research-use description from your group. Use the prepared BLOOM case if no description fits or if the group prefers it. Select **2–3 relevant stages**. (3 minutes)
+2. On the [worksheet](../handouts/lens-1-provenance-map.qmd), record **Known, Unknown, Avoidable** for the selected stages. Add a source for each factual entry. Label suggested changes **PROPOSED**. (8 minutes)
 3. Mark the largest unknown and one avoidable cost. (2 minutes)
 4. Prepare one sentence for the plenary: "The choice that the performance of this system hides most is …" (2 minutes)
 
-The stages on the worksheet are: data sources, collection and filtering, training, hardware and location, deployment and use, and your own use.
+The worksheet keeps six stages: data sources, collection and filtering, training, hardware and location, deployment and use, and your own use. Complete only the selected stages. Write **Unknown** when evidence is missing. Mark the other stages **Not examined**.
 
 ::: {.panel-tabset}
 
@@ -122,21 +132,21 @@ This is the first choice. A use from your own research makes the analysis concre
 - Choose the research-use description with the most open questions.
 - Its author explains the use in two minutes: the task, the system, and what they do not know about it.
 - Describe the use, not the data. Do not show confidential, personal, or unpublished research data.
-- Many cells stay empty for a commercial system. An empty cell is a finding.
+- Missing evidence is a finding. Write **Unknown**, rather than leaving a cell blank.
 
-### Ready-made case
+### Prepared case
 
-Use the [BLOOM case](#case-bloom) when no description in your group fits, or when the group prefers not to discuss its own use. The published figures fill most cells of the map. Compare them with the empty cells for a commercial chatbot.
+Use the [BLOOM case](#case-bloom) if no description fits or if the group prefers a prepared case. The worked map above shows how to use the published figures. No additional reading or live search is needed. Groups can choose different stages and identify different unknowns.
 
 ### Hypothetical example
 
-A doctoral candidate plans to summarize 300 interview transcripts with a hosted chatbot. The map shows: the training data are unknown, the location of the data center is unknown, and the transcripts would leave the university. An avoidable cost: the candidate could test a smaller local model on synthetic text first. This example is invented for teaching.
+A doctoral candidate plans to summarize 300 interview transcripts with a hosted chatbot. The candidate selects data sources and hardware and location. The training data and data-center location are unknown. A **PROPOSED** alternative is to test a smaller local model on synthetic text first. The candidate must compare quality and resource use before claiming a saving. This example is fictional.
 
 :::
 
 ## Output
 
-A **material-and-provenance map** on one sheet for each group. It lists known, unknown, and avoidable costs for each stage, with a source for each entry. It names the largest unknown and one avoidable cost.
+One focused **material-and-provenance map** per group. For **2–3 selected stages**, record Known, Unknown, and Avoidable, with sources for factual entries. Name the largest unknown and one avoidable cost. Prepare one sentence for the plenary. Mark other stages Not examined. Transfer the main finding to the twelve shared fields later in the clinic.
 
 ## Reading
 
@@ -149,7 +159,7 @@ A **material-and-provenance map** on one sheet for each group. It lists known, u
 Open the [Lens 1 slide deck](../slides/01-scale.qmd). Press `S` for the presenter notes.
 
 ::: {.callout-note title="For teachers" collapse="true"}
-**Timing (35 minutes).** Input on the core concepts, 10 minutes. The BLOOM case, 5 minutes. Activity, 15 minutes. Plenary round, 5 minutes.
+**Timing (35 minutes).** Start with the BLOOM case, 5 minutes. Use the concepts and worked map, 10 minutes. Activity, 15 minutes. Plenary round, 5 minutes.
 
 **Prompts.**
 
@@ -165,7 +175,9 @@ Open the [Lens 1 slide deck](../slides/01-scale.qmd). Press `S` for the presente
 
 **Difficult moments.** Some participants feel guilt about their own use. Keep the focus on decisions and alternatives, not on individual blame. Panarchy in the afternoon takes up the institutional levels.
 
-**Fallback.** Start with the group's own example. If no description fits, use BLOOM. If the group finishes early, ask it to fill in the map for a commercial chatbot and to count the empty cells.
+**Preparation.** Show the completed map before the activity. Use the case-first slide sequence. The concepts on this page remain in the standard lesson order.
+
+**Fallback.** Start with the group's own example. Use BLOOM if needed or preferred. If a group finishes early, ask it to identify evidence that could resolve one unknown in its selected stages. Do not require every row or the shared fields during these 15 minutes.
 :::
 
 ## References
