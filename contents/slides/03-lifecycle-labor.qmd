@@ -132,7 +132,7 @@ Introduce extra terminology only if useful: Gray and Suri call invisible on-dema
 ::: notes
 The course framework builds on Rachel Huber and Moritz Mähr's Decoding Inequality course, published in 2024 and updated in 2025 [@huber2024]. The current drawing is by Laura Wagner and Moritz Mähr, 2026. Suresh and Guttag research sources of lifecycle harm; they did not author these six course stages [@suresh2021].
 
-The labels are the worksheet convention. Evaluation happens before and after deployment. Governance applies throughout. Ask where the Kenya work sits: labeling at Data; commissioning and supplier safeguards at Governance. Groups select two or three stages rather than filling every column.
+The labels are a course convention. Evaluation happens before and after deployment. Governance applies throughout. Ask where the Kenya work sits: labeling at Data; commissioning and supplier safeguards at Governance.
 
 The original source uses architecture selection, data collection, training, application, evaluation and monitoring, governance and regulation. The course uses shorter labels for analysis. Do not confuse this teaching framework with one universal technical pipeline.
 :::
@@ -146,38 +146,9 @@ The original source uses architecture selection, data collection, training, appl
 :::
 
 ::: notes
-Read the completed matrix before the activity. A fictional university team is considering ChatGPT and has read the Kenya report. The report supplies the labeling and contracting facts. The team's identification of risk, influence, and interventions is a hypothetical analysis.
+Read the completed matrix as the example of this Lens. A fictional university team is considering ChatGPT and has read the Kenya report. The report supplies the labeling and contracting facts. The team's identification of risk, influence, and interventions is a hypothetical analysis.
 
 The team can request evidence through institutional procurement; it does not directly manage Sama workers. Counseling is a reported safeguard, not proof of effective recourse. Mark all four unselected stages Not examined. Explain that highest risk means highest among the stages examined.
-:::
-
-## Activity · 15 minutes
-
-**Make a lifecycle risk matrix.** Groups of three or four. Use paper or a laptop.
-
-1. Choose your group's research use. Use the Kenya case if needed or preferred. Select **2–3 stages**. **3 min**
-2. Record **who works, who carries the risk, and who has recourse**. Add sources. **7 min**
-3. Mark the highest risk and your greatest influence among those stages. **2 min**
-4. Write **one intervention** where you have influence. **3 min**
-
-[Open the worksheet](../handouts/lens-3-lifecycle-matrix.qmd) · [Prepared Kenya case](../lenses/03-lifecycle-labor.qmd#case-sama)
-
-::: notes
-Own research remains the first choice. Use the prepared case when no description fits or when the group prefers not to discuss its own use. No additional reading is required: the facts are on the lesson page.
-
-Describe the use without showing personal, confidential, or unpublished data. Write Unknown for missing evidence within the selected stages. Mark the others Not examined. Label interventions PROPOSED. Fill the possible-intervention cell where it is relevant; one intervention is sufficient for the output.
-:::
-
-## Expected output
-
-**One focused lifecycle risk matrix per group.**
-
-- **2–3 stages:** who works, who carries the risk, who has recourse, with sources.
-- **Two findings:** highest risk and greatest influence among the selected stages.
-- **One intervention:** a proposed change where you have influence.
-
-::: notes
-Do not require every column or the twelve shared fields during these 15 minutes. Carry the main finding to the shared fields later in the clinic. A missing record of recourse is an unknown, not evidence that no route exists. Panarchy takes up which institutional level could act.
 :::
 
 ## Takeaway
@@ -189,7 +160,7 @@ Do not require every column or the twelve shared fields during these 15 minutes.
 [Return to @bender2021, sec. 4.]{.source}
 
 ::: notes
-Keep the total lens slot at 35 minutes: case first, 5 minutes; concepts and worked matrix, 10 minutes; activity, 15 minutes; plenary, 5 minutes. Transition to Lens 4: Why do these patterns persist? The next lens follows money, infrastructure, and rules.
+Keep the lens slot at 15 minutes: case first, 5 minutes; concepts and worked matrix, 10 minutes. The Lens 3 group applies the four guiding questions later in the morning. Transition to Lens 4: Why do these patterns persist? The next lens follows money, infrastructure, and rules.
 :::
 
 ## Sources {.smaller}

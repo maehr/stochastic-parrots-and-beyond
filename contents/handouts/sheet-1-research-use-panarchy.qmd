@@ -1,0 +1,95 @@
+---
+title: 'Sheet 1: Research Use Card and Panarchy Chart'
+subtitle: 'Stochastic Parrots and Beyond · front: instructions and Research Use Card · back: Panarchy Chart'
+description: >-
+  The first of two double-sided A4 sheets for each participant. The front holds
+  the instructions for the day and the Research Use Card. The back holds the
+  Panarchy Chart with fields for the challenge and the influences.
+license: 'CC BY-SA'
+format:
+  html: default
+  typst:
+    include-in-header:
+      - _handout.typ
+      - text: '#set page(flipped: true)'
+  docx:
+    reference-doc: _reference-landscape.docx
+---
+
+```{=typst}
+#columns(2, gutter: 1.2cm)[
+```
+
+## Instructions
+
+Keep this sheet all day. The instructors do not collect it. Do not write confidential or personal data, or the names of people who are not in the room.
+
+1. **Morning, alone.** Fill in the Research Use Card. Your **Research Use** is one actual or planned use of generative AI in your research. The term stays the same all day.
+2. **After the four Lens inputs.** Write the Lens that fits your Research Use best on the card.
+3. **Lens group.** Introduce your card. Apply the four questions of your Lens to each Research Use.
+4. **Panarchy Block 1, alone.** Turn the sheet over. Write your **challenge** in one sentence: what must change to make your Research Use more responsible? List the **influences**.
+5. **Block 1, pairs.** Sort your influences into **levels**. Compare your levels.
+6. **Block 1, groups of four.** Present your challenge. Select one challenge. Use Sheet 2, front, part A.
+7. **Block 2, pairs.** Examine the open challenges. Use Sheet 2, front, part B.
+8. **End of the day.** Complete your Action Plan on Sheet 2, back. A peer reviews it.
+
+[This sheet: CC BY-SA 4.0 · Stochastic Parrots and Beyond, Laura Wagner and Moritz Mähr. The Panarchy Chart is adapted from Liberating Structures.]{.content-visible when-format="typst"}
+
+```{=typst}
+#colbreak()
+#set table(rows: (auto, 2.05cm))
+```
+
+## Research Use Card
+
+::: {.worksheet}
+
+| Field                                                  | Notes |
+| ------------------------------------------------------ | ----- |
+| My Research Use: the task                              |       |
+| System or tool                                         |       |
+| Why I might use it                                     |       |
+| What I do not know: training data, costs, terms of use |       |
+| Who else is affected                                   |       |
+| The Lens that fits best: 1 · 2 · 3 · 4                 |       |
+
+: Research Use Card {tbl-colwidths="[34,66]"}
+
+:::
+
+```{=typst}
+]
+#pagebreak()
+```
+
+## Panarchy Chart
+
+![](../../assets/handouts/panarchy-chart-sheet.svg){fig-alt="Panarchy Chart for one participant. At the top, a field for the challenge in one sentence. On the left, a ruled field for the influences: people, rules, tools, money, habits. On the right, five horizontal bands from level 1, small and fast, at the bottom to level 5, large and slow, at the top. Each band has a field for its level name. An arrow on the left points up: ideas and experiments spread up. An arrow on the right points down: resources and rules flow down." width="92%"}
+
+::::: {.content-hidden when-format="typst"}
+
+To type your chart, use the fields below or the Word version. Level 1 is small and fast. Level 5 is large and slow.
+
+::: {.worksheet}
+
+| Field                        | Notes |
+| ---------------------------- | ----- |
+| Challenge (one sentence)     |       |
+| Influences                   |       |
+| Level 5: name and influences |       |
+| Level 4: name and influences |       |
+| Level 3: name and influences |       |
+| Level 2: name and influences |       |
+| Level 1: name and influences |       |
+
+: Panarchy Chart fields {tbl-colwidths="[34,66]"}
+
+:::
+
+::: {.callout-note title="Liberating Structures"}
+The structures and illustrations used in this session are adapted under Creative Commons Attribution-ShareAlike 4.0 from the original work of Keith McCandless, Henri Lipmanowicz and Nancy White found at [www.liberatingstructures.com](https://www.liberatingstructures.com/) and the Liberating Structures Fieldbook (2026). Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The drawing is original. No Liberating Structures icons are used.
+:::
+
+[[PDF](../../assets/handouts/sheet-1-research-use-panarchy.pdf) · [Word](../../assets/handouts/sheet-1-research-use-panarchy.docx) · [SVG](../../assets/handouts/panarchy-chart-sheet.svg) · ]{.content-visible when-format="html"}This handout: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) · Stochastic Parrots and Beyond, Laura Wagner and Moritz Mähr.
+
+:::::

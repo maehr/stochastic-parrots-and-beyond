@@ -104,7 +104,7 @@ Walk through the steps from left to right. At each step, ask: "Who decided here?
 [Random sample from a LAION-400M file (release PROPOSED). Live images. Rights stay with the creators. [More on the sample](../laion-sample.qmd).]{.source}
 
 ::: notes
-Check before class that the images load. Give the room one minute of silence. Ask: "Which caption describes the image? Which does not? Who is missing from this sample?" The captions are the ALT texts, cut to one line here. The score says "similar". It says nothing about consent. If an image does not load, read the caption aloud: the caption is the point. Scores in the full sample run from 0.300 to 0.437. The license field is "?" or empty in 131 of 131 entries. The sample comes from LAION-400M, the predecessor of LAION-5B, with a threshold of 0.30. Press the arrow key to reveal the label. Two images carry the LAION label NSFW. We checked all six flagged images of the sample. None is explicit. Ask: "Who checks the labels at the scale of billions?" Six of 131 sampled images are flagged. That is too few to claim a pattern. Do not open the full page on the projector. Use it in the activity.
+Check before class that the images load. Give the room one minute of silence. Ask: "Which caption describes the image? Which does not? Who is missing from this sample?" The captions are the ALT texts, cut to one line here. The score says "similar". It says nothing about consent. If an image does not load, read the caption aloud: the caption is the point. Scores in the full sample run from 0.300 to 0.437. The license field is "?" or empty in 131 of 131 entries. The sample comes from LAION-400M, the predecessor of LAION-5B, with a threshold of 0.30. Press the arrow key to reveal the label. Two images carry the LAION label NSFW. We checked all six flagged images of the sample. None is explicit. Ask: "Who checks the labels at the scale of billions?" Six of 131 sampled images are flagged. That is too few to claim a pattern. Do not open the full page on the projector. The Lens 2 group can use it.
 :::
 
 ## One entry, in full
@@ -181,29 +181,6 @@ Hawkins et al. (2025) counted the most popular variants and found a more extreme
 ::: notes
 Each tile is a downloadable model made to reproduce one real person. The faces are blurred and the names are covered. Do not try to identify anyone, and do not name anyone in the room. Shortly after this screenshot, CivitAI removed such models. The authors report that about 5,000 of them moved to another platform, so they did not disappear (Wagner and Cetinić, 2026). Ask: "Who decided that this category should exist, and who was asked?"
 :::
-
-## Activity · 15 minutes
-
-**Analyze a representation pathway.** Groups of three or four, on paper or on a laptop. Do not search for harmful images.
-
-1. Choose a research-use card from your group. Use LAION-5B only if no card fits. (3 min)
-2. For each step: who decides, what is selected, what is excluded, which harm can enter. (8 min)
-3. Mark the riskiest step and the people it affects. (2 min)
-4. Name one mitigation that a researcher controls. (2 min)
-
-[Worksheet: Lens 2, representation and harm pathway]{.source}
-
-::: notes
-Hand out the Lens 2 worksheet. If a group wants to test a tool live, ask it to use only neutral, non-identity prompts and to describe the results instead of displaying them.
-:::
-
-## Expected output
-
-A **representation and harm pathway** for each group:
-
-- each step with decision-makers, selections, exclusions, and possible harms,
-- the riskiest step and the people affected,
-- one mitigation under the researcher's control.
 
 ## Sources {.smaller}
 

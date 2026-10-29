@@ -25,7 +25,7 @@ format:
 
 The first three lenses showed costs, harms, and hidden labor. This lens asks why they persist.
 
-[Slides: CC BY 4.0. Lesson page and worksheet: maehr.github.io/stochastic-parrots-and-beyond]{.source}
+[Slides: CC BY 4.0. Lesson page: maehr.github.io/stochastic-parrots-and-beyond]{.source}
 
 ::: notes
 Ask: "Who decided which AI tool you can use at your institution?" Collect answers. Most decisions were made at a level above the researcher.
@@ -117,29 +117,6 @@ The OSI stated in July 2023 that the Llama 2 license is not open source. Ask: "W
 Read one arrow of each kind: money, data, rules. Ask which arrow is missing for the research participants.
 :::
 
-## Activity · 15 minutes
-
-**Map stakeholders and incentives.** Groups of three or four, on paper or on a laptop.
-
-1. Choose a research-use card from your group. Use Llama 2 only if no card fits. (3 min)
-2. Place the stakeholders. For each: gains, costs or risks, leverage. (7 min)
-3. Circle one incentive that keeps an unsafe or inequitable practice in place. (2 min)
-4. Write one feasible governance change: who acts, at which level, by when. (3 min)
-
-[Worksheet: Lens 4, stakeholder and incentive map]{.source}
-
-::: notes
-Collect the governance changes on the wall. They are the first material for Panarchy.
-:::
-
-## Expected output
-
-A **stakeholder and incentive map** for each group:
-
-- stakeholders with gains, costs, and leverage,
-- one circled incentive,
-- one feasible governance change with an actor, a level, and a date.
-
 ## Sources {.smaller}
 
 - Widder, West, and Whittaker (2023): [Open (For Business)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4543807); published version in [Nature (2024)](https://doi.org/10.1038/s41586-024-08141-1).
@@ -152,5 +129,5 @@ A **stakeholder and incentive map** for each group:
 > A practice persists when someone gains from it. Find the incentive, then find the level where it can change.
 
 ::: notes
-Transition to the integration block: "We now have four maps. Before lunch, we agree on one challenge for the afternoon."
+Transition to the break: "Now choose the Lens that fits your Research Use best. After the break, the Lens groups apply its four questions."
 :::

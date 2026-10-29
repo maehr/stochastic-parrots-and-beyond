@@ -1,0 +1,41 @@
+---
+title: 'The course day'
+subtitle: 'Running schedule with countdown'
+author: Laura Wagner and Moritz Mähr
+license: 'CC BY-SA'
+format:
+  revealjs:
+    slide-number: true
+    hash-type: number
+    transition: none
+    background-transition: none
+    center: false
+    css: slides.css
+    include-after-body:
+      - ../../_includes/a11y-slides.html
+      - ../../_includes/day-clock.html
+    footer: 'Stochastic Parrots and Beyond · The course day · CC BY-SA 4.0 · adapted from Liberating Structures'
+---
+
+## How to use this deck {.smaller}
+
+Show this deck on the room screen during the whole course day. Each slide shows one slot: the activity, the time, the duration, the format, the lead, and a countdown to the end of the slot.
+
+- The deck follows the local clock. It moves to the current slot by itself.
+- A manual move with the arrow keys stops follow mode. Press `C` to follow the clock again.
+- The group runs late? Press `]` to shift the schedule one minute later. Press `[` to shift it one minute earlier.
+- Press `?` for all keyboard shortcuts.
+
+The times come from the timetable of the course day in `data/schedule.yml`. Show the other decks in a second window during the Lens inputs.
+
+::: notes
+Open the deck before the participants arrive. Press `F` for full screen. The status line at the bottom right shows the clock, the follow mode, and the shift.
+:::
+
+## License and attribution {.smaller}
+
+The structures and illustrations used in this session are adapted under Creative Commons Attribution-ShareAlike 4.0 from the original work of Keith McCandless, Henri Lipmanowicz and Nancy White found at [www.liberatingstructures.com](https://www.liberatingstructures.com/) and the Liberating Structures Fieldbook (2026). Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+
+This deck is licensed under CC BY-SA 4.0. It uses no Liberating Structures icons.
+
+{{< include _day-slots.qmd >}}

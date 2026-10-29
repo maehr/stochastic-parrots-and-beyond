@@ -1,5 +1,5 @@
 ---
-title: 'Panarchy and Ecocycle'
+title: 'Panarchy'
 subtitle: 'Changes across levels'
 author: Laura Wagner and Moritz Mähr
 license: 'CC BY-SA'
@@ -12,7 +12,7 @@ format:
     center: false
     css: slides.css
     include-after-body: ../../_includes/a11y-slides.html
-    footer: 'Stochastic Parrots and Beyond · Panarchy and Ecocycle · CC BY-SA 4.0 · adapted from Liberating Structures'
+    footer: 'Stochastic Parrots and Beyond · Panarchy · CC BY-SA 4.0 · adapted from Liberating Structures'
 ---
 
 ## License and attribution {.smaller}
@@ -30,7 +30,7 @@ Read the attribution briefly. It is a license condition, and it tells participan
 > What changes across interconnected levels would make generative AI use in academic research more responsible?
 
 ::: notes
-This is the default challenge. Use the version that the group agreed on before lunch.
+This is the common question of the afternoon. Each participant turns it into their own challenge: one sentence, starting from their Research Use Card.
 :::
 
 ## 1. Levels change at different speeds
@@ -58,14 +58,14 @@ An illustration, not a template:
 > individual research project → research group or department → university and research sector → model vendors and industry → regulation and society
 
 ::: notes
-Say clearly: the group finds its own levels. Some groups add funders, publishers, or disciplines.
+Say clearly: each participant finds their own levels. Some add funders, publishers, or disciplines.
 :::
 
-## The Panarchy chart
+## The Panarchy Chart
 
-![](../../assets/handouts/panarchy-chart-blank.svg){fig-alt="Blank chart with five horizontal bands from small and fast at the bottom to large and slow at the top. An arrow on the left points up: ideas and experiments spread up. An arrow on the right points down: resources and rules flow down."}
+![](../../assets/handouts/panarchy-chart-sheet.svg){fig-alt="Panarchy Chart for one participant. At the top, a field for the challenge in one sentence. On the left, a ruled field for the influences. On the right, five horizontal bands from level 1, small and fast, at the bottom to level 5, large and slow, at the top. An arrow on the left points up: ideas and experiments spread up. An arrow on the right points down: resources and rules flow down."}
 
-[Original diagram, adapted from Liberating Structures Panarchy. CC BY-SA 4.0.]{.source}
+[Sheet 1, back. Original diagram, adapted from Liberating Structures Panarchy. CC BY-SA 4.0.]{.source}
 
 ## A short case {.smaller}
 
@@ -82,70 +82,61 @@ Leverage: the department writes the template (fast), and asks the university to 
 
 [This example is invented for teaching.]{.source}
 
-## Panarchy: 120 minutes and a break {.smaller}
+## Block 1 · before the break {.smaller}
 
-| Steps | Minutes | What happens                                                         |
-| ----- | ------: | -------------------------------------------------------------------- |
-| 1     |       5 | Frame the challenge                                                  |
-| 2–5   |      35 | Identify influences, sort them into levels, compare, build one chart |
-| 6–7   |      25 | Diagnose neglected levels and uneven resources, share diagnoses      |
-| 8     |      30 | Afternoon break                                                      |
-| 9–10  |      25 | Find opportunities and barriers across levels, share them            |
-| 11–12 |      25 | Vote for three priorities, commit to actions with 1-2-4-All          |
-| 13    |       5 | Arrange the follow-up                                                |
+| Minutes | Format  | What happens                                                                   |
+| ------: | ------- | ------------------------------------------------------------------------------ |
+|      15 | Alone   | Frame the challenge from your Research Use Card. List the influences.          |
+|      20 | Pairs   | Translate the influences into levels. Compare your levels.                     |
+|       5 | Plenary | Form new groups of four.                                                       |
+|      15 | Groups  | Present your challenge and your Panarchy Chart.                                |
+|       5 | Groups  | Select one challenge.                                                          |
+|      10 | Alone   | Identify Opportunities & Barriers for the selected challenge. Sheet 2, part A. |
+|      25 | Groups  | Discuss, prioritize, and consolidate into a group Action Plan.                 |
+|      10 | Groups  | Buffer: complete the group Action Plan.                                        |
 
-[The durations of the working steps follow Liberating Structures. Step labels adapted.]{.source}
-
-::: notes
-The facilitator guide gives the spoken prompt for each step. Keep this slide visible during the session. Before the vote in step 11, record each objection about consent, rights, or a burden on one group. The vote does not settle it.
-:::
-
-## 1-2-4-All
-
-- **1 minute alone:** what can I do in the next month?
-- **2 minutes in pairs:** share and sharpen.
-- **4 minutes in fours:** find actions that fit together, and allies across levels.
-- **All:** each group shares its strongest action.
-
-## Ecocycle: a 30-minute adaptation
-
-![](../../assets/handouts/ecocycle-blank.svg){fig-alt="A figure-eight loop with four phases: birth, maturity, creative destruction, renewal. The rigidity trap sits between maturity and creative destruction. The scarcity trap sits between renewal and birth."}
-
-[The full Ecocycle Planning takes about 90 minutes. This is a shortened adaptation. Original diagram, CC BY-SA 4.0.]{.source}
-
-## Phases and traps {.smaller}
-
-| Phase or trap        | Meaning                                          |
-| -------------------- | ------------------------------------------------ |
-| Birth                | A new idea or experiment                         |
-| Maturity             | An established, productive practice              |
-| Creative destruction | Letting go, which frees resources                |
-| Renewal              | Reflection and exploration before the next birth |
-| Rigidity trap        | Holding on to a practice that no longer works    |
-| Scarcity trap        | Not investing enough in new ideas                |
-
-## Activity: Ecocycle · 30 minutes
-
-1. Hear the four phases. (5 min)
-2. Place the priority initiatives on the Ecocycle. (5 min)
-3. Find the initiatives in the scarcity trap and in the rigidity trap. (10 min)
-4. Propose a move for each trapped initiative. (5 min)
-5. Record concrete next steps on the action plan. (5 min)
+[Steps, labels, and durations adapted from Liberating Structures Panarchy.]{.source}
 
 ::: notes
-Do not call this a full Ecocycle workshop. Keep the five steps short and strict.
+The facilitator guide gives the spoken prompt for each step. Before a group prioritizes, record each objection about consent, rights, or a burden on one group. A majority does not settle it. Keep all Panarchy Charts for Block 2.
 :::
+
+## Block 2 · after the break
+
+Form new pairs across the groups of Block 1. Avoid a partner who already discussed your challenge.
+
+- **Two open challenges:** examine both.
+- **One open challenge:** both of you examine it.
+
+1. **Alone, 10 minutes.** Opportunities & Barriers for the open challenges. Sheet 2, part B.
+2. **Pairs, 35 minutes.** Discuss, prioritize, and record findings and possible actions.
+
+::: notes
+Pair each participant whose challenge was selected with a participant whose challenge is open. Every challenge must receive an in-depth discussion in Block 1 or Block 2.
+:::
+
+## Your individual Action Plan
+
+**Alone, 20 minutes.** Sheet 2, back. For your own Research Use:
+
+- the intended change,
+- the next step,
+- the barriers,
+- the timeline,
+- the success indicator.
+
+**Pairs, 10 minutes.** Peer review: is the next step concrete? Is the timeline realistic? Would the success indicator show the change?
 
 ## Expected output
 
-- A shared Panarchy chart with levels and annotations.
-- Three priorities, with action owners and a review point.
-- An Ecocycle diagnosis with the traps and the proposed moves.
-- Your own next action on the action plan.
+- Your own Panarchy Chart with your challenge, influences, and levels.
+- Opportunities & Barriers for your challenge, from Block 1 or Block 2.
+- A group Action Plan for each group of four.
+- Your individual Action Plan, reviewed by a peer.
 
 ## Sources {.smaller}
 
-- Liberating Structures: [Panarchy](https://www.liberatingstructures.com/panarchy) and [Ecocycle Planning](https://www.liberatingstructures.com/ecocycle-planning).
+- Liberating Structures: [Panarchy](https://www.liberatingstructures.com/panarchy).
 - McCandless and White (2026): [The Liberating Structures Fieldbook](https://www.liberatingstructures.com/2026-fieldbook).
 - Holling (2001): [Understanding the Complexity of Economic, Ecological, and Social Systems](https://doi.org/10.1007/s10021-001-0101-5).
 
@@ -156,5 +147,5 @@ Do not call this a full Ecocycle workshop. Keep the five steps short and strict.
 [Slides: CC BY-SA 4.0, adapted from Liberating Structures.]{.source}
 
 ::: notes
-Transition to the clinic: "Now each of you applies the day to your own research use."
+Transition to the closing: "Take your Action Plan home. It is the start of your Responsible GenAI Use Statement."
 :::

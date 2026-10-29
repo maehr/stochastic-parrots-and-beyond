@@ -2,7 +2,7 @@
 
 | Field                    | Notes |
 | ------------------------ | ----- |
-| Research use             |       |
+| Research Use             |       |
 | System or vendor         |       |
 | Evidence source          |       |
 | Lifecycle stage          |       |

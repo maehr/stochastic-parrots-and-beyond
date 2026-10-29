@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" role="img" aria-labelledby="title desc">
+  <title id="title">Panarchy Chart (Sheet 1, back)</title>
+  <desc id="desc">Panarchy Chart for one participant, in A4 landscape. At the top, a field for the challenge in one sentence, with the hint: start from your Research Use Card. On the left, a ruled field titled Influences, with the hint: people, rules, tools, money, habits, one per line. On the right, five horizontal bands stacked from bottom to top: level 1, small and fast, at the bottom, and level 5, large and slow, at the top. Each band has a field for its level name. An arrow on the left points up and reads: ideas and experiments spread up. An arrow on the right points down and reads: resources and rules flow down. Adapted from Liberating Structures (Lipmanowicz, McCandless, White; liberatingstructures.com, Fieldbook 2026). CC BY-SA 4.0.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#33322f"/></marker>
+  </defs>
+  <rect width="1000" height="640" fill="#ffffff"/>
+  <text x="24" y="30" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="600" fill="#0b0b0b">Panarchy Chart</text>
+  <rect x="24" y="44" width="952" height="66" rx="6" fill="#ffffff" stroke="#33322f" stroke-width="1.2"/>
+  <text x="36" y="63" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#0b0b0b">Challenge (one sentence)</text>
+  <text x="212" y="63" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="11" font-style="italic" fill="#52514e">Start from your Research Use Card.</text>
+  <line x1="36" y1="84" x2="964" y2="84" stroke="#8f8d88" stroke-width="1"/>
+  <line x1="36" y1="102" x2="964" y2="102" stroke="#8f8d88" stroke-width="1"/>
+  <rect x="24" y="124" width="236" height="476" rx="6" fill="#f2f1ee" stroke="#33322f" stroke-width="1.2"/>
+  <text x="36" y="145" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#0b0b0b">Influences</text>
+  <text x="36" y="162" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="11" font-style="italic" fill="#52514e">People, rules, tools, money, habits.</text>
+  <text x="36" y="176" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="11" font-style="italic" fill="#52514e">One per line.</text>
+  <line x1="36" y1="202" x2="248" y2="202" stroke="#8f8d88" stroke-width="1"/>
+  <line x1="36" y1="228" x2="248" y2="228" stroke="#8f8d88" stroke-width="1"/>
+  <line x1="36" y1="254" x2="248" y2="254" stroke="#8f8d88" stroke-width="1"/>
+  <line x1="36" y1="280" x2="248" y2="280" stroke="#8f8d88" stroke-width="1"/>
+  <line x1="36" y1="306" x2="248" y2="306" stroke="#8f8d88" stroke-width="1"/>
+  <line x1="36" y1="332" x2="248" y2="332" stroke="#8f8d88" stroke-width="1"/>
+  <line x1="36" y1="358" x2="248" y2="358" stroke="#8f8d88" stroke-width="1"/>
+  <line x1="36" y1="384" x2="248" y2="384" stroke="#8f8d88" stroke-width="1"/>
+  <line x1="36" y1="410" x2="248" y2="410" stroke="#8f8d88" stroke-width="1"/>
+  <line x1="36" y1="436" x2="248" y2="436" stroke="#8f8d88" stroke-width="1"/>
+  <line x1="36" y1="462" x2="248" y2="462" stroke="#8f8d88" stroke-width="1"/>
+  <line x1="36" y1="488" x2="248" y2="488" stroke="#8f8d88" stroke-width="1"/>
+  <line x1="36" y1="514" x2="248" y2="514" stroke="#8f8d88" stroke-width="1"/>
+  <line x1="36" y1="540" x2="248" y2="540" stroke="#8f8d88" stroke-width="1"/>
+  <line x1="36" y1="566" x2="248" y2="566" stroke="#8f8d88" stroke-width="1"/>
+  <rect x="322" y="124" width="600" height="88" rx="8" fill="#f2f1ee" stroke="#33322f" stroke-width="1.2"/>
+  <text x="336" y="145" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#52514e">Level 5 · large and slow</text>
+  <line x1="470" y1="148" x2="720" y2="148" stroke="#8f8d88" stroke-width="1"/>
+  <text x="730" y="145" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="11" font-style="italic" fill="#8f8d88">name the level</text>
+  <rect x="322" y="221" width="600" height="88" rx="8" fill="#ffffff" stroke="#33322f" stroke-width="1.2"/>
+  <text x="336" y="242" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#52514e">Level 4</text>
+  <line x1="470" y1="245" x2="720" y2="245" stroke="#8f8d88" stroke-width="1"/>
+  <text x="730" y="242" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="11" font-style="italic" fill="#8f8d88">name the level</text>
+  <rect x="322" y="318" width="600" height="88" rx="8" fill="#f2f1ee" stroke="#33322f" stroke-width="1.2"/>
+  <text x="336" y="339" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#52514e">Level 3</text>
+  <line x1="470" y1="342" x2="720" y2="342" stroke="#8f8d88" stroke-width="1"/>
+  <text x="730" y="339" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="11" font-style="italic" fill="#8f8d88">name the level</text>
+  <rect x="322" y="415" width="600" height="88" rx="8" fill="#ffffff" stroke="#33322f" stroke-width="1.2"/>
+  <text x="336" y="436" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#52514e">Level 2</text>
+  <line x1="470" y1="439" x2="720" y2="439" stroke="#8f8d88" stroke-width="1"/>
+  <text x="730" y="436" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="11" font-style="italic" fill="#8f8d88">name the level</text>
+  <rect x="322" y="512" width="600" height="88" rx="8" fill="#f2f1ee" stroke="#33322f" stroke-width="1.2"/>
+  <text x="336" y="533" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#52514e">Level 1 · small and fast</text>
+  <line x1="470" y1="536" x2="720" y2="536" stroke="#8f8d88" stroke-width="1"/>
+  <text x="730" y="533" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="11" font-style="italic" fill="#8f8d88">name the level</text>
+  <line x1="284" y1="590" x2="284" y2="134" stroke="#33322f" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text transform="translate(304 362.0) rotate(-90)" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#52514e" text-anchor="middle">ideas and experiments spread up</text>
+  <line x1="960" y1="134" x2="960" y2="590" stroke="#33322f" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text transform="translate(940 362.0) rotate(90)" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#52514e" text-anchor="middle">resources and rules flow down</text>
+  <text x="24" y="628" font-family="'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#52514e">Adapted from Liberating Structures (Lipmanowicz, McCandless, White; liberatingstructures.com, Fieldbook 2026). CC BY-SA 4.0. Original drawing.</text>
+</svg>

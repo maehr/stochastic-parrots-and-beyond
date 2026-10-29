@@ -15,6 +15,7 @@
     "test": "uv run pytest",
     "site:build": "uv run quarto render --to html && uv run quarto render contents/slides --to revealjs",
     "handouts:build": "uv run python scripts/build_handouts.py",
+    "schedule:build": "uv run python scripts/build_schedule.py",
     "handouts:reference": "uv run python scripts/build_reference_docx.py",
     "site:archive": "uv run python scripts/release_site_archive.py",
     "release:prepare": "npm run site:build && npm run site:archive -- --stage",

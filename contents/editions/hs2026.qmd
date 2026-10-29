@@ -30,7 +30,7 @@ Write to {{< edition hs2026 contact link="the course administration" >}} about r
 ## Prepare for the course day
 
 1. Read the required text: Bender et al., [On the Dangers of Stochastic Parrots](https://doi.org/10.1145/3442188.3445922) [-@bender2021].
-2. Write a short description of one actual or planned use of generative AI in your research. Say why you might use it and what you do not know about it.
+2. Prepare your Research Use: one actual or planned use of generative AI in your research. Say why you might use it and what you do not know about it. On the course day, you write it on the Research Use Card.
 3. Bring a laptop.
 
 Further reading is optional. The [literature](../literature.qmd) page lists readings and cases for each lens.

@@ -1,0 +1,4 @@
+1. What is known, unknown, and avoidable about the energy, water, and hardware that this Research Use needs?
+2. Where do the training data come from, and what did the filters remove?
+3. Where does the system run for this task, and how often do you use it?
+4. Which smaller or non-generative alternative could do the same task at a comparable quality?

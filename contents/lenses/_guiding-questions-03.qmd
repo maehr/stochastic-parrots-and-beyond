@@ -1,0 +1,4 @@
+1. Which lifecycle stages does this Research Use touch: design, data, training, deployment, evaluation, or governance?
+2. Who does the hidden work at these stages, for example labeling, moderation, or the checking of outputs?
+3. Who carries the risk, and who has recourse when harm occurs?
+4. Whose work, data, or consent does the output depend on, and was it given?

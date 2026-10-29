@@ -28,11 +28,11 @@ The site loads its fonts (IBM Plex) from Google Fonts. Your browser therefore co
 The materials serve two groups.
 
 - **Participants and students** use the edition pages, the lens pages, the handouts, and the slides.
-- **Teachers** can reuse every part. The [facilitator guide](panarchy-facilitator.qmd) gives the Panarchy session minute by minute. Each slide deck holds presenter notes. Each lens page has a collapsed section "For teachers". The [reuse guide](../documentation/reuse.qmd) explains how to adapt the site and roll it over to a new semester.
+- **Teachers** can reuse every part. The [facilitator guide](panarchy-facilitator.qmd) gives the course day minute by minute. Each slide deck holds presenter notes. Each lens page has a collapsed section "For teachers". The [reuse guide](../documentation/reuse.qmd) explains how to adapt the site and roll it over to a new semester.
 
 ## Attribution
 
-[Liberating Structures](https://www.liberatingstructures.com/) were created by Henri Lipmanowicz and Keith McCandless. Keith McCandless and Nancy White wrote the _Liberating Structures Fieldbook_ (2026). The Panarchy and Ecocycle materials on this site adapt their methods:
+[Liberating Structures](https://www.liberatingstructures.com/) were created by Henri Lipmanowicz and Keith McCandless. Keith McCandless and Nancy White wrote the _Liberating Structures Fieldbook_ (2026). The Panarchy materials on this site adapt their methods:
 
 > The structures and illustrations used in this session are adapted under Creative Commons Attribution-ShareAlike 4.0 from the original work of Keith McCandless, Henri Lipmanowicz and Nancy White found at www.liberatingstructures.com and the Liberating Structures Fieldbook (2026). Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
@@ -44,12 +44,12 @@ The repository started from the [open-research-data-template](https://github.com
 
 Each part of the site has its own license. Each page shows its license at the bottom.
 
-| Content                                                                                | License                              |
-| -------------------------------------------------------------------------------------- | ------------------------------------ |
-| Original course text, figures, slides, and handouts                                    | [CC BY 4.0](../LICENSE-CCBY.md)      |
-| Panarchy and Ecocycle pages, the facilitator guide, their slides, charts, and handouts | [CC BY-SA 4.0](../LICENSE-CCBYSA.md) |
-| Code, configuration, and build scripts                                                 | [AGPL 3.0](../LICENSE-AGPL.md)       |
-| Quoted or linked third-party material                                                  | The terms of the owner               |
+| Content                                                                            | License                              |
+| ---------------------------------------------------------------------------------- | ------------------------------------ |
+| Original course text, figures, slides, and handouts                                | [CC BY 4.0](../LICENSE-CCBY.md)      |
+| The Panarchy page, the facilitator guide, their slides, charts, and the two sheets | [CC BY-SA 4.0](../LICENSE-CCBYSA.md) |
+| Code, configuration, and build scripts                                             | [AGPL 3.0](../LICENSE-AGPL.md)       |
+| Quoted or linked third-party material                                              | The terms of the owner               |
 
 : License boundaries {.striped}
 

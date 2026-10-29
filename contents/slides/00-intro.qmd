@@ -58,7 +58,7 @@ Name each lens with its question. Point out that the lenses overlap on purpose. 
 [Original diagram. CC BY 4.0.]{.source}
 
 ::: notes
-Read the stages from left to right. Say that we will mark risks at each stage. Transition: "Let us start with one research use and look at it through all four lenses."
+Read the stages from left to right. Say that we will mark risks at each stage. Transition: "Let us start with one hypothetical example and look at it through all four lenses."
 :::
 
 ## A short case {.smaller}
@@ -77,7 +77,7 @@ A doctoral candidate in history wants to use a hosted chatbot to summarize 200 d
 [This example is invented for teaching.]{.source}
 
 ::: notes
-Ask the group to add one question per lens. Write them on the wall. They come back in the lessons.
+Ask the group to add one question per lens. The Lens groups later use four guiding questions for each Lens.
 :::
 
 ## Concepts we use all day {.smaller}
@@ -91,41 +91,37 @@ Ask the group to add one question per lens. Write them on the wall. They come ba
 Stress the difference between documented and hypothetical. Ask participants to challenge any claim that has no source. Keep four questions apart: how a system is trained, what it can do for a task, whether it understands, and whether a use is justified. The course needs no answer to the third question to ask the fourth.
 :::
 
-## Activity: your research use · 7 minutes
+## Your Research Use Card · 10 minutes
 
-1. **Alone, 2 minutes.** On a card, write one actual or planned use of generative AI in your research: the task, the system, why you might use it, and what you do not know about it.
-2. **Pairs, 5 minutes.** Read your cards to each other. Add one question from a lens.
+**Alone.** Take Sheet 1. On the right, fill in the Research Use Card:
+
+- the task: one actual or planned use of generative AI in your research,
+- the system or tool,
+- why you might use it,
+- what you do not know about it,
+- who else is affected.
+
+This is your **Research Use**. It stays your Research Use all day. Leave the field "Lens" empty for now.
 
 Do not write confidential or personal data on the card.
 
 ::: notes
-Hand out cards. Keep strict time. Collect the cards on the wall only if the authors agree. The cards stay anonymous.
-:::
-
-## Expected output
-
-- One card for each participant, with one research use.
-- A wall of anonymous research uses that we return to in every lens.
-
-Each lens adds one worksheet. The afternoon adds a Panarchy chart, an Ecocycle diagnosis, and your own next action.
-
-::: notes
-Transition: "Your card is the thread of the day. In the clinic at the end, you turn it into a position."
+Keep strict time. The cards stay with the participants. After the four Lens inputs, each participant writes the Lens that fits their Research Use best on the card. The Lens groups form after the break.
 :::
 
 ## The day
 
-1. Four lenses, one after the other.
-2. Integrate the lenses and agree on the Panarchy challenge.
-3. Panarchy: a facilitated discussion across levels.
-4. Ecocycle: a short adaptation to sort the priorities.
-5. Research-use clinic and peer review.
-6. Next actions and the follow-up task.
+1. Four Lenses, 15 minutes each: theory and one example.
+2. Lens groups: apply the four questions of one Lens to each Research Use.
+3. Spokespersons report to the plenary.
+4. Panarchy Block 1: your challenge, your Panarchy Chart, and a group Action Plan.
+5. Panarchy Block 2: the open challenges in pairs.
+6. Your individual Action Plan, peer review, and the course evaluation.
 
-[The edition page gives the times.]{.source}
+[The edition page gives the times. The course day deck shows the running schedule.]{.source}
 
 ::: notes
-Do not give times on this slide. They belong to the edition page, so that the deck works for every edition.
+Do not give times on this slide. Each participant leaves with an individual Action Plan. It prepares the follow-up task: the Responsible GenAI Use Statement.
 :::
 
 ## Sources {.smaller}

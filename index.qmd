@@ -3,14 +3,14 @@ title: Stochastic Parrots and Beyond
 subtitle: Normative Dimensions of Generative AI
 description: >-
   Open educational resources for a one-day workshop on generative AI in
-  research: four analytical lenses, Panarchy, and Ecocycle.
+  research: four analytical lenses, Panarchy, and an individual Action Plan.
 ---
 
 {{< edition featured banner >}}
 
 ## About the course
 
-Generative AI is used increasingly in research, yet its environmental costs, training data, labor conditions, discriminatory representations, commercial incentives, and governance structures are often considered separately. This workshop combines four critical lenses with practical risk-analysis tools. Participants investigate the design, data, training, deployment, evaluation, and governance of text- and image-generating systems; then use Panarchy and Ecocycle Planning to identify feasible changes in their own research environments. The aim is a defensible, transparent approach to responsible generative AI use rather than a universal list of permitted and forbidden tools.
+Generative AI is used increasingly in research, yet its environmental costs, training data, labor conditions, discriminatory representations, commercial incentives, and governance structures are often considered separately. This workshop combines four critical lenses with practical risk-analysis tools. Participants investigate the design, data, training, deployment, evaluation, and governance of text- and image-generating systems; then use two Panarchy blocks to identify feasible changes in their own research environments. Each participant leaves with an individual Action Plan. The aim is a defensible, transparent approach to responsible generative AI use rather than a universal list of permitted and forbidden tools.
 
 ## Editions
 
@@ -26,7 +26,7 @@ This site is a course companion. It takes no registrations and awards no credits
 
 1. Open the page of your edition above. It gives the date, the venue, and the rules.
 2. Read the required text before the course day: Bender et al., [On the Dangers of Stochastic Parrots](https://doi.org/10.1145/3442188.3445922) [-@bender2021].
-3. Write a short description of one actual or planned use of generative AI in your research. The [assignments](contents/assignments.qmd) page explains it.
+3. Prepare your Research Use: one actual or planned use of generative AI in your research. The [assignments](contents/assignments.qmd) page explains it.
 4. Bring a laptop.
 
 ::: {.callout-important title="Protect your data"}
@@ -36,32 +36,29 @@ Do not bring confidential or personal research data to the exercises. No exercis
 ### If you teach or study on your own
 
 - The [syllabus](contents/syllabus.qmd) shows the learning path and the timetable.
-- The four lens pages each hold concepts, evidence, a documented case, and an activity.
-- The [facilitator guide](contents/panarchy-facilitator.qmd) gives the Panarchy and Ecocycle session minute by minute.
+- The four lens pages each hold concepts, evidence, a documented case, and four guiding questions for the Lens groups.
+- The [facilitator guide](contents/panarchy-facilitator.qmd) gives the course day minute by minute, with the trainer timeline.
 - The [handouts](contents/resources.qmd) are printable and editable.
 - The [reuse guide](documentation/reuse.qmd) explains how to adapt the site for your own course.
 
 ## Four lenses
 
-| Lens                                                                         | Guiding question                                                                   | Output                          |
-| ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ------------------------------- |
-| [1. Stochastic Parrots: Scale and Environment](contents/lenses/01-scale.qmd) | Which environmental and data choices are hidden by a model's apparent performance? | Material-and-provenance map     |
-| [2. Representation and Displacement](contents/lenses/02-representation.qmd)  | Whose perspectives become normal and whose are displaced?                          | Representation and harm pathway |
-| [3. Lifecycle and Labor](contents/lenses/03-lifecycle-labor.qmd)             | Who does the work, carries the risk, or has no recourse?                           | Lifecycle risk matrix           |
-| [4. Political Economy](contents/lenses/04-political-economy.qmd)             | Which incentives preserve an unsafe or inequitable practice?                       | Stakeholder and incentive map   |
+| Lens                                                                         | Guiding question                                                                   |
+| ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| [1. Stochastic Parrots: Scale and Environment](contents/lenses/01-scale.qmd) | Which environmental and data choices are hidden by a model's apparent performance? |
+| [2. Representation and Displacement](contents/lenses/02-representation.qmd)  | Whose perspectives become normal and whose are displaced?                          |
+| [3. Lifecycle and Labor](contents/lenses/03-lifecycle-labor.qmd)             | Who does the work, carries the risk, or has no recourse?                           |
+| [4. Political Economy](contents/lenses/04-political-economy.qmd)             | Which incentives preserve an unsafe or inequitable practice?                       |
 
 : The four analytical lenses {.striped}
 
-After the lenses, the group uses [Panarchy](contents/panarchy.qmd) to see how changes at different levels interact. A short adaptation of Ecocycle Planning then sorts the most promising changes.
+After the lenses, Lens groups apply the guiding questions to the participants' Research Uses. In the afternoon, [Panarchy](contents/panarchy.qmd) shows how changes at different levels interact. Each participant leaves with an individual Action Plan.
 
 ## Learning outcomes
 
 After the course, participants should be able to:
 
-1. Analyze environmental, social, cultural, and institutional issues in generative AI through four distinct analytical lenses.
-2. Identify normative risks at **design → data → training → deployment → evaluation → governance** stages, including affected people and potential mitigation.
-3. Apply risk maps, documentation and disclosure heuristics, evaluation questions, and governance checks to their own research.
-4. Formulate and defend a context-specific position on responsible research use of generative AI, informed by scholarship and governance frameworks (including the EU AI Act as one example).
+{{< include contents/_learning-outcomes.qmd >}}
 
 ## License
 

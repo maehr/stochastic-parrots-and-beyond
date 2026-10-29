@@ -13,48 +13,40 @@ Each handout has these forms:
 - a **Word file** for each worksheet that you fill in, so that you can type your answers on a laptop,
 - an **editable source**: the Quarto file in the repository folder `contents/handouts/`, and the SVG diagrams or the Markdown file below.
 
-All exercises work on paper or in a Word file on a laptop. No exercise needs an online whiteboard or an account.
+All exercises work on paper, in a Word file on a laptop, or on a flipchart. No exercise needs an online whiteboard or an account.
 
-## Worksheets for the four lenses
+## Two sheets for the course day
 
-| Handout                                                                      | Purpose                                                  | Downloads                                                                                                       | License   |
-| ---------------------------------------------------------------------------- | -------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | --------- |
-| [Lens 1: material-and-provenance map](handouts/lens-1-provenance-map.qmd)    | Known, unknown, and avoidable costs from data to use     | [PDF](../assets/handouts/lens-1-provenance-map.pdf) · [Word](../assets/handouts/lens-1-provenance-map.docx)     | CC BY 4.0 |
-| [Lens 2: representation and harm pathway](handouts/lens-2-harm-pathway.qmd)  | Decisions, exclusions, and harms along a dataset pathway | [PDF](../assets/handouts/lens-2-harm-pathway.pdf) · [Word](../assets/handouts/lens-2-harm-pathway.docx)         | CC BY 4.0 |
-| [Lens 3: lifecycle risk matrix](handouts/lens-3-lifecycle-matrix.qmd)        | Who works, who carries the risk, who has recourse        | [PDF](../assets/handouts/lens-3-lifecycle-matrix.pdf) · [Word](../assets/handouts/lens-3-lifecycle-matrix.docx) | CC BY 4.0 |
-| [Lens 4: stakeholder and incentive map](handouts/lens-4-stakeholder-map.qmd) | Gains, costs, leverage, and one governance change        | [PDF](../assets/handouts/lens-4-stakeholder-map.pdf) · [Word](../assets/handouts/lens-4-stakeholder-map.docx)   | CC BY 4.0 |
+Each participant gets two double-sided A4 sheets. Print them in landscape, double-sided, flipped on the short edge. The Word versions let participants type their answers. Both sheets adapt Liberating Structures Panarchy. They carry CC BY-SA 4.0. Keep this license when you adapt them.
 
-: Lens worksheets. Each worksheet ends with the twelve shared fields. {.striped}
+| Handout                                                                                             | Front                                         | Back           | Downloads                                                                                                                           | License      |
+| --------------------------------------------------------------------------------------------------- | --------------------------------------------- | -------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ------------ |
+| [Sheet 1: Research Use Card and Panarchy Chart](handouts/sheet-1-research-use-panarchy.qmd)         | Instructions and Research Use Card            | Panarchy Chart | [PDF](../assets/handouts/sheet-1-research-use-panarchy.pdf) · [Word](../assets/handouts/sheet-1-research-use-panarchy.docx)         | CC BY-SA 4.0 |
+| [Sheet 2: Opportunities & Barriers and Action Plan](handouts/sheet-2-opportunities-action-plan.qmd) | Opportunities & Barriers, Block 1 and Block 2 | Action Plan    | [PDF](../assets/handouts/sheet-2-opportunities-action-plan.pdf) · [Word](../assets/handouts/sheet-2-opportunities-action-plan.docx) | CC BY-SA 4.0 |
 
-## The shared risk worksheet
+: Sheets for the course day {.striped}
 
-| Handout                                                         | Purpose                                              | Downloads                                                                                     | License   |
-| --------------------------------------------------------------- | ---------------------------------------------------- | --------------------------------------------------------------------------------------------- | --------- |
-| [Shared risk worksheet](handouts/risk-worksheet.qmd)            | The twelve shared fields for one research use, blank | [PDF](../assets/handouts/risk-worksheet.pdf) · [Word](../assets/handouts/risk-worksheet.docx) | CC BY 4.0 |
-| [Fictional worked example](handouts/risk-worksheet-example.qmd) | A completed worksheet for an invented research use   | [PDF](../assets/handouts/risk-worksheet-example.pdf)                                          | CC BY 4.0 |
+Groups record their work on a flipchart or in a shared document. No exercise needs sticky notes.
 
-: Shared risk worksheet {.striped}
+## Panarchy: diagrams and a fictional example
 
-## Panarchy and Ecocycle
+| Handout                                           | Purpose                                | Downloads                                      | Editable diagram                                     | License      |
+| ------------------------------------------------- | -------------------------------------- | ---------------------------------------------- | ---------------------------------------------------- | ------------ |
+| [Panarchy example](handouts/panarchy-example.qmd) | A fictional completed chart            | [PDF](../assets/handouts/panarchy-example.pdf) | [SVG](../assets/handouts/panarchy-chart-example.svg) | CC BY-SA 4.0 |
+| Panarchy Chart of Sheet 1                         | Challenge, influences, and five levels | —                                              | [SVG](../assets/handouts/panarchy-chart-sheet.svg)   | CC BY-SA 4.0 |
+| Blank Panarchy chart                              | Five levels, for a flipchart or a wall | —                                              | [SVG](../assets/handouts/panarchy-chart-blank.svg)   | CC BY-SA 4.0 |
 
-These materials adapt Liberating Structures. They carry CC BY-SA 4.0. Keep this license when you adapt them.
+: Panarchy diagrams {.striped}
 
-| Handout                                                  | Purpose                                              | Downloads                                                                               | Editable diagram                                     | License      |
-| -------------------------------------------------------- | ---------------------------------------------------- | --------------------------------------------------------------------------------------- | ---------------------------------------------------- | ------------ |
-| [Panarchy chart](handouts/panarchy-chart.qmd)            | Blank chart with five levels, for A4 or a wall sheet | [PDF](../assets/handouts/panarchy-chart.pdf)                                            | [SVG](../assets/handouts/panarchy-chart-blank.svg)   | CC BY-SA 4.0 |
-| [Panarchy example](handouts/panarchy-example.qmd)        | A fictional completed chart                          | [PDF](../assets/handouts/panarchy-example.pdf)                                          | [SVG](../assets/handouts/panarchy-chart-example.svg) | CC BY-SA 4.0 |
-| [Ecocycle sheet](handouts/ecocycle.qmd)                  | Phases, traps, and a diagnosis table                 | [PDF](../assets/handouts/ecocycle.pdf) · [Word](../assets/handouts/ecocycle.docx)       | [SVG](../assets/handouts/ecocycle-blank.svg)         | CC BY-SA 4.0 |
-| [Sticky notes and action plan](handouts/action-plan.qmd) | Notes by level, and the action plan                  | [PDF](../assets/handouts/action-plan.pdf) · [Word](../assets/handouts/action-plan.docx) | —                                                    | CC BY-SA 4.0 |
-
-: Panarchy and Ecocycle handouts {.striped}
-
-For the wall, print the Panarchy chart in A1 or A0, or draw it on flip-chart paper. The [facilitator guide](panarchy-facilitator.qmd) lists all materials.
+The [facilitator guide](panarchy-facilitator.qmd) lists all materials.
 
 ## Follow-up task
 
-| Handout                                                       | Purpose                               | Downloads                                                                                                                                                                | License   |
-| ------------------------------------------------------------- | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------- |
-| [Use Statement template](handouts/use-statement-template.qmd) | Seven headings with guiding questions | [Markdown](../assets/handouts/use-statement-template.md) · [Word](../assets/handouts/use-statement-template.docx) · [PDF](../assets/handouts/use-statement-template.pdf) | CC BY 4.0 |
+| Handout                                                         | Purpose                                                  | Downloads                                                                                                                                                                | License   |
+| --------------------------------------------------------------- | -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------- |
+| [Use Statement template](handouts/use-statement-template.qmd)   | Seven headings with guiding questions                    | [Markdown](../assets/handouts/use-statement-template.md) · [Word](../assets/handouts/use-statement-template.docx) · [PDF](../assets/handouts/use-statement-template.pdf) | CC BY 4.0 |
+| [Shared risk worksheet](handouts/risk-worksheet.qmd)            | Optional: twelve fields to prepare the statement         | [PDF](../assets/handouts/risk-worksheet.pdf) · [Word](../assets/handouts/risk-worksheet.docx)                                                                            | CC BY 4.0 |
+| [Fictional worked example](handouts/risk-worksheet-example.qmd) | Optional: a completed risk worksheet for an invented use | [PDF](../assets/handouts/risk-worksheet-example.pdf)                                                                                                                     | CC BY 4.0 |
 
 : Follow-up task {.striped}
 
@@ -62,14 +54,15 @@ For the wall, print the Panarchy chart in A1 or A0, or draw it on flip-chart pap
 
 The decks are Reveal.js presentations. Use the arrow keys to move. Press `S` for the presenter notes, `F` for full screen, and `?` for all keyboard shortcuts. The decks contain no dates or venues, so they serve every edition.
 
-| Deck                                                                    | Topic                                                    | License      |
-| ----------------------------------------------------------------------- | -------------------------------------------------------- | ------------ |
-| [Orientation](slides/00-intro.qmd)                                      | The question of the day, four lenses, research-use cards | CC BY 4.0    |
-| [Lens 1: Scale and environment](slides/01-scale.qmd)                    | Footprint and provenance, the BLOOM case                 | CC BY 4.0    |
-| [Lens 2: Representation and Displacement](slides/02-representation.qmd) | Datasets and stereotypes, the LAION-5B case              | CC BY 4.0    |
-| [Lens 3: Lifecycle and labor](slides/03-lifecycle-labor.qmd)            | Hidden labor, the Kenyan labeling case                   | CC BY 4.0    |
-| [Lens 4: Political economy](slides/04-political-economy.qmd)            | Power, "open" claims, the EU AI Act                      | CC BY 4.0    |
-| [Panarchy and Ecocycle](slides/05-panarchy.qmd)                         | The afternoon session                                    | CC BY-SA 4.0 |
+| Deck                                                                    | Topic                                                   | License      |
+| ----------------------------------------------------------------------- | ------------------------------------------------------- | ------------ |
+| [Orientation](slides/00-intro.qmd)                                      | The question of the day, four lenses, Research Use Card | CC BY 4.0    |
+| [Lens 1: Scale and environment](slides/01-scale.qmd)                    | Footprint and provenance, the BLOOM case                | CC BY 4.0    |
+| [Lens 2: Representation and Displacement](slides/02-representation.qmd) | Datasets and stereotypes, the LAION-5B case             | CC BY 4.0    |
+| [Lens 3: Lifecycle and labor](slides/03-lifecycle-labor.qmd)            | Hidden labor, the Kenyan labeling case                  | CC BY 4.0    |
+| [Lens 4: Political economy](slides/04-political-economy.qmd)            | Power, "open" claims, the EU AI Act                     | CC BY 4.0    |
+| [Panarchy](slides/05-panarchy.qmd)                                      | Block 1, Block 2, and the individual Action Plan        | CC BY-SA 4.0 |
+| [The course day](slides/06-day.qmd)                                     | Running schedule with a countdown, for the room screen  | CC BY-SA 4.0 |
 
 : Slide decks {.striped}
 

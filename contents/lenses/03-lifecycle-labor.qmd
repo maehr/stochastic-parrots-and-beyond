@@ -8,10 +8,10 @@ description: >-
 
 ::: {.callout-note title="At a glance"}
 
-- **Slot:** about 35 minutes in the morning, with a 15-minute group activity.
+- **Slot:** 15 minutes in the morning: theory and one example.
 - **Instructor:** Moritz Mähr.
-- **Output:** a lifecycle risk matrix.
-- **Worksheet:** [Lens 3 worksheet: lifecycle risk matrix](../handouts/lens-3-lifecycle-matrix.qmd).
+- **Guiding questions:** four questions for the Lens 3 group. See [Activity](#activity).
+- **Handout:** the [Research Use Card](../handouts/sheet-1-research-use-panarchy.qmd) on Sheet 1.
 - **Slides:** [Lens 3 slide deck](../slides/03-lifecycle-labor.qmd).
 - **Anchor sources:** Crawford [-@crawford2021], chapters 2 and 3; Bender et al. [-@bender2021].
 
@@ -31,7 +31,7 @@ A generative AI system looks automatic. Behind it, people collect and label data
 
 ### 1. The lifecycle has six stages
 
-The course uses six stages: **design → data → training → deployment → evaluation → governance**. This framework builds on Rachel Huber and Moritz Mähr's _Decoding Inequality_ course, published in 2024 and updated in 2025 [@huber2024]. Its original labels are architecture selection, data collection, training, application, evaluation and monitoring, and governance and regulation. The course uses shorter labels for the worksheet. The order is a convention for the worksheet. Evaluation happens before and after deployment, and governance applies at every stage. Each stage involves different people and different risks. Suresh and Guttag show that harm can enter at many points of the machine learning lifecycle, from the collection of data to the deployment of a model [-@suresh2021]. Weidinger et al. sort the risks of language models into six areas, from discrimination and misinformation to environmental and socioeconomic harms [-@weidinger2022].
+The course uses six stages: **design → data → training → deployment → evaluation → governance**. This framework builds on Rachel Huber and Moritz Mähr's _Decoding Inequality_ course, published in 2024 and updated in 2025 [@huber2024]. Its original labels are architecture selection, data collection, training, application, evaluation and monitoring, and governance and regulation. The course uses shorter labels. The order is a convention of the course. Evaluation happens before and after deployment, and governance applies at every stage. Each stage involves different people and different risks. Suresh and Guttag show that harm can enter at many points of the machine learning lifecycle, from the collection of data to the deployment of a model [-@suresh2021]. Weidinger et al. sort the risks of language models into six areas, from discrimination and misinformation to environmental and socioeconomic harms [-@weidinger2022].
 
 ![The six-stage framework builds on Huber and Mähr (2024; updated 2025). Original diagram: Laura Wagner and Moritz Mähr (2026), CC BY 4.0. Suresh and Guttag (2021) research lifecycle harms; they did not author these six stages.](../../assets/cases/03-lifecycle.svg){fig-alt="Six stages in a cycle: design, data, training, deployment, evaluation, governance. Evaluation repeats and governance applies at every stage. Framework: Huber and Mähr, 2024, updated 2025. Diagram: Wagner and Mähr, 2026."}
 
@@ -93,7 +93,7 @@ This case concerns safety labeling. The separate work of writing and ranking mod
 
 **Why this case.** The safety of a product for its users depended on work that exposed other people to harm. The users never saw this work. The case asks where the responsibility of a researcher who uses the product begins.
 
-### Worked matrix before the activity
+### Worked matrix
 
 ::: {.callout-note title="How to complete a focused matrix"}
 
@@ -105,39 +105,24 @@ The fictional university team is considering ChatGPT. It uses the Kenya investig
 
 ## Activity
 
-**Build a lifecycle risk matrix.** Work in groups of three or four, for 15 minutes, on paper or on a laptop.
+This Lens has no individual activity. After the four Lens inputs, each participant chooses the Lens that fits their Research Use best. The participants form Lens groups of four, ideally one group for each Lens. The Lens 3 group works for 60 minutes:
 
-1. Choose one research-use description from your group. Use ChatGPT and the prepared Kenya case if no description fits or if the group prefers it. Select **2–3 relevant stages**. (3 minutes)
-2. On the [worksheet](../handouts/lens-3-lifecycle-matrix.qmd), record **who does the work, who carries the risk, and who has recourse** for the selected stages. Add sources for factual entries. (7 minutes)
-3. Mark the highest risk and your greatest influence **among the selected stages**. (2 minutes)
-4. Write **one intervention** where you have influence. Label it **PROPOSED**. (3 minutes)
+1. Each person introduces their Research Use Card.
+2. The group applies the four guiding questions below to each Research Use.
+3. The group records insights, uncertainties, and disagreements on a flipchart or in a shared document.
+4. The group nominates a spokesperson for the plenary.
 
-Complete only the selected columns. Write **Unknown** when evidence is missing. Mark the other stages **Not examined**. One intervention is sufficient; the worksheet's other intervention cells are optional.
+**Guiding questions for Lens 3**
 
-::: {.panel-tabset}
+{{< include _guiding-questions-03.qmd >}}
 
-### Your group's example
+Write **Unknown** where evidence is missing: an unknown is a finding. Describe the use, not the data. Do not show confidential, personal, or unpublished research data. If a Research Use cannot be discussed openly, use the [Kenya case](#case-sama) instead.
 
-This is the first choice. A use from your own research makes the analysis concrete.
-
-- Choose the research-use description with the most open questions.
-- Its author explains the use in two minutes: the task, the system, and what they do not know about it.
-- Describe the use, not the data. Do not show confidential, personal, or unpublished research data.
-- Write **Unknown** when the source does not establish recourse. Keep that evidence gap visible.
-
-### Prepared case
-
-Use the [Kenya safety-labeling case](#case-sama) if no description fits or if the group prefers a prepared case. The worked matrix above shows one analysis of Data and Governance. Groups can choose a third stage, but must state where the case supplies no evidence. No additional reading or live search is needed.
-
-### Hypothetical example
-
-A sociology team plans to code 2,000 open survey answers with a hosted model. It selects Data and Evaluation. The respondents never agreed to this use. Student assistants check the codes but get no credit in the publication. A **PROPOSED** intervention is to seek ethics review, keep a sample coded by hand, and acknowledge the assistants. This example is fictional.
-
-:::
+The questions of all four Lenses are on one shared slide of the [course day deck](../slides/06-day.qmd).
 
 ## Output
 
-One focused **lifecycle risk matrix** per group. For **2–3 selected stages**, name who works, who carries the risk, and who has recourse. Add sources for factual entries. Mark the stage of highest risk and the stage of greatest influence among those examined. Write one proposed intervention. Mark other stages Not examined. Transfer the main finding to the twelve shared fields later in the clinic.
+The flipchart or the shared document of the Lens 3 group: insights, uncertainties, and disagreements for each Research Use. In the plenary, the spokesperson reports the conceptual insights, not the individual Research Uses. The [syllabus](../syllabus.qmd#lens-groups) gives the three plenary questions.
 
 ## Reading
 
@@ -150,7 +135,7 @@ One focused **lifecycle risk matrix** per group. For **2–3 selected stages**, 
 Open the [Lens 3 slide deck](../slides/03-lifecycle-labor.qmd). Press `S` for the presenter notes.
 
 ::: {.callout-note title="For teachers" collapse="true"}
-**Timing (35 minutes).** Start with the Kenya case, 5 minutes. Use the concepts and worked matrix, 10 minutes. Activity, 15 minutes. Plenary round, 5 minutes.
+**Timing (15 minutes).** The Kenya case, 5 minutes. The concepts and the worked matrix, 10 minutes. The Lens group applies the four guiding questions later in the morning.
 
 **Prompts.**
 
@@ -162,9 +147,9 @@ Open the [Lens 3 slide deck](../slides/03-lifecycle-labor.qmd). Press `S` for th
 
 **Difficult moments.** Some participants work with outsourced labor themselves, for example through crowdsourcing platforms. Invite them to share practice, not to defend it. Point to fair-pay guidelines of their discipline where they exist.
 
-**Preparation.** Show the completed matrix before the activity. The slide deck starts with the case. The lesson page keeps its standard section order. Its documentary image comes from Mathenge's worker-led account [@mathenge2024], a separate source from TIME's interviews. It does not show the labeling task. Do not play the film without reviewing its content note.
+**Preparation.** Show the completed matrix as the example of this Lens. The slide deck starts with the case. The lesson page keeps its standard section order. Its documentary image comes from Mathenge's worker-led account [@mathenge2024], a separate source from TIME's interviews. It does not show the labeling task. Do not play the film without reviewing its content note.
 
-**Fallback.** Start with the group's own example. Use the prepared case if needed or preferred. Groups that finish early can identify the evidence needed to investigate one unknown route to recourse. Do not require every column or the shared fields during these 15 minutes.
+**Lens group.** Circulate during the group work. If a group gets stuck, ask one guiding question at a time. If a Research Use cannot be discussed openly, offer the case of this Lens.
 :::
 
 ## References

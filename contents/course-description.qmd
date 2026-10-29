@@ -5,7 +5,7 @@ subtitle: 'Summary, audience, objectives, and the four lenses'
 
 ## Summary
 
-Generative AI is used increasingly in research, yet its environmental costs, training data, labor conditions, discriminatory representations, commercial incentives, and governance structures are often considered separately. This workshop combines four critical lenses with practical risk-analysis tools. Participants investigate the design, data, training, deployment, evaluation, and governance of text- and image-generating systems; then use Panarchy and Ecocycle Planning to identify feasible changes in their own research environments. The aim is a defensible, transparent approach to responsible generative AI use rather than a universal list of permitted and forbidden tools.
+Generative AI is used increasingly in research, yet its environmental costs, training data, labor conditions, discriminatory representations, commercial incentives, and governance structures are often considered separately. This workshop combines four critical lenses with practical risk-analysis tools. Participants investigate the design, data, training, deployment, evaluation, and governance of text- and image-generating systems; then use two Panarchy blocks to identify feasible changes in their own research environments. Each participant leaves with an individual Action Plan. The aim is a defensible, transparent approach to responsible generative AI use rather than a universal list of permitted and forbidden tools.
 
 ## Audience
 
@@ -15,40 +15,41 @@ The workshop is for doctoral candidates and postdocs from all disciplines. Each 
 
 After the course, participants should be able to:
 
-1. Analyze environmental, social, cultural, and institutional issues in generative AI through four distinct analytical lenses.
-2. Identify normative risks at **design → data → training → deployment → evaluation → governance** stages, including affected people and potential mitigation.
-3. Apply risk maps, documentation and disclosure heuristics, evaluation questions, and governance checks to their own research.
-4. Formulate and defend a context-specific position on responsible research use of generative AI, informed by scholarship and governance frameworks (including the EU AI Act as one example).
+{{< include _learning-outcomes.qmd >}}
 
 ## The four lenses
 
-The four lenses give the critical vocabulary. Each lens has its own lesson page, slide deck, documented case, activity, and worksheet.
+The four lenses give the critical vocabulary. Each lens has its own lesson page, slide deck, documented case, and four guiding questions. Each lens takes 15 minutes in the morning. The participants then apply the guiding questions to their own Research Uses in Lens groups.
 
-| Lens                                                                                | Essential teaching points                                                                                                                                                      | Output                          |
-| ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------- |
-| [1. Stochastic Parrots: Scale and Environment](lenses/01-scale.qmd)                 | Scale is not a sufficient criterion for quality or social benefit. Energy, water, minerals, and infrastructure. Data sourcing, scraping, consent, filtering, and exclusions.   | Material-and-provenance map     |
-| [2. Representation and Displacement](lenses/02-representation.qmd)                  | Text-to-image datasets. Cultural categories, aesthetics, stereotypes, and representational harm. Humanizing models while dehumanizing women. Non-consensual synthetic imagery. | Representation and harm pathway |
-| [3. Lifecycle and Labor: Materiality and Extraction](lenses/03-lifecycle-labor.qmd) | The model lifecycle and the people it affects. Data labeling, content moderation, RLHF, and gig work. "Fauxtomation." Copyright, consent, provenance, and invisible labor.     | Lifecycle risk matrix           |
-| [4. Political Economy: Power and Markets](lenses/04-political-economy.qmd)          | Concentrated infrastructure and platform power. Incentives for safety and release decisions. Open versus proprietary claims. Procurement, policy, and the EU AI Act.           | Stakeholder and incentive map   |
+| Lens                                                                                | Essential teaching points                                                                                                                                                      |
+| ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [1. Stochastic Parrots: Scale and Environment](lenses/01-scale.qmd)                 | Scale is not a sufficient criterion for quality or social benefit. Energy, water, minerals, and infrastructure. Data sourcing, scraping, consent, filtering, and exclusions.   |
+| [2. Representation and Displacement](lenses/02-representation.qmd)                  | Text-to-image datasets. Cultural categories, aesthetics, stereotypes, and representational harm. Humanizing models while dehumanizing women. Non-consensual synthetic imagery. |
+| [3. Lifecycle and Labor: Materiality and Extraction](lenses/03-lifecycle-labor.qmd) | The model lifecycle and the people it affects. Data labeling, content moderation, RLHF, and gig work. "Fauxtomation." Copyright, consent, provenance, and invisible labor.     |
+| [4. Political Economy: Power and Markets](lenses/04-political-economy.qmd)          | Concentrated infrastructure and platform power. Incentives for safety and release decisions. Open versus proprietary claims. Procurement, policy, and the EU AI Act.           |
 
-: The four lenses and their outputs {.striped}
+: The four lenses {.striped}
 
-## Panarchy and Ecocycle
+## Lens groups and Panarchy
 
-[Panarchy](panarchy.qmd) is the central method of the afternoon. It is not an optional extra. The group maps how changes at fast, local levels and at slow, institutional levels influence each other. The central challenge is:
+The course day centers on the participants' own **Research Uses**. Each participant describes one actual or planned use of generative AI in their research on a Research Use Card. The term Research Use stays the same all day.
+
+In the morning, participants form Lens groups of four. Each group applies the four guiding questions of one lens to the Research Use of each member. A spokesperson reports the conceptual insights to the plenary.
+
+[Panarchy](panarchy.qmd) is the central method of the afternoon. It is not an optional extra. Each participant maps how changes at fast, local levels and at slow, institutional levels influence their own challenge. The common question is:
 
 > What changes across interconnected levels would make generative AI use in academic research more responsible?
 
-A short adaptation of Ecocycle Planning then sorts the priority initiatives. A research clinic turns the findings into a personal position on responsible use.
+In Block 1, groups of four select one challenge and consolidate a group Action Plan. In Block 2, pairs examine the open challenges, so that every challenge receives an in-depth discussion. At the end of the day, each participant writes an individual Action Plan, and a peer reviews it.
 
 ## Format
 
-The course uses short lectures, guided discussion, sourced cases, small-group mapping, a collaborative Panarchy and Ecocycle exercise, and a research project clinic.
+The course uses short lectures, sourced cases, collaborative analysis of the participants' Research Uses in Lens groups, two Panarchy blocks, and an individual Action Plan with peer review. Paper, digital documents, and flipcharts are enough.
 
 Bring these items:
 
 - A laptop.
-- A short description of one actual or proposed use of generative AI in your research. The description must not be confidential.
+- Your Research Use: a short description of one actual or planned use of generative AI in your research. The description must not be confidential.
 
 ::: {.callout-important title="What the course does not ask of you"}
 

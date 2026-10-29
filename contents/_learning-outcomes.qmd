@@ -1,0 +1,5 @@
+1. Analyze environmental, social, cultural, and institutional issues in generative AI through four distinct analytical lenses.
+2. Identify normative risks at **design → data → training → deployment → evaluation → governance** stages, including affected people and potential mitigation.
+3. Apply the guiding questions of the four lenses, together with peers, to their own Research Use: one actual or planned use of generative AI in their research.
+4. Identify opportunities and barriers for change across interconnected levels, from their own research project to regulation and society.
+5. Formulate and defend a context-specific position on responsible research use of generative AI, informed by scholarship and governance frameworks (including the EU AI Act as one example), and plan a next step in an individual Action Plan.

@@ -1,0 +1,4 @@
+1. Whose categories, languages, and aesthetics does the system treat as normal?
+2. Who decided what counts as "quality" in the data, and what did that decision exclude?
+3. Which stereotypes or representational harms can enter the output of this Research Use?
+4. Who is depicted or displaced without consent, and who can object?

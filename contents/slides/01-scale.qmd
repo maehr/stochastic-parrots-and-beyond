@@ -135,7 +135,7 @@ Do not add the two numbers. The 18-day API deployment served 230,768 requests; i
 Luccioni et al. compare generative and task-specific systems for several tasks [@luccioni2024]. A search tool, manual work, or a smaller model is an alternative to test at comparable quality. Do not promise a saving without checking the task and the boundary.
 :::
 
-## Worked map: two stages are enough to start
+## Worked map: two stages are enough
 
 ::: {.worked-example}
 
@@ -144,38 +144,9 @@ Luccioni et al. compare generative and task-specific systems for several tasks [
 :::
 
 ::: notes
-Show every filled field before handing over the task. This is a fictional research team considering BLOOM, using documented measurements. The known figures come from the paper. The unknowns concern the team's intended use. The actions are proposed choices, not measured savings.
+Show every filled field. This is a fictional research team considering BLOOM, using documented measurements. The known figures come from the paper. The unknowns concern the team's intended use. The actions are proposed choices, not measured savings.
 
-Read the two selected stage names exactly as they appear on the worksheet. Mark all other stages Not examined. Explain that a blank cell is ambiguous; write Unknown when the evidence is missing. A group can use this prepared case if its own research description does not fit or if it prefers not to discuss it.
-:::
-
-## Activity · 15 minutes
-
-**Make a material-and-provenance map.** Groups of three or four. Use paper or a laptop.
-
-1. Choose your group's research use. Use BLOOM if needed or preferred. Select **2–3 stages**. **3 min**
-2. Record **Known, Unknown, Avoidable** for those stages. Add sources. **8 min**
-3. Mark the largest unknown and one avoidable cost. **2 min**
-4. Prepare one sentence for the plenary. **2 min**
-
-[Open the worksheet](../handouts/lens-1-provenance-map.qmd) · [Prepared BLOOM case](../lenses/01-scale.qmd#case-bloom)
-
-::: notes
-Own research remains the first choice. Describe the use without showing personal, confidential, or unpublished data. The author can explain the use during the first three minutes. Prepared BLOOM facts are already on the lesson page; this activity does not require additional reading or live searching.
-
-Write Unknown for missing evidence within the selected stages. Mark unselected stages Not examined. Label suggested changes PROPOSED. At minute 13, call for: The choice that the performance of this system hides most is …
-:::
-
-## Expected output
-
-**One focused material-and-provenance map per group.**
-
-- **2–3 stages:** Known, Unknown, Avoidable, with sources.
-- **Two findings:** the largest unknown and one avoidable cost.
-- **One sentence:** "The choice that the performance of this system hides most is …"
-
-::: notes
-Check that each group has an explicit unknown and a proposed alternative, even when it cannot quantify a saving. The selected stages are the scope of this map. Do not require the rest of the grid or the twelve shared fields during these 15 minutes. Keep the map for later transfer to the shared fields in the clinic.
+Mark all other stages Not examined. Explain that a blank cell is ambiguous; write Unknown when the evidence is missing. The Lens 1 group can use this prepared case if a Research Use cannot be discussed openly.
 :::
 
 ## Takeaway
@@ -187,7 +158,7 @@ Check that each group has an explicit unknown and a proposed alternative, even w
 [Return to @bender2021, secs. 3–4.]{.source}
 
 ::: notes
-Collect the plenary sentences. Keep the total lens slot at 35 minutes: case first, 5 minutes; concepts and worked map, 10 minutes; activity, 15 minutes; plenary, 5 minutes. Transition to Lens 2: We followed data as a cost. Next we follow data as a picture of the world.
+Keep the lens slot at 15 minutes: case first, 5 minutes; concepts and worked map, 10 minutes. The Lens 1 group applies the four guiding questions later in the morning. Transition to Lens 2: We followed data as a cost. Next we follow data as a picture of the world.
 :::
 
 ## Sources {.smaller}

@@ -15,14 +15,15 @@ The course materials are open educational resources. You can copy, change, and t
 | `index.qmd`                         | Home page                                                           |
 | `contents/course-description.qmd`   | Summary, audience, outcomes, the four lenses                        |
 | `contents/syllabus.qmd`             | Learning path and the timetable                                     |
-| `contents/_timetable.qmd`           | The timetable. The syllabus and the edition pages include it.       |
+| `data/schedule.yml`                 | **The single source for the timetable** of the course day           |
+| `contents/_timetable.qmd`           | Generated timetable. The syllabus and the edition pages include it. |
 | `contents/editions/`                | One page for each edition                                           |
 | `data/editions.yml`                 | **The single source for edition facts**: dates, venue, rules, links |
 | `_extensions/edition/`              | The shortcode that renders edition facts at build time              |
 | `contents/lenses/`                  | The four lesson pages                                               |
-| `contents/panarchy.qmd`             | The Panarchy and Ecocycle page for participants                     |
+| `contents/panarchy.qmd`             | The Panarchy page for participants                                  |
 | `contents/panarchy-facilitator.qmd` | The facilitator guide                                               |
-| `contents/slides/`                  | The six Reveal.js decks                                             |
+| `contents/slides/`                  | The seven Reveal.js decks, including the running course day deck    |
 | `contents/handouts/`                | Handout sources. Each source is also the web version.               |
 | `assets/handouts/`                  | Generated PDF, Word, and Markdown files, and the handout diagrams   |
 | `assets/cases/`                     | Original case figures                                               |
@@ -46,11 +47,12 @@ The preview server reloads the site after each change.
 ## Edit content
 
 - **Edition facts.** Change them only in `data/editions.yml`. A page shows a fact with the shortcode, for example `{{{< edition hs2026 date >}}}`. A test fails when a page hard-codes a date or an address.
-- **Lesson pages.** Keep the fixed order of sections: question, core concepts, evidence and limits, case, activity, output, reading, slides. A test checks the order.
+- **Lesson pages.** Keep the fixed order of sections: question, core concepts, evidence and limits, case, activity, output, reading, slides. A test checks the order. The four guiding questions of each lens live in `contents/lenses/_guiding-questions-0N.qmd`.
+- **Timetable.** Change the course day only in `data/schedule.yml`. Then run `npm run schedule:build` and commit the generated files. It writes the timetable, the trainer timeline, and the slots of the course day deck. A test fails when a generated file is out of date.
 - **Claims.** Cite each claim next to the claim, with a key from `references.bib`. Mark each example as a documented case or as a hypothetical example.
 - **Slides.** Put no edition fact in a deck. The decks serve every edition.
 - **Handouts.** Edit the `.qmd` source in `contents/handouts/`. Then run `npm run handouts:build` and commit the generated files in the same commit. CI fails when a generated file is older than its source.
-- **Wide Word worksheets.** Lenses 1 and 3 use `_reference-landscape.docx`. Run `npm run handouts:reference -- --landscape` after you update the shared Word reference. Then rebuild both worksheets.
+- **Wide Word sheets.** Sheets 1 and 2 use `_reference-landscape.docx`. Run `npm run handouts:reference -- --landscape` after you update the shared Word reference. Then rebuild both sheets.
 - **Diagrams.** The SVG files are the editable sources. Keep the `<title>` and the `<desc>` elements up to date. They are the text alternative.
 
 ## Check
@@ -61,8 +63,9 @@ Run these commands before you push:
 | ------------------------ | ------------------------------------------------ |
 | `npm run check`          | Formatting, Python lint and types, and all tests |
 | `npm run lychee-check`   | Links (needs the `lychee` executable)            |
-| `npm run site:build`     | The full site and all six decks as Reveal.js     |
+| `npm run site:build`     | The full site and all seven decks as Reveal.js   |
 | `npm run handouts:build` | The PDF, Word, and Markdown handouts             |
+| `npm run schedule:build` | The timetable files from `data/schedule.yml`     |
 
 : Checks {.striped}
 
@@ -112,12 +115,12 @@ Never commit participant names, contact details, attendance records, application
 
 ## Licenses {#licenses}
 
-| Content                                                                              | License                              |
-| ------------------------------------------------------------------------------------ | ------------------------------------ |
-| Original course text, case figures, lens slides, lens worksheets, and the template   | [CC BY 4.0](../LICENSE-CCBY.md)      |
-| Panarchy and Ecocycle pages, the facilitator guide, their deck, charts, and handouts | [CC BY-SA 4.0](../LICENSE-CCBYSA.md) |
-| Code, configuration, the shortcode extension, tests, and scripts                     | [AGPL 3.0](../LICENSE-AGPL.md)       |
-| Quoted or linked third-party material                                                | The terms of the owner               |
+| Content                                                                           | License                              |
+| --------------------------------------------------------------------------------- | ------------------------------------ |
+| Original course text, case figures, lens slides, and the template                 | [CC BY 4.0](../LICENSE-CCBY.md)      |
+| The Panarchy page, the facilitator guide, their decks, charts, and the two sheets | [CC BY-SA 4.0](../LICENSE-CCBYSA.md) |
+| Code, configuration, the shortcode extension, tests, and scripts                  | [AGPL 3.0](../LICENSE-AGPL.md)       |
+| Quoted or linked third-party material                                             | The terms of the owner               |
 
 : License boundaries {.striped}
 
