@@ -20,7 +20,7 @@ Participants examine text and image generators through four analytical lenses:
 3. Lifecycle and labor: materiality and extraction.
 4. Political economy: power and markets.
 
-Then the group uses the Liberating Structures [Panarchy](https://www.liberatingstructures.com/panarchy) and a short adaptation of [Ecocycle Planning](https://www.liberatingstructures.com/ecocycle-planning). With these methods, participants find feasible changes in their own research settings. The aim is a transparent and defensible position on generative AI in research. The aim is not a list of permitted and forbidden tools.
+In Lens groups, participants apply the guiding questions of one lens to their own Research Uses. Then they use two blocks of the Liberating Structures [Panarchy](https://www.liberatingstructures.com/panarchy) to find feasible changes in their own research settings. Each participant leaves with an individual Action Plan. The aim is a transparent and defensible position on generative AI in research. The aim is not a list of permitted and forbidden tools.
 
 ## Who This Is For
 
@@ -45,14 +45,14 @@ This site is a course companion. It does not take registrations and does not awa
 
 ## What the Repository Contains
 
-| Material                  | Purpose                                                                        |
-| ------------------------- | ------------------------------------------------------------------------------ |
-| Four lesson pages         | One page for each lens: concepts, evidence, a documented case, and an activity |
-| Six Reveal.js slide decks | Orientation, four lenses, and Panarchy with Ecocycle. With presenter notes.    |
-| Printable worksheets      | One worksheet for each lens, blank charts, and a fictional worked example      |
-| Facilitator guide         | The 130-minute Panarchy and the 30-minute adapted Ecocycle, minute by minute   |
-| Use statement template    | A Markdown and Word template for the follow-up assignment                      |
-| Reference list            | One verified BibTeX file for every cited work                                  |
+| Material               | Purpose                                                                        |
+| ---------------------- | ------------------------------------------------------------------------------ |
+| Four lesson pages      | One page for each lens: concepts, evidence, a case, and four guiding questions |
+| Seven Reveal.js decks  | Orientation, four lenses, Panarchy, and a running deck for the course day      |
+| Two printable sheets   | Research Use Card, Panarchy Chart, Opportunities & Barriers, and Action Plan   |
+| Facilitator guide      | The course day minute by minute, with the trainer timeline                     |
+| Use statement template | A Markdown and Word template for the follow-up assignment                      |
+| Reference list         | One verified BibTeX file for every cited work                                  |
 
 ## Repository Structure
 
@@ -67,6 +67,7 @@ This site is a course companion. It does not take registrations and does not awa
 | `assets/handouts/`   | Printable PDFs, editable files, and diagrams                     |
 | `assets/cases/`      | Original figures for the cases                                   |
 | `data/editions.yml`  | The single source for the facts of each edition                  |
+| `data/schedule.yml`  | The single source for the timetable of the course day            |
 | `references.bib`     | BibTeX entries for every cited work                              |
 | `documentation/`     | Guidance for teachers who reuse the course                       |
 | `test/`              | Tests for the edition data, the links, and the privacy rules     |
@@ -129,7 +130,7 @@ Corrections, better sources, and reuse reports are welcome. Read [CONTRIBUTING.m
 
 The workshop is part of the Transferable Skills program of the Graduate Center (GRACE), University of Basel.
 
-Henri Lipmanowicz and Keith McCandless created [Liberating Structures](https://www.liberatingstructures.com/). The Panarchy and Ecocycle materials in this repository adapt their methods under [CC BY-SA 4.0](https://www.liberatingstructures.com/cc-license).
+Henri Lipmanowicz and Keith McCandless created [Liberating Structures](https://www.liberatingstructures.com/). The Panarchy materials in this repository adapt their methods under [CC BY-SA 4.0](https://www.liberatingstructures.com/cc-license).
 
 The repository started from the [open-research-data-template](https://github.com/maehr/open-research-data-template). The [All Data Are Local](https://github.com/maehr/all-data-are-local) course site is the model for its structure and design.
 

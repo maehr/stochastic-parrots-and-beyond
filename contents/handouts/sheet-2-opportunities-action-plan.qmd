@@ -1,0 +1,133 @@
+---
+title: 'Sheet 2: Opportunities & Barriers and Action Plan'
+subtitle: 'Stochastic Parrots and Beyond · front: Opportunities & Barriers · back: Action Plan'
+description: >-
+  The second of two double-sided A4 sheets for each participant. The front
+  holds the Opportunities & Barriers for the group challenge and for the open
+  challenges. The back holds the individual Action Plan.
+license: 'CC BY-SA'
+format:
+  html: default
+  typst:
+    include-in-header:
+      - _handout.typ
+      - text: '#set page(flipped: true)'
+  docx:
+    reference-doc: _reference-landscape.docx
+---
+
+Use the front in Panarchy Block 1 (part A) and Block 2 (part B). An **opportunity** is a place where a change at one level can unlock a change at another level. A **barrier** is a place where one level blocks another. Note the level of each. The sheet belongs to you. The instructors do not collect it.
+
+```{=typst}
+#columns(2, gutter: 1.2cm)[
+#set table(rows: (auto, 1.0cm))
+```
+
+## Part A: the group challenge (Block 1)
+
+::: {.worksheet}
+
+| Field                                  | Notes |
+| -------------------------------------- | ----- |
+| Selected challenge                     |       |
+| Whose challenge: mine · another person |       |
+
+: The selected challenge {tbl-colwidths="[40,60]"}
+
+:::
+
+```{=typst}
+#set table(rows: (auto, 1.6cm))
+```
+
+::: {.worksheet}
+
+| Level | Opportunities | Barriers |
+| ----- | ------------- | -------- |
+|       |               |          |
+|       |               |          |
+|       |               |          |
+|       |               |          |
+
+: Opportunities & Barriers for the selected challenge {tbl-colwidths="[20,40,40]"}
+
+:::
+
+The group consolidates its priorities into one group Action Plan on a flipchart or in a shared document.
+
+```{=typst}
+#colbreak()
+#set table(rows: (auto, 1.0cm))
+```
+
+## Part B: the open challenges (Block 2)
+
+::: {.worksheet}
+
+| Field                                 | Notes |
+| ------------------------------------- | ----- |
+| Open challenge 1: mine · my partner's |       |
+| Open challenge 2: mine · my partner's |       |
+
+: The open challenges of the pair {tbl-colwidths="[40,60]"}
+
+:::
+
+```{=typst}
+#set table(rows: (auto, 1.6cm))
+```
+
+::: {.worksheet}
+
+| Challenge 1 or 2 and level | Opportunities | Barriers | Possible actions |
+| -------------------------- | ------------- | -------- | ---------------- |
+|                            |               |          |                  |
+|                            |               |          |                  |
+|                            |               |          |                  |
+|                            |               |          |                  |
+
+: Opportunities & Barriers for the open challenges {tbl-colwidths="[19,27,27,27]"}
+
+:::
+
+With one open challenge, both of you examine it. Leave challenge 2 empty.
+
+```{=typst}
+]
+#pagebreak()
+#set table(rows: (auto, 1.4cm))
+```
+
+## Action Plan
+
+Complete the Action Plan alone, for your own Research Use. Use your findings from part A or part B. Then a peer reviews it.
+
+::: {.worksheet}
+
+| Field                                           | Notes |
+| ----------------------------------------------- | ----- |
+| My Research Use                                 |       |
+| My challenge                                    |       |
+| Intended change: what will be different?        |       |
+| Next step: what do I do first?                  |       |
+| Barriers: what can stop me, and how do I react? |       |
+| Timeline: by when?                              |       |
+| Success indicator: how do I see the change?     |       |
+| Peer review: the main feedback                  |       |
+| What I change after the peer review             |       |
+
+: Individual Action Plan {tbl-colwidths="[30,70]"}
+
+:::
+
+[This sheet: CC BY-SA 4.0 · Stochastic Parrots and Beyond, Laura Wagner and Moritz Mähr. Opportunities & Barriers are adapted from Liberating Structures Panarchy.]{.content-visible when-format="typst"}
+
+:::: {.content-hidden when-format="typst"}
+
+::: {.callout-note title="Liberating Structures"}
+The structures and illustrations used in this session are adapted under Creative Commons Attribution-ShareAlike 4.0 from the original work of Keith McCandless, Henri Lipmanowicz and Nancy White found at [www.liberatingstructures.com](https://www.liberatingstructures.com/) and the Liberating Structures Fieldbook (2026). Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). No Liberating Structures icons are used.
+:::
+
+[[PDF](../../assets/handouts/sheet-2-opportunities-action-plan.pdf) · [Word](../../assets/handouts/sheet-2-opportunities-action-plan.docx) · ]{.content-visible when-format="html"}This handout: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) · Stochastic Parrots and Beyond, Laura Wagner and Moritz Mähr.
+
+::::

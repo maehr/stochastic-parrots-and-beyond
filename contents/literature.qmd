@@ -60,7 +60,7 @@ Each lens uses one documented case. These sources support the case and the evide
 
 - Documentation and disclosure: _Datasheets for Datasets_ [@gebru2021] and _Model Cards for Model Reporting_ [@mitchell2019].
 - Risks across the lifecycle: Suresh and Guttag [-@suresh2021] and Weidinger et al. [-@weidinger2022].
-- Panarchy and Ecocycle: the Liberating Structures pages for [Panarchy](https://www.liberatingstructures.com/panarchy) and [Ecocycle Planning](https://www.liberatingstructures.com/ecocycle-planning), Lipmanowicz and McCandless [-@lipmanowicz2014], McCandless and White [-@mccandless2026], and Holling [-@holling2001] on the adaptive cycle.
+- Panarchy: the Liberating Structures page for [Panarchy](https://www.liberatingstructures.com/panarchy), Lipmanowicz and McCandless [-@lipmanowicz2014], McCandless and White [-@mccandless2026], and Holling [-@holling2001] on the adaptive cycle.
 
 ## Preparation time
 

@@ -1,0 +1,4 @@
+1. Who gains from this Research Use, and who pays or carries the risk?
+2. Which claims of openness or safety must you check, and how?
+3. Which institution sets the default: a license, a procurement decision, or a policy?
+4. Which rule applies, for example the EU AI Act, and which governance change would matter most?

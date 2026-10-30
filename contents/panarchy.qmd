@@ -1,9 +1,9 @@
 ---
-title: Panarchy and Ecocycle
-subtitle: 'Find changes across levels that make generative AI use in research more responsible'
+title: Panarchy
+subtitle: 'Find changes across levels that make your Research Use more responsible'
 description: >-
-  The central method of the afternoon: a Liberating Structures Panarchy of 120
-  minutes and a 30-minute adaptation of Ecocycle Planning.
+  The central method of the afternoon: two Panarchy blocks adapted from
+  Liberating Structures, and an individual Action Plan for each participant.
 license: 'CC BY-SA'
 suppress-bibliography: false
 link-citations: true
@@ -11,19 +11,21 @@ link-citations: true
 
 ::: {.callout-note title="At a glance"}
 
-- **Slot:** the afternoon. Panarchy takes 120 minutes. The 30-minute afternoon break falls between step 7 and step 9. The adapted Ecocycle takes 30 minutes.
-- **Outputs:** a shared Panarchy chart, three priorities, action owners, a review point, and an Ecocycle diagnosis.
-- **Handouts:** [Panarchy chart](handouts/panarchy-chart.qmd), [fictional example](handouts/panarchy-example.qmd), [Ecocycle sheet](handouts/ecocycle.qmd), [sticky notes and action plan](handouts/action-plan.qmd).
-- **Slides:** [Panarchy and Ecocycle slide deck](slides/05-panarchy.qmd).
+- **Slot:** the afternoon. A 5-minute introduction, Block 1 before the afternoon break, Block 2 after it, and the individual Action Plan at the end. The [syllabus](syllabus.qmd#timetable) gives the times.
+- **Outputs:** your own Panarchy Chart, Opportunities & Barriers for your challenge, a group Action Plan, and your individual Action Plan.
+- **Handouts:** [Sheet 1](handouts/sheet-1-research-use-panarchy.qmd) with the Panarchy Chart on the back, [Sheet 2](handouts/sheet-2-opportunities-action-plan.qmd) with Opportunities & Barriers and the Action Plan, and a [fictional example](handouts/panarchy-example.qmd).
+- **Slides:** [Panarchy slide deck](slides/05-panarchy.qmd) and the [course day deck](slides/06-day.qmd).
 - **For teachers:** the [facilitator guide](panarchy-facilitator.qmd) gives every step with minute marks and spoken prompts.
 
 :::
 
 ## The challenge
 
-The four lenses showed costs, harms, hidden labor, and incentives. Most of them are not in the hands of one researcher. Panarchy asks where change is possible, and at which level.
+The four Lenses showed costs, harms, hidden labor, and incentives. Most of them are not in the hands of one researcher. Panarchy asks where change is possible, and at which level. The common question of the afternoon is:
 
 > **What changes across interconnected levels would make generative AI use in academic research more responsible?**
+
+Each participant turns this question into their own **challenge**. Start from your Research Use Card. Write one sentence: what must change so that your Research Use becomes more responsible? Your Research Use stays the same all day. The challenge names the change that you look for.
 
 ## What Panarchy is
 
@@ -33,94 +35,85 @@ The four lenses showed costs, harms, hidden labor, and incentives. Most of them 
 - Large levels change slowly. A university, an industry, or a law changes over years.
 - The levels influence each other in both directions. A local experiment can spread upwards. Resources and rules from a large level shape what is possible below.
 
-**Discover your own levels.** The group decides which levels matter for the challenge. The list below is only an illustration. Do not copy it.
+**Discover your own levels.** You decide which levels matter for your challenge. The list below is only an illustration. Do not copy it.
 
 > individual research project → research group or department → university and research sector → model vendors and industry → regulation and society
 
-![A blank Panarchy chart: five nested levels from small and fast at the bottom to large and slow at the top, with arrows in both directions. Original diagram, adapted from Liberating Structures Panarchy under CC BY-SA 4.0.](../assets/handouts/panarchy-chart-blank.svg){fig-alt="Blank chart with five horizontal bands stacked from bottom to top. The bottom band is labelled small and fast, the top band large and slow. Each band has an empty label field and space for sticky notes. An arrow on the left points upwards and is labelled: ideas and experiments spread up. An arrow on the right points downwards and is labelled: resources and rules flow down."}
+![A bl![The Panarchy Chart on Sheet 1, back: a field for the challenge, a field for the influences, and five nested levels from small and fast at the bottom to large and slow at the top, with arrows in both directions. Original diagram, adapted from Liberating Structures Panarchy under CC BY-SA 4.0.](../assets/handouts/panarchy-chart-sheet.svg){fig-alt="Panarchy Chart for one participant. At the top, a field for the challenge in one sentence. On the left, a ruled field for the influences: people, rules, tools, money, habits. On the right, five horizontal bands from level 1, small and fast, at the bottom to level 5, large and slow, at the top. Each band has a field for its level name. An arrow on the left points up: ideas and experiments spread up. An arrow on the right points down: resources and rules flow down."}lock 1: from your challenge to a group Action Plan {#block-1}
 
-## How the exercise works
+You work alone, in pairs, and in groups of four. Use Sheet 1, back, and Sheet 2, front, part A.
 
-You work alone, in pairs, in groups of four, and with everyone. With up to 16 participants, four groups of four work well. Everyone contributes.
+| Step | Minutes | Format  | What you do                                                                                                            |
+| ---: | ------: | ------- | ---------------------------------------------------------------------------------------------------------------------- |
+|    1 |      15 | Alone   | Frame the challenge and identify influences. Write the challenge in the header of the Panarchy Chart. List influences. |
+|    2 |      20 | Pairs   | Translate the influences into levels on your Panarchy Chart. Name each level. Compare your levels.                     |
+|    3 |       5 | Plenary | Form new groups of four. Choose people who were not in your Lens group.                                                |
+|    4 |      15 | Groups  | Each person presents their challenge and their Panarchy Chart.                                                         |
+|    5 |       5 | Groups  | Select one challenge for deeper analysis. The other challenges stay open for Block 2.                                  |
+|    6 |      10 | Alone   | Identify Opportunities & Barriers for the selected challenge. Note the level of each.                                  |
+|    7 |      25 | Groups  | Discuss and prioritize. Consolidate the findings into one group Action Plan on a flipchart or in a shared document.    |
+|      |      10 | Groups  | Buffer: complete the group Action Plan.                                                                                |
 
-| Phase                           | Steps | Minutes | What you do                                                                                  |
-| ------------------------------- | ----- | ------- | -------------------------------------------------------------------------------------------- |
-| Frame                           | 1     | 5       | Hear the challenge and see an example chart                                                  |
-| Map influences and levels       | 2–5   | 35      | List factors alone, sort them into levels in pairs, compare in fours, build one shared chart |
-| Diagnose                        | 6–7   | 25      | Mark levels that get little attention, and uneven resources                                  |
-| Afternoon break                 | 8     | 30      | Rest                                                                                         |
-| Find opportunities and barriers | 9–10  | 25      | In new groups of four, find leverage and blockages across levels                             |
-| Prioritize and commit           | 11–12 | 25      | Vote for three priorities, then plan actions with 1-2-4-All                                  |
-| Follow up                       | 13    | 5       | Decide in groups of three how and when to revisit the chart                                  |
-| **Total**                       |       | **150** |                                                                                              |
+: Panarchy Block 1 {.striped}
 
-: The Panarchy exercise in seven phases {.striped}
+Keep your Panarchy Chart. You need it in Block 2.
 
-**1-2-4-All** is a Liberating Structure in its own right. You think alone first, then share in a pair, then in a group of four, then with everyone. Each person speaks before the loudest voices dominate.
+An **opportunity** is a place where a change at one level can unlock a change at another level. A **barrier** is a place where one level blocks another. A level higher on the chart does not always hold more power.
+
+## Block 2: the open challenges {#block-2}
+
+After the afternoon break, form new pairs across the groups of Block 1. Do not pair with a person who already discussed your challenge with you. Each pair examines the challenges that Block 1 did not select:
+
+- **Two open challenges:** examine the Opportunities & Barriers for both.
+- **One open challenge:** both of you examine that challenge.
+
+| Step | Minutes | Format | What you do                                                                                  |
+| ---: | ------: | ------ | -------------------------------------------------------------------------------------------- |
+|    1 |      10 | Alone  | Identify Opportunities & Barriers for the open challenge or challenges. Use Sheet 2, part B. |
+|    2 |      35 | Pairs  | Discuss and prioritize. Record the findings and possible actions for each open challenge.    |
+
+: Panarchy Block 2 {.striped}
+
+Use the existing Panarchy Charts. Every challenge receives an in-depth discussion, in Block 1 or in Block 2.
+
+## Individual Action Plan {#action-plan}
+
+Every participant leaves with an individual Action Plan for their own Research Use. Use Sheet 2, back.
+
+| Minutes | Format  | What you do                                                                                                          |
+| ------: | ------- | -------------------------------------------------------------------------------------------------------------------- |
+|      20 | Alone   | Complete the Action Plan: the intended change, the next step, the barriers, the timeline, and the success indicator. |
+|      10 | Pairs   | Peer review. Is the next step concrete? Is the timeline realistic? Would the success indicator show the change?      |
+|      15 | Plenary | Course evaluation and closing.                                                                                       |
+
+: The individual Action Plan {.striped}
+
+The Action Plan prepares the follow-up task: the [Responsible GenAI Use Statement](assignments.qmd).
 
 The [fictional example](handouts/panarchy-example.qmd) shows a completed chart. Its content is invented.
 
-## Ecocycle: a 30-minute adaptation {#ecocycle-a-30-minute-adaptation}
-
-::: {.callout-important title="A shortened adaptation"}
-The full [Ecocycle Planning](https://www.liberatingstructures.com/ecocycle-planning) takes about 90 minutes [@ls-ecocycle]. This course uses a **30-minute adaptation**. The Panarchy page of Liberating Structures suggests adding 30 to 50 minutes for an Ecocycle diagnosis [@ls-panarchy]. This segment is not a full Ecocycle workshop. The phases are a heuristic for discussion, not a law of how institutions change.
-:::
-
-Ecocycle sorts initiatives by their phase of life. Each priority from the Panarchy chart is an initiative: a rule, a practice, a tool, a project.
-
-| Phase                    | What it means for an initiative                                                |
-| ------------------------ | ------------------------------------------------------------------------------ |
-| **Birth**                | A new idea or experiment. Few resources, much uncertainty.                     |
-| **Maturity**             | An established practice. It is productive and uses most of the resources.      |
-| **Creative destruction** | An ending. Letting go frees attention and resources for something new.         |
-| **Renewal**              | Reflection and exploration. New networks and ideas form before the next birth. |
-
-: The four phases of the Ecocycle {.striped}
-
-Two traps block the movement through the phases [@ls-ecocycle]:
-
-- The **rigidity trap** lies between maturity and creative destruction: holding on to an old way although it no longer works.
-- The **scarcity trap** lies between renewal and birth: not investing enough in new ideas, so that they never grow.
-
-![A blank Ecocycle: a figure-eight loop with the four phases birth, maturity, creative destruction, and renewal. The rigidity trap sits between maturity and creative destruction, the scarcity trap between renewal and birth. Original diagram, adapted from Liberating Structures Ecocycle Planning under CC BY-SA 4.0.](../assets/handouts/ecocycle-blank.svg){fig-alt="A figure-eight loop. The front loop goes from birth up to maturity. The back loop goes from creative destruction down to renewal and back to birth. A marked zone between maturity and creative destruction is labelled rigidity trap. A marked zone between renewal and birth is labelled scarcity trap."}
-
-| Minutes | Step                                                                         |
-| ------- | ---------------------------------------------------------------------------- |
-| 5       | Hear the four phases: birth, maturity, creative destruction, renewal.        |
-| 5       | Place the priority initiatives from the Panarchy chart on the Ecocycle.      |
-| 10      | Find the initiatives in the scarcity trap and in the rigidity trap.          |
-| 5       | Propose a move for each trapped initiative: what to start, stop, or support. |
-| 5       | Record concrete next steps on the action plan.                               |
-| **30**  |                                                                              |
-
-: The 30-minute adaptation {.striped}
-
 ## What you produce
 
-- A **shared Panarchy chart** with levels, influences, and annotations.
-- **Three priorities**: high-leverage opportunities or barriers.
-- **Action owners**: who acts on each priority.
-- A **review point**: when and how the group revisits the chart.
-- An **Ecocycle diagnosis** of the priority initiatives, with the traps and the proposed moves.
-- Your own **next action** on the [action plan](handouts/action-plan.qmd).
+- Your own **Panarchy Chart** with your challenge, your influences, and named levels.
+- **Opportunities & Barriers** for your challenge, from Block 1 or from Block 2.
+- A **group Action Plan** for the challenge that your group of four selected in Block 1.
+- Your **individual Action Plan** for your own Research Use, reviewed by a peer.
 
-## Pen and paper are enough
+## Paper, documents, and flipcharts are enough
 
-The exercise needs no online whiteboard and no account.
+The exercise needs no online whiteboard, no account, and no sticky notes.
 
-- A large printed Panarchy chart on the wall, or the chart drawn on flip-chart paper.
-- A printed chart for each participant.
-- Sticky notes and thick pens.
-- The Ecocycle sheet and the action plan, printed.
+- Two double-sided A4 sheets for each participant, on paper or as editable files.
+- A flipchart or a shared document for each group of four.
 
-Take a photo of the shared chart if the group wants to keep it. Do not photograph people without their consent.
+Take a photo of a flipchart if the group wants to keep it. Do not photograph people without their consent.
 
 ## Attribution and license
 
 ::: {.callout-note title="Liberating Structures"}
 The structures and illustrations used in this session are adapted under Creative Commons Attribution-ShareAlike 4.0 from the original work of Keith McCandless, Henri Lipmanowicz and Nancy White found at [www.liberatingstructures.com](https://www.liberatingstructures.com/) and the Liberating Structures Fieldbook (2026). Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
-Henri Lipmanowicz and Keith McCandless created the original repertoire [@lipmanowicz2014]. Keith McCandless and Nancy White wrote the Fieldbook [@mccandless2026]. The step labels on this page are adapted. The step durations follow the original. The diagrams are original drawings. This page uses no Liberating Structures icons.
+Henri Lipmanowicz and Keith McCandless created the original repertoire [@lipmanowicz2014]. Keith McCandless and Nancy White wrote the Fieldbook [@mccandless2026]. The steps, their labels, and their durations are adapted to the course. The diagrams are original drawings. This page uses no Liberating Structures icons.
 :::
 
 This page and its handouts are licensed under [CC BY-SA 4.0](../LICENSE-CCBYSA.md).

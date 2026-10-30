@@ -22,14 +22,14 @@ subtitle: 'Preparation, work on the course day, and the follow-up task'
 ### Tasks
 
 1. Read the required text: Bender et al., [On the Dangers of Stochastic Parrots](https://doi.org/10.1145/3442188.3445922) [-@bender2021].
-2. Write a research-use description of one page or less.
-3. Bring a laptop and your research-use description.
+2. Prepare your Research Use: a description of one page or less.
+3. Bring a laptop and your Research Use.
 
 Further reading is optional. The [literature](literature.qmd) page lists readings and cases for each lens.
 
-### The research-use description
+### Your Research Use
 
-Describe one actual or planned use of generative AI in your research. Answer these questions:
+Your **Research Use** is one actual or planned use of generative AI in your research. On the course day, you write it on the Research Use Card, and it stays your Research Use all day. Prepare it with these questions:
 
 - What is the task, and which system or vendor do you use or plan to use?
 - Why might you use generative AI for this task?
@@ -49,31 +49,33 @@ The split below is a guide. It is not a new university requirement.
 | Activity                                                                                   | Time        |
 | ------------------------------------------------------------------------------------------ | ----------- |
 | Read Bender et al. [-@bender2021] and take notes on two claims that matter for your field. | 5 hours     |
-| Write the research-use description.                                                        | 3 hours     |
+| Prepare your Research Use.                                                                 | 3 hours     |
 | **Total**                                                                                  | **8 hours** |
 
 : Preparation plan {.striped}
 
 ## On the course day
 
-You contribute four outputs. The group keeps them on paper or on a shared wall.
+You work on two double-sided A4 sheets, on paper or in the Word versions. You keep them.
 
-| Output                             | Where                                                    |
-| ---------------------------------- | -------------------------------------------------------- |
-| Four lens worksheets, one per lens | The worksheet of each lens. See the four lens pages.     |
-| A group Panarchy chart             | [Panarchy](panarchy.qmd)                                 |
-| An Ecocycle diagnosis              | [Ecocycle](panarchy.qmd#ecocycle-a-30-minute-adaptation) |
-| One practical action               | The [action plan](handouts/action-plan.qmd)              |
+| Output                                                                | Where                                                            |
+| --------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| Your Research Use Card                                                | [Sheet 1](handouts/sheet-1-research-use-panarchy.qmd), front     |
+| Insights, uncertainties, and disagreements of your Lens group         | A flipchart or a shared document of the group                    |
+| Your Panarchy Chart with your challenge and its influences            | [Sheet 1](handouts/sheet-1-research-use-panarchy.qmd), back      |
+| Opportunities & Barriers for your challenge, from Block 1 or Block 2  | [Sheet 2](handouts/sheet-2-opportunities-action-plan.qmd), front |
+| A group Action Plan for the challenge that your group selected        | A flipchart or a shared document of the group                    |
+| Your individual Action Plan for your Research Use, reviewed by a peer | [Sheet 2](handouts/sheet-2-opportunities-action-plan.qmd), back  |
 
 : Outputs on the course day {.striped}
 
-The instructors collect no personal data from these outputs. Take a photo of the group charts if you want to keep them. Do not post photos of other participants.
+Every participant leaves with an individual Action Plan. It prepares the follow-up task. The instructors collect no personal data from these outputs. Take a photo of a flipchart if your group wants to keep it. Do not post photos of other participants.
 
 ## After the course day: the Responsible GenAI Use Statement
 
 ### The task
 
-Write a Responsible GenAI Use Statement of **1,200 to 1,500 words**. Write it alone, about your own research context. The statement can justify a use or a non-use of generative AI.
+Write a Responsible GenAI Use Statement of **1,200 to 1,500 words**. Write it alone, about your own research context. Your Research Use and your individual Action Plan from the course day are a good start. The statement can justify a use or a non-use of generative AI.
 
 Use these headings:
 

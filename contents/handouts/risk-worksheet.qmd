@@ -2,8 +2,8 @@
 title: 'Shared risk worksheet'
 subtitle: 'Stochastic Parrots and Beyond · blank copy'
 description: >-
-  The twelve shared fields for one research use of generative AI. Use it in
-  the research-use clinic and for the follow-up task.
+  The twelve shared fields for one Research Use of generative AI. Optional:
+  use it to prepare the follow-up task.
 format:
   html: default
   typst:
@@ -13,7 +13,7 @@ format:
   docx: default
 ---
 
-Use this worksheet for one actual or planned use of generative AI in your research. Fill in each field. Name a source where you can. Write "unknown" where you do not know: an unknown is a finding.
+This worksheet is optional. Use it to prepare your Responsible GenAI Use Statement for your Research Use: one actual or planned use of generative AI in your research. Fill in each field. Name a source where you can. Write "unknown" where you do not know: an unknown is a finding.
 
 Do not write confidential or personal research data on this sheet. A [fictional worked example](risk-worksheet-example.qmd) shows how to fill it in.
 

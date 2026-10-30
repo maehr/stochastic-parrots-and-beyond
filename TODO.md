@@ -21,13 +21,15 @@ The course site is built. The tasks below need a decision by the instructors, an
 - [ ] `[Manual]` Create the `use-statement` label on GitHub. The Use Statement issue form uses it.
 - [x] `[Manual]` Approve the two submission channels: email to GRACE, or the public GitHub issue form. Publication on the site stays opt-in.
 - [ ] `[Manual]` Ask GRACE for the language of instruction. Then state it on the course description.
+- [ ] `[Manual]` Verify whether GRACE or other stakeholders need to approve the revised format of issue 12: Lens groups, two Panarchy blocks without Ecocycle, and the individual Action Plan. Check whether the official course listing needs the same change.
+- [ ] `[Manual]` Review the sixteen guiding questions in `contents/lenses/_guiding-questions-0N.qmd`. Laura Wagner and Moritz Mähr both sign off.
 
 ## HS 2026 Operations
 
 These tasks hold no participant data. Keep all participant data outside this repository.
 
 - [ ] `[Manual]` By 21 October 2026: send the registered participants the course message with a link to the HS 2026 page. Copy grace@unibas.ch.
-- [ ] `[Manual]` Before 4 November 2026: arrange the welcome with GRACE. Print the handouts and one large Panarchy chart.
+- [ ] `[Manual]` Before 4 November 2026: arrange the welcome with GRACE. Print Sheet 1 and Sheet 2 double-sided for each participant. Prepare flipchart paper or a shared document for each group.
 - [ ] `[Manual]` On 4 November 2026: record attendance privately, and keep the last ten minutes for the evaluation.
 - [ ] `[Manual]` After the course day: return the attendance table to GRACE. After the deadline, return the completion table. Arrange the certificates.
 - [ ] `[Agent]` After 4 November 2026: set `hs2026.status: delivered` and decide on `featured_edition`.
@@ -40,7 +42,9 @@ These tasks hold no participant data. Keep all participant data outside this rep
 
 ## Materials
 
-- [ ] `[Shared]` Check the six decks for legibility and accessibility. Then offer PDF versions.
+- [ ] `[Shared]` Run `npm run handouts:build` for Sheet 1, Sheet 2, and the risk worksheet. Open each PDF and check that each page fits. Commit the generated files.
+- [ ] `[Shared]` Rehearse the course day deck (`contents/slides/06-day.qmd`) on the room screen. Check the title slides, the breaks, and the order of the slides.
+- [ ] `[Shared]` Check the seven decks for legibility and accessibility. Then offer PDF versions.
 - [ ] `[Agent]` Run veraPDF on the handouts (`quarto install verapdf`) to validate PDF/UA-1.
 - [ ] `[Shared]` Decide whether to self-host the IBM Plex fonts instead of loading them from Google Fonts.
 - [ ] `[Agent]` Check the IEA 2026 update of the data center figures against the IEA report itself. Only then add a dated note to Lens 1. Keep the 2025 figures.
@@ -65,4 +69,5 @@ Run these commands before you push:
 | `npm run check`          | Formatting, lint, types, and tests         |
 | `npm run lychee-check`   | Links                                      |
 | `npm run handouts:build` | Rebuild the handouts after a source change |
+| `npm run schedule:build` | Rebuild the timetable files                |
 | `npm run site:build`     | Full build with the Reveal.js decks        |

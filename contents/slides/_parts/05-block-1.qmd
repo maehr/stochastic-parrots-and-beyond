@@ -1,0 +1,18 @@
+## Block 1 · before the break {.smaller}
+
+| Minutes | Format  | What happens                                                                   |
+| ------: | ------- | ------------------------------------------------------------------------------ |
+|      15 | Alone   | Frame the challenge from your Research Use Card. List the influences.          |
+|      20 | Pairs   | Translate the influences into levels. Compare your levels.                     |
+|       5 | Plenary | Form new groups of four.                                                       |
+|      15 | Groups  | Present your challenge and your Panarchy Chart.                                |
+|       5 | Groups  | Select one challenge.                                                          |
+|      10 | Alone   | Identify Opportunities & Barriers for the selected challenge. Sheet 2, part A. |
+|      25 | Groups  | Discuss, prioritize, and consolidate into a group Action Plan.                 |
+|      10 | Groups  | Buffer: complete the group Action Plan.                                        |
+
+[Steps, labels, and durations adapted from Liberating Structures Panarchy.]{.source}
+
+::: notes
+The facilitator guide gives the spoken prompt for each step. Before a group prioritizes, record each objection about consent, rights, or a burden on one group. A majority does not settle it. Keep all Panarchy Charts for Block 2.
+:::

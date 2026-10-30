@@ -26,7 +26,7 @@ website:
   title: Stochastic Parrots and Beyond
   description: >-
     Open educational resources for a workshop on the normative dimensions of
-    generative AI in research: four analytical lenses, Panarchy, and Ecocycle.
+    generative AI in research: four analytical lenses, Panarchy, and an Action Plan.
   favicon: favicon.svg
   open-graph: true
   site-url: https://maehr.github.io/stochastic-parrots-and-beyond/
@@ -90,17 +90,12 @@ website:
       - section: Handouts
         href: contents/resources.qmd
         contents:
-          - contents/handouts/lens-1-provenance-map.qmd
-          - contents/handouts/lens-2-harm-pathway.qmd
-          - contents/handouts/lens-3-lifecycle-matrix.qmd
-          - contents/handouts/lens-4-stakeholder-map.qmd
+          - contents/handouts/sheet-1-research-use-panarchy.qmd
+          - contents/handouts/sheet-2-opportunities-action-plan.qmd
+          - contents/handouts/panarchy-example.qmd
+          - contents/handouts/use-statement-template.qmd
           - contents/handouts/risk-worksheet.qmd
           - contents/handouts/risk-worksheet-example.qmd
-          - contents/handouts/panarchy-chart.qmd
-          - contents/handouts/panarchy-example.qmd
-          - contents/handouts/ecocycle.qmd
-          - contents/handouts/action-plan.qmd
-          - contents/handouts/use-statement-template.qmd
       - section: Slides
         contents:
           - contents/slides/00-intro.qmd
@@ -109,6 +104,7 @@ website:
           - contents/slides/03-lifecycle-labor.qmd
           - contents/slides/04-political-economy.qmd
           - contents/slides/05-panarchy.qmd
+          - contents/slides/06-day.qmd
       - section: Editions
         contents:
           - contents/editions/hs2026.qmd

@@ -8,17 +8,17 @@ description: >-
 
 ::: {.callout-note title="At a glance"}
 
-- **Slot:** about 35 minutes in the morning, with a 15-minute group activity.
+- **Slot:** 15 minutes in the morning: theory and one example.
 - **Instructor:** Laura Wagner.
-- **Output:** a representation and harm pathway.
-- **Worksheet:** [Lens 2 worksheet: representation and harm pathway](../handouts/lens-2-harm-pathway.qmd).
+- **Guiding questions:** four questions for the Lens 2 group. See [Activity](#activity).
+- **Handout:** the [Research Use Card](../handouts/sheet-1-research-use-panarchy.qmd) on Sheet 1.
 - **Slides:** [Lens 2 slide deck](../slides/02-representation.qmd).
 - **Anchor sources:** Erscoi, Kleinherenbrink, and Guest [-@erscoi2023]; Birhane, Prabhu, and Kahembwe [-@birhane2021]; Buschek and Thorp [-@buschek2024], a Knowing Machines investigation; Wagner and Cetinić [-@wagner2026].
 
 :::
 
 ::: {.callout-caution title="Content note"}
-This lens discusses stereotypes, sexualized imagery, and child sexual abuse material in training datasets. The page and the slides describe how such material enters a dataset. They never show it, and the activity never asks you to search for it.
+This lens discusses stereotypes, sexualized imagery, and child sexual abuse material in training datasets. The page and the slides describe how such material enters a dataset. They never show it, and the Lens group never searches for it.
 :::
 
 ## Question
@@ -102,38 +102,24 @@ To see what an entry looks like, open the [random LAION sample](../laion-sample.
 
 ## Activity
 
-**Analyze a representation pathway.** Work in groups of three or four, for 15 minutes, on paper or on a laptop. Do not search for or open harmful images.
+This Lens has no individual activity. After the four Lens inputs, each participant chooses the Lens that fits their Research Use best. The participants form Lens groups of four, ideally one group for each Lens. The Lens 2 group works for 60 minutes:
 
-1. Choose the pathway. First choice: the system from one research-use description in your group. Use the ready-made LAION-5B case only when no description fits. (3 minutes)
-2. On the [worksheet](../handouts/lens-2-harm-pathway.qmd), mark for each step: who decides, what is selected, what is excluded, and which harm can enter. (8 minutes)
-3. Mark the step where you see the largest risk for your research context, and the people it affects. (2 minutes)
-4. Name one mitigation that a researcher can control. It must fit the harm: a consent problem needs a consent remedy, not a fix for bias. (2 minutes)
+1. Each person introduces their Research Use Card.
+2. The group applies the four guiding questions below to each Research Use.
+3. The group records insights, uncertainties, and disagreements on a flipchart or in a shared document.
+4. The group nominates a spokesperson for the plenary.
 
-::: {.panel-tabset}
+**Guiding questions for Lens 2**
 
-### Your group's example
+{{< include _guiding-questions-02.qmd >}}
 
-This is the first choice. A use from your own research makes the analysis concrete.
+Write **Unknown** where evidence is missing: an unknown is a finding. Describe the use, not the data. Do not show confidential, personal, or unpublished research data. Do not search for or open harmful images. If a Research Use cannot be discussed openly, use the [LAION-5B pathway](#case-laion) instead.
 
-- Choose the research-use description with the most open questions.
-- Its author explains the use in two minutes: the task, the system, and what they do not know about it.
-- Describe the use, not the data. Do not show confidential, personal, or unpublished research data.
-- An image generator fits best. A language model also has a pathway from web data to output.
-- Do not search for or open harmful images.
-
-### Ready-made case
-
-Use the [LAION-5B pathway](#case-laion) when no description in your group fits, or when the group prefers not to discuss its own use. Every step of this pathway is documented.
-
-### Hypothetical example
-
-An art historian plans to use an image generator to illustrate "a typical 18th-century portrait" in a public talk. The pathway shows: the training data are unknown, the aesthetic score favors a modern taste, and the output can present a narrow canon as typical. A mitigation: use and cite digitized collection images instead, and say why. This example is invented for teaching.
-
-:::
+The questions of all four Lenses are on one shared slide of the [course day deck](../slides/06-day.qmd).
 
 ## Output
 
-A **representation and harm pathway** on one sheet for each group. It shows each step with its decision-makers, selections, exclusions, and possible harms. It marks the riskiest step, the people affected, and one mitigation.
+The flipchart or the shared document of the Lens 2 group: insights, uncertainties, and disagreements for each Research Use. In the plenary, the spokesperson reports the conceptual insights, not the individual Research Uses. The [syllabus](../syllabus.qmd#lens-groups) gives the three plenary questions.
 
 ## Reading
 
@@ -146,7 +132,7 @@ A **representation and harm pathway** on one sheet for each group. It shows each
 Open the [Lens 2 slide deck](../slides/02-representation.qmd). Press `S` for the presenter notes.
 
 ::: {.callout-note title="For teachers" collapse="true"}
-**Timing (35 minutes).** Input on the core concepts, 10 minutes. The LAION case, 5 minutes. Activity, 15 minutes. Plenary round, 5 minutes.
+**Timing (15 minutes).** Input on the core concepts, 10 minutes. The LAION case, 5 minutes. The Lens group applies the four guiding questions later in the morning.
 
 **Never show abusive material.** Do not show examples from the audited datasets, not even blurred. Describe the findings in words, and cite the source. Do not run live image generation that targets identities or real people.
 
@@ -160,7 +146,7 @@ Open the [Lens 2 slide deck](../slides/02-representation.qmd). Press `S` for the
 
 **Difficult moments.** The topic can affect participants personally. Announce the content note at the start. Allow participants to step out. Keep the discussion on structures and decisions, not on individual images.
 
-**Fallback.** Start with the group's own example. If no description fits, use the LAION case. Groups that finish early can compare the LAION pathway with a text dataset from Lens 1.
+**Lens group.** Circulate during the group work. If a group gets stuck, ask one guiding question at a time. If a Research Use cannot be discussed openly, offer the case of this Lens.
 :::
 
 ## References

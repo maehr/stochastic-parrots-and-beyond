@@ -126,3 +126,41 @@ html:root {
 .reveal .worked-example .source {
   font-size: 0.72em;
 }
+
+/* All-day deck of the course day (06-day.qmd). */
+.reveal .slot-meta {
+  font-size: 0.7em;
+  font-weight: 600;
+  color: #52514e;
+}
+
+.reveal .day-slot.break h2 {
+  font-size: 2.2em;
+}
+
+/* One shared slide: four Lenses with four guiding questions each. */
+.reveal .lens-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.3em 1.2em;
+  font-size: 0.8em;
+  line-height: 1.2;
+}
+
+.reveal .lens-cell {
+  border-top: 3px solid #0b0b0b;
+  padding-top: 0.2em;
+}
+
+.reveal .lens-cell p {
+  margin: 0;
+}
+
+.reveal .lens-cell ol {
+  margin: 0.1em 0 0 1.2em;
+  padding: 0;
+}
+
+.reveal .lens-cell li {
+  margin: 0.05em 0;
+}

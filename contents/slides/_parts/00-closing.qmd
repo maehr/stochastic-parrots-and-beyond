@@ -1,0 +1,15 @@
+## Sources {.smaller}
+
+- Bender, Gebru, McMillan-Major, and Shmitchell (2021): [On the Dangers of Stochastic Parrots](https://doi.org/10.1145/3442188.3445922).
+- Mitchell and Krakauer (2023): [The Debate over Understanding in AI's Large Language Models](https://doi.org/10.1073/pnas.2215907120).
+- Course website: [lenses, handouts, and literature](https://maehr.github.io/stochastic-parrots-and-beyond/).
+
+## Takeaway
+
+> We do not look for permission. We look for reasons that we can defend.
+
+[Stochastic Parrots and Beyond · Laura Wagner and Moritz Mähr · CC BY 4.0]{.source}
+
+::: notes
+Transition to Lens 1: "The first lens asks what a model's performance hides."
+:::

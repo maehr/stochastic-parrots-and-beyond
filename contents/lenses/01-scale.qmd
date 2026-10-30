@@ -8,10 +8,10 @@ description: >-
 
 ::: {.callout-note title="At a glance"}
 
-- **Slot:** about 35 minutes in the morning, with a 15-minute group activity.
+- **Slot:** 15 minutes in the morning: theory and one example.
 - **Instructor:** Moritz Mähr.
-- **Output:** a material-and-provenance map.
-- **Worksheet:** [Lens 1 worksheet: material-and-provenance map](../handouts/lens-1-provenance-map.qmd).
+- **Guiding questions:** four questions for the Lens 1 group. See [Activity](#activity).
+- **Handout:** the [Research Use Card](../handouts/sheet-1-research-use-panarchy.qmd) on Sheet 1.
 - **Slides:** [Lens 1 slide deck](../slides/01-scale.qmd).
 - **Anchor sources:** Bender et al. [-@bender2021]; Crawford [-@crawford2021], chapter 1.
 
@@ -103,7 +103,7 @@ The figures also show what usually stays hidden:
 
 **Why this case.** BLOOM is not a typical commercial model. Its makers chose to measure and publish. The case shows what a material-and-provenance map can contain when data exist. For systems with less public documentation, many entries remain unknown. Mark these entries Unknown. The evidence gaps are a finding.
 
-### Worked map before the activity
+### Worked map
 
 ::: {.callout-note title="How to complete a focused map"}
 
@@ -115,39 +115,24 @@ The figures describe BLOOM under the paper's stated conditions [@luccioni2023]. 
 
 ## Activity
 
-**Trace one model or use case from its data sources to its use.** Work in groups of three or four, for 15 minutes, on paper or on a laptop.
+This Lens has no individual activity. After the four Lens inputs, each participant chooses the Lens that fits their Research Use best. The participants form Lens groups of four, ideally one group for each Lens. The Lens 1 group works for 60 minutes:
 
-1. Choose one research-use description from your group. Use the prepared BLOOM case if no description fits or if the group prefers it. Select **2–3 relevant stages**. (3 minutes)
-2. On the [worksheet](../handouts/lens-1-provenance-map.qmd), record **Known, Unknown, Avoidable** for the selected stages. Add a source for each factual entry. Label suggested changes **PROPOSED**. (8 minutes)
-3. Mark the largest unknown and one avoidable cost. (2 minutes)
-4. Prepare one sentence for the plenary: "The choice that the performance of this system hides most is …" (2 minutes)
+1. Each person introduces their Research Use Card.
+2. The group applies the four guiding questions below to each Research Use.
+3. The group records insights, uncertainties, and disagreements on a flipchart or in a shared document.
+4. The group nominates a spokesperson for the plenary.
 
-The worksheet keeps six stages: data sources, collection and filtering, training, hardware and location, deployment and use, and your own use. Complete only the selected stages. Write **Unknown** when evidence is missing. Mark the other stages **Not examined**.
+**Guiding questions for Lens 1**
 
-::: {.panel-tabset}
+{{< include _guiding-questions-01.qmd >}}
 
-### Your group's example
+Write **Unknown** where evidence is missing: an unknown is a finding. Describe the use, not the data. Do not show confidential, personal, or unpublished research data. If a Research Use cannot be discussed openly, use the [BLOOM case](#case-bloom) instead.
 
-This is the first choice. A use from your own research makes the analysis concrete.
-
-- Choose the research-use description with the most open questions.
-- Its author explains the use in two minutes: the task, the system, and what they do not know about it.
-- Describe the use, not the data. Do not show confidential, personal, or unpublished research data.
-- Missing evidence is a finding. Write **Unknown**, rather than leaving a cell blank.
-
-### Prepared case
-
-Use the [BLOOM case](#case-bloom) if no description fits or if the group prefers a prepared case. The worked map above shows how to use the published figures. No additional reading or live search is needed. Groups can choose different stages and identify different unknowns.
-
-### Hypothetical example
-
-A doctoral candidate plans to summarize 300 interview transcripts with a hosted chatbot. The candidate selects data sources and hardware and location. The training data and data-center location are unknown. A **PROPOSED** alternative is to test a smaller local model on synthetic text first. The candidate must compare quality and resource use before claiming a saving. This example is fictional.
-
-:::
+The questions of all four Lenses are on one shared slide of the [course day deck](../slides/06-day.qmd).
 
 ## Output
 
-One focused **material-and-provenance map** per group. For **2–3 selected stages**, record Known, Unknown, and Avoidable, with sources for factual entries. Name the largest unknown and one avoidable cost. Prepare one sentence for the plenary. Mark other stages Not examined. Transfer the main finding to the twelve shared fields later in the clinic.
+The flipchart or the shared document of the Lens 1 group: insights, uncertainties, and disagreements for each Research Use. In the plenary, the spokesperson reports the conceptual insights, not the individual Research Uses. The [syllabus](../syllabus.qmd#lens-groups) gives the three plenary questions.
 
 ## Reading
 
@@ -160,7 +145,7 @@ One focused **material-and-provenance map** per group. For **2–3 selected stag
 Open the [Lens 1 slide deck](../slides/01-scale.qmd). Press `S` for the presenter notes.
 
 ::: {.callout-note title="For teachers" collapse="true"}
-**Timing (35 minutes).** Start with the BLOOM case, 5 minutes. Use the concepts and worked map, 10 minutes. Activity, 15 minutes. Plenary round, 5 minutes.
+**Timing (15 minutes).** The BLOOM case, 5 minutes. The concepts and the worked map, 10 minutes. The Lens group applies the four guiding questions later in the morning.
 
 **Prompts.**
 
@@ -176,9 +161,9 @@ Open the [Lens 1 slide deck](../slides/01-scale.qmd). Press `S` for the presente
 
 **Difficult moments.** Some participants feel guilt about their own use. Keep the focus on decisions and alternatives, not on individual blame. Panarchy in the afternoon takes up the institutional levels.
 
-**Preparation.** Show the completed map before the activity. Use the case-first slide sequence. The concepts on this page remain in the standard lesson order.
+**Preparation.** Show the completed map as the example of this Lens. Use the case-first slide sequence. The concepts on this page remain in the standard lesson order.
 
-**Fallback.** Start with the group's own example. Use BLOOM if needed or preferred. If a group finishes early, ask it to identify evidence that could resolve one unknown in its selected stages. Do not require every row or the shared fields during these 15 minutes.
+**Lens group.** Circulate during the group work. If a group gets stuck, ask one guiding question at a time. If a Research Use cannot be discussed openly, offer the case of this Lens.
 :::
 
 ## References

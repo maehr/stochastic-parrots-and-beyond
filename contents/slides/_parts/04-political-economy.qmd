@@ -1,0 +1,112 @@
+## Learning question
+
+> Which incentives preserve an unsafe or inequitable practice?
+
+The first three lenses showed costs, harms, and hidden labor. This lens asks why they persist.
+
+[Slides: CC BY 4.0. Lesson page: maehr.github.io/stochastic-parrots-and-beyond]{.source}
+
+::: notes
+Ask: "Who decided which AI tool you can use at your institution?" Collect answers. Most decisions were made at a level above the researcher.
+:::
+
+## 1. Concentrated resources
+
+- AI is made of models, data, labor, development frameworks, and computational power.
+- A few companies control most of these resources.
+- "Openness alone does not perturb the concentration of power in AI."
+
+[Widder, Whittaker, and West (2024), Nature.]{.source}
+
+::: notes
+Point out that this is a material analysis: it starts from what AI is made of, not from what companies say about it.
+:::
+
+## 2. "Open" is a claim to check
+
+- More than 45 generative AI systems, 14 dimensions of openness.
+- Many "open" systems are "open weight" at best.
+- Many providers withhold information on training and fine-tuning data.
+- Openness is composite and comes in degrees.
+
+[Liesenfeld and Dingemanse (2024), FAccT.]{.source}
+
+::: notes
+Ask: "What would you need to inspect, document, and cite a model in a publication?" Weights alone are rarely enough.
+:::
+
+## 3. Models encode the goals of their makers
+
+- Every model simplifies the world according to the priorities of its makers (O'Neil 2016, ch. 1).
+- A system optimized for engagement, market share, or a fast release can conflict with the goals of research.
+
+## 4. Institutions set defaults
+
+- Universities decide which tools to license, which to recommend, and which data may leave the institution.
+- These defaults shape practice more than individual intentions.
+- Procurement and policy are places of leverage, not only of compliance.
+
+::: notes
+This concept prepares Panarchy: the university is one of the levels.
+:::
+
+## 5. Regulation: the EU AI Act as one example {.smaller}
+
+From 2 August 2025, providers of general-purpose AI models must, under Article 53:
+
+- keep technical documentation,
+- inform providers who build on the model,
+- have a policy to comply with EU copyright law,
+- publish "a sufficiently detailed summary about the content used for training".
+
+Free and open-source models with public weights are exempt from the first two duties, unless they have systemic risk.
+
+Fines are possible from 2 August 2026. Models placed on the market before 2 August 2025 have until 2 August 2027.
+
+[Regulation (EU) 2024/1689, arts. 53, 101, 111(3), and 113. Not legal advice.]{.source}
+
+::: notes
+Do not answer whether the Act applies to a specific project. Note such questions for the legal service.
+:::
+
+## Case: an "open" license {.smaller}
+
+[Documented case]{.label}
+
+| Question                               | Llama 2 license (2023)                     | Open Source AI Definition 1.0 (2024) |
+| -------------------------------------- | ------------------------------------------ | ------------------------------------ |
+| Any purpose, without permission?       | No: 700 million user threshold, use policy | Required                             |
+| Outputs may improve other models?      | Not other large language models            | No such restriction                  |
+| Weights available?                     | Yes, under the license                     | Required                             |
+| Detailed information on training data? | Not required                               | Required                             |
+
+[Sources: Meta (2023); Open Source Initiative (2024); Maffulli (2023).]{.source}
+
+::: notes
+The OSI stated in July 2023 that the Llama 2 license is not open source. Ask: "Why does the word matter?" Reputation, and in the EU fewer regulatory duties.
+:::
+
+## Who gains, who pays?
+
+![](../../assets/cases/04-stakeholder-map.svg){fig-alt="Map with the model provider in the center. Around it: cloud and hardware suppliers, data creators, data workers, universities as licensees, individual researchers, research participants, regulators, and the public. Arrows show money, data, and rules."}
+
+[Original diagram. CC BY 4.0.]{.source}
+
+::: notes
+Read one arrow of each kind: money, data, rules. Ask which arrow is missing for the research participants.
+:::
+
+## Sources {.smaller}
+
+- Widder, West, and Whittaker (2023): [Open (For Business)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4543807); published version in [Nature (2024)](https://doi.org/10.1038/s41586-024-08141-1).
+- Liesenfeld and Dingemanse (2024): [Rethinking Open Source Generative AI](https://doi.org/10.1145/3630106.3659005).
+- Open Source Initiative (2024): [The Open Source AI Definition 1.0](https://opensource.org/ai/open-source-ai-definition).
+- [Regulation (EU) 2024/1689](https://eur-lex.europa.eu/eli/reg/2024/1689/oj), the AI Act.
+
+## Takeaway
+
+> A practice persists when someone gains from it. Find the incentive, then find the level where it can change.
+
+::: notes
+Transition to the break: "Now choose the Lens that fits your Research Use best. After the break, the Lens groups apply its four questions."
+:::

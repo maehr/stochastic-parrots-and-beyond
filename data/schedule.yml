@@ -1,0 +1,302 @@
+# Single source for the timetable of the course day.
+#
+# scripts/build_schedule.py writes three files from this file:
+# - contents/_timetable.qmd: the timetable for participants.
+# - contents/_trainer-timeline.qmd: the trainer timeline with the lead.
+# - contents/slides/_day-slots.qmd: the all-day slide deck, one title slide per slot.
+#
+# Run `npm run schedule:build` after a change, and commit the three files.
+# test/test_schedule.py fails when a file is out of date.
+#
+# Rules:
+# - Each slot starts where the previous slot ends.
+# - `format` is one of: Plenary, Alone, Pairs, Groups, Break.
+# - `lead` names the trainer who keeps time and gives the instructions.
+#   Both trainers facilitate during collaborative activities.
+# - `parts` lists slide files from contents/slides/_parts/ that follow the slot.
+#   Each file appears in exactly one slot, or in the opening license slides.
+# - `display` is the instruction on the running deck. Write it in
+#   Simplified Technical English. `display_block` inserts a prepared block:
+#   `lens-questions` or `plenary-questions`.
+# - Source: the trainer timeline in issue 12 of the repository (2026-10-27).
+
+slots:
+  - start: '09:00'
+    end: '09:10'
+    activity: Welcome
+    parts: [00-welcome.qmd, 00-the-day.qmd]
+    format: Plenary
+    lead: Laura
+    display: >-
+      How can we make, and defend, a responsible decision about generative AI
+      in our own research?
+
+  - start: '09:10'
+    end: '09:20'
+    activity: Research Use Card
+    parts: [00-research-use-card.qmd]
+    format: Alone
+    lead: Moritz
+    link: /contents/handouts/sheet-1-research-use-panarchy.qmd
+    display: >-
+      Fill in the Research Use Card on Sheet 1, front, right. Describe one
+      actual or planned use of generative AI in your research. Leave the field
+      "Lens" empty for now. Do not write confidential or personal data.
+
+  - start: '09:20'
+    end: '09:35'
+    activity: 'Lens 1: Scale & Environment'
+    parts: [01-scale.qmd]
+    format: Plenary
+    lead: Moritz
+    link: /contents/lenses/01-scale.qmd
+    display: >-
+      Theory and one example. Ask yourself: does this Lens fit my Research Use?
+
+  - start: '09:35'
+    end: '09:50'
+    activity: 'Lens 2: Representation'
+    parts: [02-representation.qmd]
+    format: Plenary
+    lead: Laura
+    link: /contents/lenses/02-representation.qmd
+    display: >-
+      Theory and one example. Ask yourself: does this Lens fit my Research Use?
+
+  - start: '09:50'
+    end: '10:05'
+    activity: 'Lens 3: Lifecycle & Labor'
+    parts: [03-lifecycle-labor.qmd]
+    format: Plenary
+    lead: Moritz
+    link: /contents/lenses/03-lifecycle-labor.qmd
+    display: >-
+      Theory and one example. Ask yourself: does this Lens fit my Research Use?
+
+  - start: '10:05'
+    end: '10:20'
+    activity: 'Lens 4: Political Economy & Governance'
+    parts: [04-political-economy.qmd]
+    format: Plenary
+    lead: Laura
+    link: /contents/lenses/04-political-economy.qmd
+    display: >-
+      Theory and one example. Then write on your Research Use Card the Lens
+      that fits your Research Use best.
+
+  - start: '10:20'
+    end: '10:35'
+    activity: Break
+    format: Break
+    lead: null
+    display: Break. We continue with the Lens groups.
+
+  - start: '10:35'
+    end: '10:40'
+    activity: Form Lens groups
+    format: Plenary
+    lead: Laura
+    display: >-
+      Go to the table of the Lens that fits your Research Use best. Form groups
+      of four. If a table has too many people, some move to their second
+      choice.
+
+  - start: '10:40'
+    end: '11:40'
+    activity: Research Use and Lens discussion
+    format: Groups
+    lead: Moritz
+    link: /contents/syllabus.qmd#lens-groups
+    display: >-
+      Introduce your Research Use Card. Apply the four questions of your Lens
+      to each Research Use. Record insights, uncertainties, and disagreements.
+      Nominate a spokesperson.
+    display_block: lens-questions
+
+  - start: '11:40'
+    end: '12:00'
+    activity: Spokesperson reports
+    format: Plenary
+    lead: Laura
+    display: >-
+      Five minutes for each group. Report conceptual insights, not individual
+      Research Uses.
+    display_block: plenary-questions
+
+  - start: '12:00'
+    end: '12:10'
+    activity: Clarify open questions
+    format: Plenary
+    lead: Moritz
+    display: We clarify the open questions from the reports.
+
+  - start: '12:10'
+    end: '12:20'
+    activity: Buffer / capture findings
+    format: Groups
+    lead: Laura
+    display: >-
+      Complete the flipchart or the shared document of your group. Photograph
+      the flipchart only if the group agrees. Do not photograph people.
+
+  - start: '12:20'
+    end: '13:20'
+    activity: Lunch
+    format: Break
+    lead: null
+    display: Lunch. We continue with Panarchy.
+
+  - start: '13:20'
+    end: '13:25'
+    activity: Panarchy introduction
+    parts: [05-intro.qmd]
+    format: Plenary
+    lead: Moritz
+    link: /contents/panarchy.qmd
+    display: >-
+      Small levels change fast. Large levels change slowly. The levels
+      influence each other in both directions.
+
+  - start: '13:25'
+    end: '13:40'
+    activity: Frame Challenge & Identify Influences
+    parts: [05-block-1.qmd]
+    format: Alone
+    lead: Laura
+    link: /contents/panarchy.qmd#block-1
+    display: >-
+      Turn Sheet 1 over. Start from your Research Use Card. Write your
+      challenge in one sentence in the header of the Panarchy Chart. List the
+      influences on your challenge in the field "Influences".
+
+  - start: '13:40'
+    end: '14:00'
+    activity: Translate & Compare Levels
+    format: Pairs
+    lead: Moritz
+    display: >-
+      Sort your influences into levels on your Panarchy Chart. Name each level.
+      Compare your levels with the levels of your partner.
+
+  - start: '14:00'
+    end: '14:05'
+    activity: Form groups of four
+    format: Plenary
+    lead: Laura
+    display: >-
+      Form new groups of four. Choose people who were not in your Lens group.
+
+  - start: '14:05'
+    end: '14:20'
+    activity: Present challenges and charts
+    format: Groups
+    lead: Moritz
+    display: >-
+      Each person presents their challenge and their Panarchy Chart. Keep to
+      about three minutes each.
+
+  - start: '14:20'
+    end: '14:25'
+    activity: Select challenge
+    format: Groups
+    lead: Laura
+    display: >-
+      Select one challenge for deeper analysis. The other challenges stay
+      open. They come back after the break.
+
+  - start: '14:25'
+    end: '14:35'
+    activity: Find Opportunities & Barriers
+    format: Alone
+    lead: Moritz
+    display: >-
+      On Sheet 2, front, part A: note Opportunities & Barriers for the selected
+      challenge. Note the level of each.
+
+  - start: '14:35'
+    end: '15:00'
+    activity: Discuss and consolidate Action Plan
+    format: Groups
+    lead: Laura
+    display: >-
+      Discuss and prioritize the Opportunities & Barriers. Consolidate them
+      into one group Action Plan on a flipchart or in a shared document.
+
+  - start: '15:00'
+    end: '15:10'
+    activity: Buffer / capture findings
+    format: Groups
+    lead: Moritz
+    display: >-
+      Complete the group Action Plan. Keep your Panarchy Chart. You need it
+      after the break.
+
+  - start: '15:10'
+    end: '15:25'
+    activity: Break
+    format: Break
+    lead: null
+    display: Break. We continue with Panarchy Block 2.
+
+  - start: '15:25'
+    end: '15:30'
+    activity: Form new pairs
+    parts: [05-block-2.qmd]
+    format: Plenary
+    lead: Laura
+    link: /contents/panarchy.qmd#block-2
+    display: >-
+      Form a pair with a person from another group of four. Each pair has at
+      least one open challenge. Two open challenges: examine both. One open
+      challenge: both examine it.
+
+  - start: '15:30'
+    end: '15:40'
+    activity: Opportunities & Barriers for remaining challenges
+    format: Alone
+    lead: Moritz
+    display: >-
+      On Sheet 2, front, part B: note Opportunities & Barriers for the open
+      challenge or challenges of your pair. Use the existing Panarchy Charts.
+
+  - start: '15:40'
+    end: '16:15'
+    activity: Discuss and prioritize remaining challenges
+    format: Pairs
+    lead: Laura
+    display: >-
+      Discuss and prioritize. Record the findings and possible actions for
+      each open challenge in part B.
+
+  - start: '16:15'
+    end: '16:35'
+    activity: Individual Action Plan
+    parts: [05-action-plan.qmd]
+    format: Alone
+    lead: Moritz
+    link: /contents/handouts/sheet-2-opportunities-action-plan.qmd
+    display: >-
+      On Sheet 2, back: complete the Action Plan for your own Research Use.
+      Write the intended change, the next step, the barriers, the timeline,
+      and the success indicator.
+
+  - start: '16:35'
+    end: '16:45'
+    activity: Peer review
+    format: Pairs
+    lead: Laura
+    display: >-
+      Read the Action Plan of your partner. Is the next step concrete? Is the
+      timeline realistic? Would the success indicator show the change? Note
+      the feedback.
+
+  - start: '16:45'
+    end: '17:00'
+    activity: Course evaluation and closing
+    parts: [05-closing.qmd, 00-closing.qmd]
+    format: Plenary
+    lead: Moritz
+    link: /contents/assignments.qmd
+    display: >-
+      Complete the course evaluation. Your edition page gives the link. After
+      the course day, write your Responsible GenAI Use Statement.

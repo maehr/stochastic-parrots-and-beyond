@@ -1,0 +1,56 @@
+## Learning question
+
+> What changes across interconnected levels would make generative AI use in academic research more responsible?
+
+::: notes
+This is the common question of the afternoon. Each participant turns it into their own challenge: one sentence, starting from their Research Use Card.
+:::
+
+## 1. Levels change at different speeds
+
+- Small, local levels change fast: a project can change next week.
+- Large levels change slowly: a university, an industry, or a law changes over years.
+- Panarchy helps a group "identify opportunities and obstacles for spreading ideas at multiple levels".
+
+[Liberating Structures, Panarchy; Holling (2001) on the adaptive cycle.]{.source}
+
+::: notes
+Use the image of nested dolls: zoom in, zoom out.
+:::
+
+## 2. Influence runs both ways
+
+- Ideas and experiments can spread upwards.
+- Resources, rules, and memory flow downwards.
+- A fast level often waits for a slow one. A slow level often ignores a fast one.
+
+## 3. Discover your own levels
+
+An illustration, not a template:
+
+> individual research project → research group or department → university and research sector → model vendors and industry → regulation and society
+
+::: notes
+Say clearly: each participant finds their own levels. Some add funders, publishers, or disciplines.
+:::
+
+## The Panarchy Chart
+
+![](../../assets/handouts/panarchy-chart-sheet.svg){fig-alt="Panarchy Chart for one participant. At the top, a field for the challenge in one sentence. On the left, a ruled field for the influences. On the right, five horizontal bands from level 1, small and fast, at the bottom to level 5, large and slow, at the top. An arrow on the left points up: ideas and experiments spread up. An arrow on the right points down: resources and rules flow down."}
+
+[Sheet 1, back. Original diagram, adapted from Liberating Structures Panarchy. CC BY-SA 4.0.]{.source}
+
+## A short case {.smaller}
+
+[Hypothetical example]{.label}
+
+A department wants researchers to disclose their use of generative AI.
+
+- **Project level:** researchers have no template and do not know what to write.
+- **Department level:** a template would take one afternoon, but nobody owns it.
+- **University level:** the licensed chatbot has no documented training data, so a disclosure stays vague.
+- **Vendor level:** the vendor gains from vagueness.
+
+Leverage: the department writes the template (fast), and asks the university to add documentation to the next procurement (slow).
+
+[This example is invented for teaching.]{.source}

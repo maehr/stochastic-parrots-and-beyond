@@ -65,9 +65,9 @@ def test_local_links_resolve(page: Path):
         path = unquote(target.split("#", 1)[0].split("?", 1)[0])
         if not path:
             continue
-        resolved = (
-            REPO_ROOT / path.lstrip("/") if path.startswith("/") else page.parent / path
-        )
+        # A part in _parts/ renders inside its deck, so its links resolve there.
+        base = page.parent.parent if page.parent.name == "_parts" else page.parent
+        resolved = REPO_ROOT / path.lstrip("/") if path.startswith("/") else base / path
         if not resolved.exists():
             broken.append(target)
     assert not broken, f"{rel(page)} links to missing files: {broken}"
@@ -93,14 +93,18 @@ LESSON_ORDER = (
 
 
 @pytest.mark.parametrize("lens", sorted(LENSES))
-def test_each_lens_has_a_lesson_a_deck_and_a_worksheet(lens: str):
+def test_each_lens_has_a_lesson_a_deck_and_guiding_questions(lens: str):
     lesson = REPO_ROOT / "contents" / "lenses" / f"{lens}.qmd"
     deck = REPO_ROOT / "contents" / "slides" / f"{LENSES[lens]}.qmd"
+    include = f"_guiding-questions-{lens[:2]}.qmd"
+    questions = REPO_ROOT / "contents" / "lenses" / include
     assert lesson.exists(), rel(lesson)
     assert deck.exists(), rel(deck)
     text = lesson.read_text(encoding="utf-8")
     assert f"slides/{LENSES[lens]}.qmd" in text, f"{rel(lesson)} does not link its deck"
-    assert "handouts/" in text, f"{rel(lesson)} does not link a worksheet"
+    assert include in text, f"{rel(lesson)} does not include its guiding questions"
+    items = re.findall(r"^\d+\. ", questions.read_text(encoding="utf-8"), flags=re.M)
+    assert len(items) == 4, f"{rel(questions)} must hold four guiding questions"
 
 
 @pytest.mark.parametrize("lens", sorted(LENSES))
@@ -124,9 +128,9 @@ def test_liberating_structures_pages_carry_cc_by_sa():
         REPO_ROOT / "contents" / "panarchy.qmd",
         REPO_ROOT / "contents" / "panarchy-facilitator.qmd",
         REPO_ROOT / "contents" / "slides" / "05-panarchy.qmd",
+        REPO_ROOT / "contents" / "slides" / "06-day.qmd",
         *sorted((REPO_ROOT / "contents" / "handouts").glob("panarchy*.qmd")),
-        *sorted((REPO_ROOT / "contents" / "handouts").glob("ecocycle*.qmd")),
-        *sorted((REPO_ROOT / "contents" / "handouts").glob("action-plan*.qmd")),
+        *sorted((REPO_ROOT / "contents" / "handouts").glob("sheet-*.qmd")),
     ]
     for page in pages:
         assert page.exists(), rel(page)
@@ -149,3 +153,15 @@ def test_fenced_divs_are_not_indented(page: Path):
     assert not bad, (
         f"{rel(page)}: indented ':::' on lines {bad}. Add a blank line before it."
     )
+
+
+# Issue 12: the Research Use keeps one name all day. The Research Use Card
+# defines it. Link targets and file names may still contain "research-use".
+LINK_TARGET = re.compile(r"\]\([^)]*\)|\{[^}]*\}")
+
+
+@pytest.mark.parametrize("page", site_sources(), ids=rel)
+def test_research_use_keeps_its_name(page: Path):
+    text = LINK_TARGET.sub("", page.read_text(encoding="utf-8"))
+    found = re.findall(r"research-use|[Rr]esearch use card|use clinic", text)
+    assert not found, f"{rel(page)} renames the Research Use: {found}"

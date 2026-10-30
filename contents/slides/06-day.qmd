@@ -1,0 +1,33 @@
+---
+title: 'The course day'
+subtitle: 'All slides of the course day, in order'
+author: Laura Wagner and Moritz Mähr
+license: 'CC BY-SA'
+format:
+  revealjs:
+    slide-number: true
+    hash-type: number
+    transition: none
+    background-transition: none
+    center: false
+    css: slides.css
+    include-after-body:
+      - ../../_includes/a11y-slides.html
+    footer: 'Stochastic Parrots and Beyond · The course day · CC BY-SA 4.0 · adapted from Liberating Structures'
+---
+
+## How to use this deck {.smaller}
+
+This deck holds all slides of the course day, in the order of the timetable. Use it on the room screen for the whole day.
+
+- Each slot starts with a title slide. It names the activity, the time, the duration, the format, and the lead.
+- The slides of a slot follow the title slide.
+- Press `O` for the overview. Press `?` for all keyboard shortcuts.
+
+The times come from `data/schedule.yml`. Show the other decks in a second window during the Lens inputs.
+
+::: notes
+Open the deck before the participants arrive. Press `F` for full screen.
+:::
+
+{{< include _day-slots.qmd >}}

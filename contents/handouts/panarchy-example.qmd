@@ -13,12 +13,12 @@ format:
 ---
 
 ::: {.callout-important title="Fictional example"}
-The department, the notes, and the priorities are invented for teaching. Do not copy the levels: your group discovers its own.
+The department, the notes, and the priorities are invented for teaching. Do not copy the levels: you discover your own.
 :::
 
 ## What the example shows
 
-The chart on page 2 shows a completed Panarchy chart after the vote.
+The chart on page 2 shows a completed Panarchy chart with three priorities.
 
 - **Priority 1, department level:** nobody owns the guidance on AI use. A fast level waits for a slow one.
 - **Priority 2, university level:** the licensed chatbot has no documentation of its training data, so disclosures stay vague.

@@ -1,247 +1,242 @@
 ---
 title: Facilitator guide
-subtitle: 'Panarchy (120 minutes) and the adapted Ecocycle (30 minutes), minute by minute'
+subtitle: 'The course day minute by minute: Lens groups, two Panarchy blocks, and the individual Action Plan'
 description: >-
-  Spoken prompts, minute marks, products, and room setup for the Panarchy and
-  Ecocycle afternoon. For teachers and facilitators.
+  The trainer timeline, spoken prompts, group formation, documentation, and
+  room setup for the course day. For teachers and facilitators.
 license: 'CC BY-SA'
 suppress-bibliography: false
 link-citations: true
 ---
 
-This guide is for the person who hosts the afternoon. Participants use the [Panarchy page](panarchy.qmd). The step durations follow the Liberating Structures [Panarchy](https://www.liberatingstructures.com/panarchy) [@ls-panarchy]. The step labels are adapted to the course.
+This guide is for the trainers who host the course day. Participants use the [syllabus](syllabus.qmd) and the [Panarchy page](panarchy.qmd). The afternoon adapts the Liberating Structures [Panarchy](https://www.liberatingstructures.com/panarchy) [@ls-panarchy]. The steps, their labels, and their durations are adapted to the course.
 
-## Before the session
+## One term all day
+
+The **Research Use** is the one actual or planned use of generative AI that each participant describes on the Research Use Card. Use this term all day. Do not call it a case, a project, or a description in the afternoon. The afternoon adds three terms:
+
+- **Challenge:** one sentence about what must change so that the Research Use becomes more responsible.
+- **Opportunities & Barriers:** places where a change at one level can unlock or block a change at another level.
+- **Action Plan:** the group Action Plan of Block 1 on a flipchart or in a shared document, and the individual Action Plan of each participant on Sheet 2, back.
+
+## Before the course day
 
 ### Materials
 
-- One large Panarchy chart on the wall: print the [blank chart](handouts/panarchy-chart.qmd) in A0 or A1, or draw it on flip-chart paper.
-- One A4 or A3 chart for each participant.
-- Sticky notes in two colors: one color for influences, one for opportunities and barriers.
-- Thick pens, so that notes are readable from two metres.
-- Dot stickers for the vote: three for each participant.
-- The [Ecocycle sheet](handouts/ecocycle.qmd) for each group, and one large Ecocycle on the wall.
-- The [sticky notes and action plan](handouts/action-plan.qmd) for each participant.
+- Two double-sided A4 sheets for each participant. Print them in landscape, double-sided, flipped on the short edge:
+  - [Sheet 1](handouts/sheet-1-research-use-panarchy.qmd): instructions and Research Use Card on the front, Panarchy Chart on the back.
+  - [Sheet 2](handouts/sheet-2-opportunities-action-plan.qmd): Opportunities & Barriers on the front, Action Plan on the back.
+- The Word versions of both sheets, for participants who prefer to type.
+- One flipchart sheet and thick pens for each group, or a shared document. No sticky notes are needed.
+- The [course day deck](slides/06-day.qmd) on the room screen. It has a title slide for each slot, then the slides of that slot.
+- The four Lens decks and the [Panarchy deck](slides/05-panarchy.qmd) in a second window.
 
 ### Room
 
-- An open wall for the shared chart, reachable for everyone.
-- Groups of four chairs around small tables.
-- Seats near the wall for participants who cannot stand for long.
+- Four tables, one for each Lens. Put a sign with the number and the name of the Lens on each table.
+- Space at each table for a flipchart sheet, or a screen for a shared document.
+- Seats near the tables for participants who cannot stand for long.
 
 ### Roles
 
-- **Host:** keeps time, gives the prompts, protects the structure.
-- **Participants:** contribute alone, in pairs, in fours, and in plenary.
+- **Lead:** keeps time, gives the instructions, and changes the slide of the course day deck. The trainer timeline names the lead of each slot.
+- **Both trainers:** circulate and facilitate during all collaborative activities.
+- **Participants:** contribute alone, in pairs, and in groups of four.
 
 Hold the time strictly. A firm structure gives quiet participants the same space as loud ones.
 
-### The challenge
+## Trainer timeline {#trainer-timeline}
 
-Agree on the challenge in the block before lunch. The default is:
+The Lead column names the trainers of the current course. Replace the names when you reuse the course. The timeline comes from `data/schedule.yml`, the same source as the [timetable](syllabus.qmd#timetable) and the course day deck.
 
-> What changes across interconnected levels would make generative AI use in academic research more responsible?
+{{< include _trainer-timeline.qmd >}}
 
-## Panarchy: 120 minutes and the afternoon break
+## Morning: Research Use Card and Lens groups
 
-The column "Clock" follows the [timetable](syllabus.qmd#timetable). The column "Minute" works for any start time. The 30-minute afternoon break falls between step 7 and step 9.
-
-| Step | Minute  | Clock       | Duration | Adapted label (original label)                                         | Configuration | Product                                                           |
-| ---: | ------- | ----------- | -------: | ---------------------------------------------------------------------- | ------------- | ----------------------------------------------------------------- |
-|    1 | 0–5     | 13:20–13:25 |        5 | Frame the challenge (Intro)                                            | Plenary       | Shared understanding of the challenge                             |
-|    2 | 5–10    | 13:25–13:30 |        5 | Identify influences (Identify factors)                                 | Alone         | Personal list of factors                                          |
-|    3 | 10–20   | 13:30–13:40 |       10 | Translate into levels (Translate factors to levels)                    | Pairs         | Factors sorted into nested levels                                 |
-|    4 | 20–30   | 13:40–13:50 |       10 | Compare levels (Compare levels)                                        | Quartets      | Consolidated level labels                                         |
-|    5 | 30–40   | 13:50–14:00 |       10 | Build group chart (Integrate levels)                                   | Plenary       | One shared Panarchy chart                                         |
-|    6 | 40–55   | 14:00–14:15 |       15 | Diagnose attention and dynamics (Generate insights)                    | Quartets      | Marks for neglected levels and uneven resources                   |
-|    7 | 55–65   | 14:15–14:25 |       10 | Share diagnoses (Share insights)                                       | Plenary       | Annotated shared chart                                            |
-|    8 | 65–95   | 14:25–14:55 |       30 | Afternoon break                                                        | —             | Rest                                                              |
-|    9 | 95–110  | 14:55–15:10 |       15 | Find opportunities and barriers (Identify opportunities and obstacles) | New quartets  | Notes on cross-level leverage and blockage                        |
-|   10 | 110–120 | 15:10–15:20 |       10 | Share possibilities (Share opportunities and obstacles)                | Plenary       | Opportunities and barriers on the chart                           |
-|   11 | 120–130 | 15:20–15:30 |       10 | Prioritize (Prioritize opportunities and obstacles)                    | Everyone      | Three high-leverage priorities                                    |
-|   12 | 130–145 | 15:30–15:45 |       15 | Commit to action (Identify action steps)                               | 1-2-4-All     | Near-term actions and cross-level alliances                       |
-|   13 | 145–150 | 15:45–15:50 |        5 | Arrange follow-up (Next steps)                                         | Trios         | A review point                                                    |
-|      |         |             |  **150** |                                                                        |               | **A shared chart, three priorities, action owners, review point** |
-
-: Panarchy: steps, minute marks, and products {.striped}
-
-## The steps with spoken prompts
-
-### 1. Frame the challenge · minutes 0–5
+### Research Use Card · 10 minutes
 
 Say:
 
-> "This afternoon we zoom in and out. We look at the levels of our world like nested dolls: from your own project up to regulation and society. Our question is: what changes across these levels would make generative AI use in research more responsible?"
+> "Take Sheet 1. On the right, fill in the Research Use Card. Describe one actual or planned use of generative AI in your research. This is your Research Use. It stays your Research Use all day. Leave the field Lens empty for now. Do not write confidential or personal data."
 
-> "Small levels change fast. Large levels change slowly. They influence each other in both directions."
+### Four Lens inputs · 15 minutes each
 
-Show the [fictional example](handouts/panarchy-example.qmd) for half a minute. Hand out the charts. Say that the example is invented and that the group finds its own levels.
+Each Lens has 15 minutes for theory and one example. The Lenses have no individual activity. At the end of Lens 4, say:
 
-### 2. Identify influences · minutes 5–10
+> "Which Lens fits your Research Use best? Write the number on your card."
 
-Say:
-
-> "Alone, without talking: write down factors that shape how generative AI is used in your research. Think of people, rules, tools, money, habits. One factor per note. Start with the smallest and move to the largest."
-
-Use the four lens outputs from the morning as a source. Do not suggest levels yet.
-
-### 3. Translate into levels · minutes 10–20
+### Form Lens groups · 5 minutes
 
 Say:
 
-> "In pairs: put your factors on one chart. Which factors belong to the same level? Give each level a name. You can use more or fewer than five levels."
+> "Go to the table of the Lens that fits your Research Use best."
+
+Then balance the tables:
+
+- Aim for groups of four, ideally one group for each Lens.
+- If a table has more than four people, ask for volunteers who move to their second choice.
+- If a Lens has no group, accept it. The plenary still covers that Lens through the questions.
+- With fewer than 16 participants, form groups of three. With more, form a second group for a Lens.
+
+### Research Use and Lens discussion · 60 minutes
+
+Say:
+
+> "Each person introduces their Research Use Card in two minutes. Then apply the four questions of your Lens to each Research Use, one Research Use after the other. Record insights, uncertainties, and disagreements on the flipchart or in a shared document. Nominate a spokesperson."
+
+Show the shared slide with the four guiding questions of each Lens. It is part of the course day deck. Give a time signal after 15, 30, and 45 minutes: "Move to the next Research Use."
+
+**Documentation.** Suggest three columns on the flipchart: insights, uncertainties, and disagreements. Write one row for each Research Use. Describe the use, not the data. Do not write names.
+
+### Spokesperson reports · 20 minutes
+
+Each spokesperson has five minutes. Ask for conceptual insights, not a summary of the individual Research Uses. Use the three guiding questions:
+
+{{< include _plenary-questions.qmd >}}
+
+### Clarify open questions and buffer · 20 minutes
+
+Take ten minutes to clarify the concepts that the reports marked as unclear. Use the remaining ten minutes as a buffer. The groups complete their flipchart or document.
+
+## Afternoon: Panarchy Block 1
+
+### Panarchy introduction · 5 minutes
+
+Say:
+
+> "This afternoon we zoom in and out. We look at the levels of our world like nested dolls: from your own project up to regulation and society. Small levels change fast. Large levels change slowly. They influence each other in both directions."
+
+Show the [fictional example](handouts/panarchy-example.qmd) for half a minute. Say that the example is invented and that each participant finds their own levels.
+
+### Frame the challenge and identify influences · 15 minutes · alone
+
+Say:
+
+> "Turn Sheet 1 over. Start from your Research Use Card. In the header of the Panarchy Chart, write your challenge in one sentence: what must change so that your Research Use becomes more responsible? Then list the influences on your challenge in the field Influences: people, rules, tools, money, habits. One per line."
+
+Do not suggest levels yet.
+
+### Translate and compare levels · 20 minutes · pairs
+
+Say:
+
+> "Sort your influences into levels on your own chart. Name each level. You can use more or fewer than five levels. Then compare your levels with the levels of your partner. Which levels do both charts have? Which level is missing in one chart?"
 
 Walk around. If a pair copies the illustrative levels, ask: "Which level is missing for your field?"
 
-### 4. Compare levels · minutes 20–30
+### Form groups of four · 5 minutes
 
 Say:
 
-> "Two pairs form a group of four. Compare your charts. Agree on one set of level names. Keep the factors that only one pair found."
+> "Form new groups of four. Choose people who were not in your Lens group."
 
-### 5. Build group chart · minutes 30–40
-
-Ask one person from each group of four to come to the wall. Say:
-
-> "Together, build one chart on the wall. Agree on the level names. Place the factors. Everyone else: watch and suggest."
-
-The product is the shared chart. Check that every level has a name.
-
-### 6. Diagnose attention and dynamics · minutes 40–55
+### Present challenges and charts · 15 minutes · groups
 
 Say:
 
-> "In your groups of four: look at the shared chart. Which level gets the most attention in your field? Which level gets almost none? Where are the resources — money, time, power — and where are they missing? Where does a fast level wait for a slow one?"
+> "Each person presents their challenge and their Panarchy Chart in about three minutes. The others listen and ask one question."
 
-Ask the groups to write each diagnosis on a note.
-
-### 7. Share diagnoses · minutes 55–65
+### Select a challenge · 5 minutes · groups
 
 Say:
 
-> "Each group: add your two strongest diagnoses to the chart and explain them in one sentence each."
+> "Select one challenge for deeper analysis. Choose the challenge that the group can learn most from. The other challenges stay open. They come back after the break."
 
-Annotate the chart. Read out patterns, for example a level with no notes.
+Ask each group to say which challenge it selected. Note how many challenges stay open in each group. You need the count to form the pairs of Block 2.
 
-### 8. Afternoon break · minutes 65–95
-
-Say: "Thirty minutes. Step away from the wall and from your devices. We meet again at the chart."
-
-### 9. Find opportunities and barriers · minutes 95–110
-
-Form new groups of four. Mix people from different groups. Say:
-
-> "Where could a change at one level unlock change at another level? Where does one level block another? Write opportunities on one color, barriers on the other color. Name the levels for each note."
-
-Ask the groups to label each link with its kind: funding, rules, data, procurement, or technical dependence. A level higher on the chart does not always hold more power.
-
-### 10. Share possibilities · minutes 110–120
+### Find Opportunities & Barriers · 10 minutes · alone
 
 Say:
 
-> "Three or four people: add your group's opportunities and barriers to the chart. Put each note between the levels that it connects."
+> "Take Sheet 2. In part A, note Opportunities & Barriers for the selected challenge. Where could a change at one level unlock a change at another level? Where does one level block another? Note the level of each."
 
-### 11. Prioritize · minutes 120–130
-
-Before the vote, ask: "Does any option raise an objection about consent, rights, or a burden on one group?" Write each objection on the chart next to the option. The vote does not settle an objection.
-
-Give each participant three dot stickers. Say:
-
-> "Vote for the three opportunities or barriers with the most leverage: a change that is feasible and moves more than one level."
-
-Count the dots. Name the three priorities aloud.
-
-### 12. Commit to action · minutes 130–145
-
-Use **1-2-4-All** for the three priorities. Say:
-
-> "One minute alone: what can you do in the next month on one of the three priorities? Who at another level do you need?"
->
-> "Two minutes in pairs: share and sharpen your actions."
->
-> "Four minutes in fours: find actions that fit together. Who forms an alliance across levels?"
->
-> "Then all: each group shares its strongest action."
-
-Each participant notes one action on the [action plan](handouts/action-plan.qmd), with an owner. Ask who decides at that level, not only who volunteers. The remaining minutes go to the plenary round.
-
-### 13. Arrange follow-up · minutes 145–150
-
-Form groups of three. Say:
-
-> "Decide how and when you revisit this chart. Who keeps the photo? When do you check your actions?"
-
-Record a review date for each trio. The product of the session is a shared chart, three priorities, action owners, and a review point.
-
-## Ecocycle: a 30-minute adaptation
-
-::: {.callout-important title="Not the full method"}
-The full Ecocycle Planning takes about 90 minutes [@ls-ecocycle]. This is a shortened course adaptation. The Panarchy page of Liberating Structures suggests adding 30 to 50 minutes for a focused Ecocycle diagnosis [@ls-panarchy]. Do not call this segment a full Ecocycle workshop. The phases are a heuristic: a stable rule is not always a rigidity trap, and an ending is not always renewal.
-:::
-
-| Minute | Clock       | Duration | Step                                                   | Product                            |
-| ------ | ----------- | -------: | ------------------------------------------------------ | ---------------------------------- |
-| 0–5    | 15:50–15:55 |        5 | Explain birth, maturity, creative destruction, renewal | Shared understanding of the phases |
-| 5–10   | 15:55–16:00 |        5 | Map the priority initiatives                           | Initiatives placed on the Ecocycle |
-| 10–20  | 16:00–16:10 |       10 | Identify scarcity traps and rigidity traps             | Trapped initiatives marked         |
-| 20–25  | 16:10–16:15 |        5 | Propose movements between phases                       | A move for each trapped initiative |
-| 25–30  | 16:15–16:20 |        5 | Record concrete next steps                             | Next steps on the action plan      |
-|        |             |   **30** |                                                        |                                    |
-
-: The adapted Ecocycle {.striped}
-
-### 1. Explain the phases · minutes 0–5
+### Discuss and consolidate the group Action Plan · 25 minutes · groups
 
 Say:
 
-> "Every initiative has a life: it is born, it matures, it ends, and something new forms. Birth is a new experiment. Maturity is an established practice. Creative destruction is letting go. Renewal is the time to reflect and explore."
+> "Share your Opportunities & Barriers. Prioritize them. Then consolidate them into one group Action Plan on the flipchart or in the shared document: the change, the level, the first step, and who must act."
 
-> "Two traps stop the movement. The rigidity trap: we hold on to a practice that no longer works. The scarcity trap: we never invest enough in a new idea for it to grow."
+Before the group prioritizes, ask: "Does any option raise an objection about consent, rights, or a burden on one group?" Write each objection next to the option. A majority does not settle an objection. Ask who decides at a level, not only who volunteers.
 
-### 2. Map the priority initiatives · minutes 5–10
+### Buffer and capture findings · 10 minutes
 
-Say:
+The groups complete their group Action Plan. Say:
 
-> "Take the three priorities and the actions from the Panarchy chart. Where is each initiative on the Ecocycle today? Place a note."
+> "Keep your Panarchy Chart. You need it after the break."
 
-Examples from this course: a new disclosure template is in birth. A university license for one chatbot is in maturity.
+## Afternoon: Panarchy Block 2
 
-### 3. Identify the traps · minutes 10–20
+### Form new pairs · 5 minutes
 
-Say:
+Form pairs across the groups of Block 1. A partner must not have discussed the challenge before. Use this rule:
 
-> "Which initiatives are stuck? Which mature practice should end but does not? Which new idea never gets resources? Mark each trap."
+1. Pair each participant whose challenge was selected in Block 1 with a participant whose challenge is open.
+2. Pair the remaining participants with open challenges with each other.
+3. Do not pair two people from the same group of four.
 
-### 4. Propose movements · minutes 20–25
-
-Say:
-
-> "For each trapped initiative: what must start, stop, or get support so that it moves to the next phase?"
-
-### 5. Record next steps · minutes 25–30
+With 16 participants, four challenges were selected and twelve are open. The rule gives four pairs with one open challenge and four pairs with two open challenges. With an odd number, form one group of three.
 
 Say:
 
-> "Write your next step on the action plan: the priority, the level, the barrier, the intervention, the owner, the evidence, the first action, and the review date."
+> "Two open challenges in your pair: examine both. One open challenge: both of you examine that challenge."
+
+### Opportunities & Barriers for the open challenges · 10 minutes · alone
+
+Say:
+
+> "Take Sheet 2. In part B, note Opportunities & Barriers for the open challenge or challenges of your pair. Use the existing Panarchy Charts."
+
+### Discuss and prioritize the open challenges · 35 minutes · pairs
+
+Say:
+
+> "Discuss and prioritize. For each open challenge, record the findings and possible actions in part B."
+
+With two open challenges, give a time signal after about 17 minutes: "Move to the second challenge." Every challenge must receive an in-depth discussion in Block 1 or Block 2.
+
+## Individual Action Plan and closing
+
+### Individual Action Plan · 20 minutes · alone
+
+Say:
+
+> "Turn Sheet 2 over. Complete the Action Plan for your own Research Use. Use your findings from part A or part B. Write the intended change, the next step, the barriers, the timeline, and the success indicator."
+
+### Peer review · 10 minutes · pairs
+
+Say:
+
+> "Swap your Action Plans with a partner. Read. Then ask three questions: Is the next step concrete? Is the timeline realistic? Would the success indicator show the change? Note the main feedback and what you change."
+
+### Course evaluation and closing · 15 minutes
+
+Open the course evaluation from the edition page. Remind the participants of the follow-up task: the [Responsible GenAI Use Statement](assignments.qmd). The individual Action Plan is a good start for it.
+
+## Documentation
+
+- The participants keep both sheets. The instructors do not collect them.
+- Each group keeps its flipchart or its shared document. Take a photo of a flipchart only if the group agrees. Do not photograph people.
+- Do not publish the group documents. They can describe Research Uses that are not public.
 
 ## Adapt the session
 
-- **Fewer than eight participants.** Use pairs instead of quartets in steps 4, 6, and 9. Keep the durations.
-- **Sixteen participants.** Use four quartets. In step 5, invite one person per quartet to the wall.
+- **Fewer than eight participants.** Use groups of three. Keep the durations. In the morning, a Lens can have no group.
+- **Twelve participants.** Form three Lens groups and three groups of four in Block 1. Three challenges are selected and nine are open.
+- **An odd number.** Form one group of three in each pair step.
 - **Mixed levels in the room.** If participants come from one department only, ask them to speak for levels that are not in the room, and mark these notes. Treat these notes as questions to check with these people, not as their answers.
-- **Online.** The structure works online with breakout rooms, but this course needs no online whiteboard. Each participant can draw their own chart on paper and hold it up to the camera.
-- **Accessibility.** Read every note aloud when you place it. Offer large-print charts. Let participants dictate notes to a partner.
+- **Online.** The structure works with breakout rooms and shared documents. Participants can also fill in the Word versions of the sheets.
+- **Accessibility.** Read each instruction aloud. Offer the Word versions and large-print copies. Let participants dictate to a partner.
 
 ## Privacy
 
-The shared chart holds ideas, not personal data. Do not write names of people who are not in the room. Do not collect the action plans: they belong to the participants. Do not publish photos of participants.
+The sheets and the flipcharts hold ideas, not personal data. Do not write names of people who are not in the room. Do not collect the Action Plans: they belong to the participants. Do not publish photos of participants.
 
 ## Attribution and license
 
 ::: {.callout-note title="Liberating Structures"}
 The structures and illustrations used in this session are adapted under Creative Commons Attribution-ShareAlike 4.0 from the original work of Keith McCandless, Henri Lipmanowicz and Nancy White found at [www.liberatingstructures.com](https://www.liberatingstructures.com/) and the Liberating Structures Fieldbook (2026). Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
-Henri Lipmanowicz and Keith McCandless created the original repertoire [@lipmanowicz2014]. Keith McCandless and Nancy White wrote the Fieldbook [@mccandless2026]. This guide adapts the step labels and keeps the original durations. It uses no Liberating Structures icons.
+Henri Lipmanowicz and Keith McCandless created the original repertoire [@lipmanowicz2014]. Keith McCandless and Nancy White wrote the Fieldbook [@mccandless2026]. This guide adapts the steps, their labels, and their durations. It uses no Liberating Structures icons.
 :::
 
 This guide is licensed under [CC BY-SA 4.0](../LICENSE-CCBYSA.md). If you adapt it, share your adaptation under the same license.

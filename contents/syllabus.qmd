@@ -8,36 +8,57 @@ subtitle: 'The common learning path and the timetable'
 The course has three phases: preparation, one course day, and a follow-up task. The phases are the same in every edition. The [edition pages](editions/hs2026.qmd) give the dates.
 
 ```{mermaid}
-%%| fig-alt: "Flow chart with three phases. Before the course day: read Bender et al. and describe one generative AI use in your research. On the course day: four analytical lenses in the morning, Panarchy and Ecocycle in the afternoon, then a research-use clinic. After the course day: write a Responsible GenAI Use Statement."
+%%| fig-alt: "Flow chart with three phases. Before the course day: read Bender et al. and prepare one Research Use. On the course day: four analytical lenses and Lens groups in the morning, two Panarchy blocks and an individual Action Plan in the afternoon. After the course day: write a Responsible GenAI Use Statement."
 flowchart LR
-    A["<b>Before</b><br/>Read Bender et al.<br/>Describe one GenAI use<br/>in your research"] --> B["<b>Course day: morning</b><br/>Four analytical lenses"]
-    B --> C["<b>Course day: afternoon</b><br/>Panarchy and Ecocycle<br/>Research-use clinic"]
+    A["<b>Before</b><br/>Read Bender et al.<br/>Prepare one<br/>Research Use"] --> B["<b>Course day: morning</b><br/>Four analytical lenses<br/>Lens groups"]
+    B --> C["<b>Course day: afternoon</b><br/>Two Panarchy blocks<br/>Individual Action Plan"]
     C --> D["<b>After</b><br/>Responsible GenAI<br/>Use Statement"]
 ```
 
 ### Before the course day
 
 - Read the required text: Bender et al., _On the Dangers of Stochastic Parrots_ [-@bender2021].
-- Write a short description of one actual or planned use of generative AI in your research. Say why you might use it and what you do not know about it.
+- Prepare your **Research Use**: one actual or planned use of generative AI in your research. Say why you might use it and what you do not know about it. On the course day, you write it on the Research Use Card.
 
 Further reading is optional. The [literature](literature.qmd) page lists readings and cases for each lens. The [assignments](assignments.qmd) page gives a plan for the eight hours of preparation.
 
 ### On the course day
 
-The morning builds a shared vocabulary. Each lens takes about 35 minutes: a short input, a documented case, and a group activity of 15 minutes. Each group works first on an example from its own research-use descriptions.
+Each participant uses two double-sided A4 sheets: [Sheet 1](handouts/sheet-1-research-use-panarchy.qmd) with the Research Use Card and the Panarchy Chart, and [Sheet 2](handouts/sheet-2-opportunities-action-plan.qmd) with Opportunities & Barriers and the Action Plan. Paper, digital documents, and flipcharts are enough.
 
-1. [Lens 1: Stochastic Parrots — Scale and Environment](lenses/01-scale.qmd). Output: a material-and-provenance map.
-2. [Lens 2: Representation and Displacement](lenses/02-representation.qmd). Output: a representation and harm pathway.
-3. [Lens 3: Lifecycle and Labor](lenses/03-lifecycle-labor.qmd). Output: a lifecycle risk matrix.
-4. [Lens 4: Political Economy](lenses/04-political-economy.qmd). Output: a stakeholder and incentive map.
+The morning builds a shared vocabulary and applies it to the Research Uses of the participants.
 
-The afternoon applies the vocabulary to the institutions in which participants work.
+1. **Research Use Card.** Each participant describes their Research Use. The term stays the same all day.
+2. **Four lenses, 15 minutes each.** Each lens gives theory and one example:
+   - [Lens 1: Stochastic Parrots — Scale and Environment](lenses/01-scale.qmd)
+   - [Lens 2: Representation and Displacement](lenses/02-representation.qmd)
+   - [Lens 3: Lifecycle and Labor](lenses/03-lifecycle-labor.qmd)
+   - [Lens 4: Political Economy](lenses/04-political-economy.qmd)
+3. **Lens groups.** See below.
 
-5. [Panarchy](panarchy.qmd): a facilitated discussion of 120 minutes, with the afternoon break in the middle. Output: a shared chart, three priorities, action owners, and a review point.
-6. [Ecocycle](panarchy.qmd#ecocycle-a-30-minute-adaptation): a 30-minute adaptation. Output: a diagnosis of the priority initiatives.
-7. Research-use clinic: each participant applies the worksheet to their own research use. Each participant then decides with three questions: constraints, comparison, and accountability. A peer reviews the result.
+#### Lens groups {#lens-groups}
 
-Your contributions on the day are four lens worksheets, a group Panarchy chart, an Ecocycle diagnosis, and one practical action.
+Each participant chooses the lens that fits their Research Use best. The participants form groups of four, ideally one group for each lens. For 60 minutes, each group:
+
+- introduces the Research Use Card of each member,
+- applies the four guiding questions of its lens to each Research Use,
+- records insights, uncertainties, and disagreements on a flipchart or in a shared document.
+
+Each lens page lists its four guiding questions. Then each group nominates a spokesperson, who reports for five minutes. The report focuses on conceptual insights, not on individual Research Uses. Three questions guide the report:
+
+{{< include _plenary-questions.qmd >}}
+
+The plenary then takes ten minutes to clarify open questions.
+
+#### Afternoon: Panarchy and the individual Action Plan
+
+The afternoon applies the vocabulary to the levels at which change is possible.
+
+4. **[Panarchy Block 1](panarchy.qmd#block-1).** Each participant writes a challenge in one sentence, starting from the Research Use Card, and lists its influences. Pairs translate the influences into levels on the Panarchy Chart. New groups of four present their challenges, select one, find Opportunities & Barriers, and consolidate a group Action Plan.
+5. **[Panarchy Block 2](panarchy.qmd#block-2).** New pairs examine the challenges that Block 1 did not select. Every challenge receives an in-depth discussion.
+6. **[Individual Action Plan](panarchy.qmd#action-plan).** Each participant completes an Action Plan for their own Research Use: the intended change, the next step, the barriers, the timeline, and a success indicator. A peer reviews it.
+
+Your outputs on the day are your Research Use Card, the notes of your Lens group, your Panarchy Chart, Opportunities & Barriers, a group Action Plan, and your individual Action Plan.
 
 ### After the course day
 
@@ -49,6 +70,7 @@ Write a Responsible GenAI Use Statement for your own research. The [assignments]
 
 ## Materials
 
-- The [handouts](resources.qmd) page lists every worksheet, chart, and template.
+- The [handouts](resources.qmd) page lists both sheets and their editable versions.
 - Each lens page links its slide deck. The decks are Reveal.js presentations. Press `S` for the presenter notes and `?` for the keyboard shortcuts.
+- The [course day deck](slides/06-day.qmd) holds all slides of the course day, in order.
 - The [literature](literature.qmd) page lists every reading with a lawful link.

@@ -8,10 +8,10 @@ description: >-
 
 ::: {.callout-note title="At a glance"}
 
-- **Slot:** about 35 minutes in the morning, with a 15-minute group activity.
+- **Slot:** 15 minutes in the morning: theory and one example.
 - **Instructor:** Laura Wagner.
-- **Output:** a stakeholder and incentive map.
-- **Worksheet:** [Lens 4 worksheet: stakeholder and incentive map](../handouts/lens-4-stakeholder-map.qmd).
+- **Guiding questions:** four questions for the Lens 4 group. See [Activity](#activity).
+- **Handout:** the [Research Use Card](../handouts/sheet-1-research-use-panarchy.qmd) on Sheet 1.
 - **Slides:** [Lens 4 slide deck](../slides/04-political-economy.qmd).
 - **Anchor sources:** Widder, West, and Whittaker [-@widder2023]; Regulation (EU) 2024/1689, the AI Act [@euaiact2024].
 
@@ -105,37 +105,24 @@ The Open Source Initiative stated that the license is not open source. It restri
 
 ## Activity
 
-**Map stakeholders and incentives.** Work in groups of three or four, for 15 minutes, on paper or on a laptop.
+This Lens has no individual activity. After the four Lens inputs, each participant chooses the Lens that fits their Research Use best. The participants form Lens groups of four, ideally one group for each Lens. The Lens 4 group works for 60 minutes:
 
-1. Choose the system. First choice: the system from one research-use description in your group. Use Llama 2 as in the ready-made case only when no description fits. (3 minutes)
-2. On the [worksheet](../handouts/lens-4-stakeholder-map.qmd), place the stakeholders. For each, note what it gains, what it pays or risks, and which leverage it has. (7 minutes)
-3. Circle one incentive that keeps an unsafe or inequitable practice in place. (2 minutes)
-4. Write one feasible governance change: who must act, at which level, and by when. (3 minutes)
+1. Each person introduces their Research Use Card.
+2. The group applies the four guiding questions below to each Research Use.
+3. The group records insights, uncertainties, and disagreements on a flipchart or in a shared document.
+4. The group nominates a spokesperson for the plenary.
 
-::: {.panel-tabset}
+**Guiding questions for Lens 4**
 
-### Your group's example
+{{< include _guiding-questions-04.qmd >}}
 
-This is the first choice. A use from your own research makes the analysis concrete.
+Write **Unknown** where evidence is missing: an unknown is a finding. Describe the use, not the data. Do not show confidential, personal, or unpublished research data. If a Research Use cannot be discussed openly, use the [case of the "open" license](#case-license) instead.
 
-- Choose the research-use description with the most open questions.
-- Its author explains the use in two minutes: the task, the system, and what they do not know about it.
-- Describe the use, not the data. Do not show confidential, personal, or unpublished research data.
-- Place your own university on the map: as a licensee, a data owner, or a rule maker.
-
-### Ready-made case
-
-Use the [Llama 2 license](#case-license) when no description in your group fits, or when the group prefers not to discuss its own use. The case shows how a license distributes gains, costs, and leverage.
-
-### Hypothetical example
-
-A faculty licenses one chatbot for all staff because the vendor offers a discount. The map shows: the vendor gains data and lock-in. The faculty gains convenience, and researchers lose the choice of a documented model. A feasible change: the faculty adds a documentation requirement to the next procurement, and the research data office maintains a list of documented alternatives. This example is invented for teaching.
-
-:::
+The questions of all four Lenses are on one shared slide of the [course day deck](../slides/06-day.qmd).
 
 ## Output
 
-A **stakeholder and incentive map** on one sheet for each group. It shows the stakeholders with their gains, costs, and leverage. It circles one incentive that preserves an unsafe or inequitable practice, and it names one feasible governance change.
+The flipchart or the shared document of the Lens 4 group: insights, uncertainties, and disagreements for each Research Use. In the plenary, the spokesperson reports the conceptual insights, not the individual Research Uses. The [syllabus](../syllabus.qmd#lens-groups) gives the three plenary questions.
 
 ## Reading
 
@@ -148,7 +135,7 @@ A **stakeholder and incentive map** on one sheet for each group. It shows the st
 Open the [Lens 4 slide deck](../slides/04-political-economy.qmd). Press `S` for the presenter notes.
 
 ::: {.callout-note title="For teachers" collapse="true"}
-**Timing (35 minutes).** Input on the core concepts, 10 minutes. The case, 5 minutes. Activity, 15 minutes. Plenary round, 5 minutes.
+**Timing (15 minutes).** Input on the core concepts, 10 minutes. The case, 5 minutes. The Lens group applies the four guiding questions later in the morning.
 
 **Prompts.**
 
@@ -156,11 +143,11 @@ Open the [Lens 4 slide deck](../slides/04-political-economy.qmd). Press `S` for 
 - "What would change if your university bought only documented models?"
 - "Which incentive would you need to change to make your own practice more responsible?"
 
-**Link to the afternoon.** The governance changes from this activity are the first material for Panarchy. Collect them on the wall. Ask the group to agree on the Panarchy challenge in the next block.
+**Link to the afternoon.** The governance changes that the Lens groups name are material for the Panarchy challenges in the afternoon. Each participant writes their own challenge, starting from their Research Use Card.
 
 **Difficult moments.** Discussions of regulation can turn into legal questions about a specific project. Note the question for the legal service of the institution, and return to incentives and levers.
 
-**Fallback.** Start with the group's own example. If no description fits, use the case. Groups that finish early can add a second map for the same system ten years ago, and compare the stakeholders.
+**Lens group.** Circulate during the group work. If a group gets stuck, ask one guiding question at a time. If a Research Use cannot be discussed openly, offer the case of this Lens.
 :::
 
 ## References
