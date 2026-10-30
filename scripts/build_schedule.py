@@ -5,7 +5,8 @@ The schedule is the single source for three generated files:
 
 - ``contents/_timetable.qmd``: the timetable for participants.
 - ``contents/_trainer-timeline.qmd``: the trainer timeline with the lead.
-- ``contents/slides/_day-slots.qmd``: one slide per slot for the running deck.
+- ``contents/slides/_day-slots.qmd``: the all-day slide deck. Each slot gets a
+  title slide, then the slides of its ``parts`` from ``contents/slides/_parts/``.
 
 The generated files are committed. ``test/test_schedule.py`` fails when a file
 is out of date.
@@ -31,6 +32,9 @@ TRAINER_TIMELINE = CONTENTS / "_trainer-timeline.qmd"
 DAY_SLOTS = CONTENTS / "slides" / "_day-slots.qmd"
 PLENARY_QUESTIONS = CONTENTS / "_plenary-questions.qmd"
 LENS_QUESTIONS = CONTENTS / "lenses" / "_guiding-questions-{n:02d}.qmd"
+PARTS_DIR = CONTENTS / "slides" / "_parts"
+# License slides that open the all-day deck, before the first slot.
+DAY_LICENSE_PARTS = ["00-license.qmd", "05-license.qmd"]
 
 FORMATS = ("Plenary", "Alone", "Pairs", "Groups", "Break")
 HEADER = (
@@ -133,7 +137,7 @@ def day_slots(slots: list[dict]) -> str:
         "lens-questions": lens_questions_block(slots),
         "plenary-questions": read_include(PLENARY_QUESTIONS),
     }
-    out = [HEADER]
+    out = [HEADER, include_lines(DAY_LICENSE_PARTS)]
     for slot in slots:
         meta = [time_range(slot), f"{duration(slot)} min"]
         if slot["format"] != "Break":
@@ -142,17 +146,26 @@ def day_slots(slots: list[dict]) -> str:
             meta.append(f"Lead: {slot['lead']}")
         # Sixteen guiding questions fit on one slide only in the smaller size.
         dense = slot.get("display_block") == "lens-questions"
-        classes = ".day-slot .smaller" if dense else ".day-slot"
-        parts = [
+        classes = ".day-slot"
+        if slot["format"] == "Break":
+            classes += " .break"
+        if dense:
+            classes += " .smaller"
+        title = [
             f"## {slot['activity']} {{{classes}}}",
-            f'[{" · ".join(meta)}]{{.slot-meta data-start="{slot["start"]}" '
-            f'data-end="{slot["end"]}"}}',
+            f"[{' · '.join(meta)}]{{.slot-meta}}",
             slot["display"].strip(),
         ]
         if slot.get("display_block"):
-            parts.append(blocks[slot["display_block"]])
-        out.append("\n\n".join(parts))
+            title.append(blocks[slot["display_block"]])
+        out.append("\n\n".join(title))
+        if slot.get("parts"):
+            out.append(include_lines(slot["parts"]))
     return "\n\n".join(out) + "\n"
+
+
+def include_lines(names: list[str]) -> str:
+    return "\n".join(f"{{{{< include _parts/{name} >}}}}" for name in names)
 
 
 def build() -> dict[Path, str]:

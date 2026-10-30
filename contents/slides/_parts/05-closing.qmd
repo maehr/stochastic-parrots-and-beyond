@@ -1,0 +1,22 @@
+## Expected output
+
+- Your own Panarchy Chart with your challenge, influences, and levels.
+- Opportunities & Barriers for your challenge, from Block 1 or Block 2.
+- A group Action Plan for each group of four.
+- Your individual Action Plan, reviewed by a peer.
+
+## Sources {.smaller}
+
+- Liberating Structures: [Panarchy](https://www.liberatingstructures.com/panarchy).
+- McCandless and White (2026): [The Liberating Structures Fieldbook](https://www.liberatingstructures.com/2026-fieldbook).
+- Holling (2001): [Understanding the Complexity of Economic, Ecological, and Social Systems](https://doi.org/10.1007/s10021-001-0101-5).
+
+## Takeaway
+
+> Responsible use is not only a personal choice. Find the level where a change is feasible, and the allies at the levels above and below.
+
+[Slides: CC BY-SA 4.0, adapted from Liberating Structures.]{.source}
+
+::: notes
+Transition to the closing: "Take your Action Plan home. It is the start of your Responsible GenAI Use Statement."
+:::

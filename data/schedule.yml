@@ -3,7 +3,7 @@
 # scripts/build_schedule.py writes three files from this file:
 # - contents/_timetable.qmd: the timetable for participants.
 # - contents/_trainer-timeline.qmd: the trainer timeline with the lead.
-# - contents/slides/_day-slots.qmd: one slide per slot for the running deck.
+# - contents/slides/_day-slots.qmd: the all-day slide deck, one title slide per slot.
 #
 # Run `npm run schedule:build` after a change, and commit the three files.
 # test/test_schedule.py fails when a file is out of date.
@@ -13,6 +13,8 @@
 # - `format` is one of: Plenary, Alone, Pairs, Groups, Break.
 # - `lead` names the trainer who keeps time and gives the instructions.
 #   Both trainers facilitate during collaborative activities.
+# - `parts` lists slide files from contents/slides/_parts/ that follow the slot.
+#   Each file appears in exactly one slot, or in the opening license slides.
 # - `display` is the instruction on the running deck. Write it in
 #   Simplified Technical English. `display_block` inserts a prepared block:
 #   `lens-questions` or `plenary-questions`.
@@ -22,6 +24,7 @@ slots:
   - start: '09:00'
     end: '09:10'
     activity: Welcome
+    parts: [00-welcome.qmd, 00-the-day.qmd]
     format: Plenary
     lead: Laura
     display: >-
@@ -31,6 +34,7 @@ slots:
   - start: '09:10'
     end: '09:20'
     activity: Research Use Card
+    parts: [00-research-use-card.qmd]
     format: Alone
     lead: Moritz
     link: /contents/handouts/sheet-1-research-use-panarchy.qmd
@@ -42,6 +46,7 @@ slots:
   - start: '09:20'
     end: '09:35'
     activity: 'Lens 1: Scale & Environment'
+    parts: [01-scale.qmd]
     format: Plenary
     lead: Moritz
     link: /contents/lenses/01-scale.qmd
@@ -51,6 +56,7 @@ slots:
   - start: '09:35'
     end: '09:50'
     activity: 'Lens 2: Representation'
+    parts: [02-representation.qmd]
     format: Plenary
     lead: Laura
     link: /contents/lenses/02-representation.qmd
@@ -60,6 +66,7 @@ slots:
   - start: '09:50'
     end: '10:05'
     activity: 'Lens 3: Lifecycle & Labor'
+    parts: [03-lifecycle-labor.qmd]
     format: Plenary
     lead: Moritz
     link: /contents/lenses/03-lifecycle-labor.qmd
@@ -69,6 +76,7 @@ slots:
   - start: '10:05'
     end: '10:20'
     activity: 'Lens 4: Political Economy & Governance'
+    parts: [04-political-economy.qmd]
     format: Plenary
     lead: Laura
     link: /contents/lenses/04-political-economy.qmd
@@ -141,6 +149,7 @@ slots:
   - start: '13:20'
     end: '13:25'
     activity: Panarchy introduction
+    parts: [05-intro.qmd]
     format: Plenary
     lead: Moritz
     link: /contents/panarchy.qmd
@@ -151,6 +160,7 @@ slots:
   - start: '13:25'
     end: '13:40'
     activity: Frame Challenge & Identify Influences
+    parts: [05-block-1.qmd]
     format: Alone
     lead: Laura
     link: /contents/panarchy.qmd#block-1
@@ -231,6 +241,7 @@ slots:
   - start: '15:25'
     end: '15:30'
     activity: Form new pairs
+    parts: [05-block-2.qmd]
     format: Plenary
     lead: Laura
     link: /contents/panarchy.qmd#block-2
@@ -260,6 +271,7 @@ slots:
   - start: '16:15'
     end: '16:35'
     activity: Individual Action Plan
+    parts: [05-action-plan.qmd]
     format: Alone
     lead: Moritz
     link: /contents/handouts/sheet-2-opportunities-action-plan.qmd
@@ -281,6 +293,7 @@ slots:
   - start: '16:45'
     end: '17:00'
     activity: Course evaluation and closing
+    parts: [05-closing.qmd, 00-closing.qmd]
     format: Plenary
     lead: Moritz
     link: /contents/assignments.qmd

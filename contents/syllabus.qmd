@@ -72,5 +72,5 @@ Write a Responsible GenAI Use Statement for your own research. The [assignments]
 
 - The [handouts](resources.qmd) page lists both sheets and their editable versions.
 - Each lens page links its slide deck. The decks are Reveal.js presentations. Press `S` for the presenter notes and `?` for the keyboard shortcuts.
-- The [course day deck](slides/06-day.qmd) shows the running schedule with a countdown.
+- The [course day deck](slides/06-day.qmd) holds all slides of the course day, in order.
 - The [literature](literature.qmd) page lists every reading with a lawful link.

@@ -1,0 +1,11 @@
+## License {.smaller}
+
+These slides are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). You can copy, change, and teach them if you give credit.
+
+Source and handouts: [maehr.github.io/stochastic-parrots-and-beyond](https://maehr.github.io/stochastic-parrots-and-beyond/)
+
+Press `S` for the presenter notes and `?` for the keyboard shortcuts.
+
+::: notes
+Open with the license slide only briefly. It tells participants that they may keep and reuse everything. Then move to the question.
+:::

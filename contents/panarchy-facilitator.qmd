@@ -28,7 +28,7 @@ The **Research Use** is the one actual or planned use of generative AI that each
   - [Sheet 2](handouts/sheet-2-opportunities-action-plan.qmd): Opportunities & Barriers on the front, Action Plan on the back.
 - The Word versions of both sheets, for participants who prefer to type.
 - One flipchart sheet and thick pens for each group, or a shared document. No sticky notes are needed.
-- The [course day deck](slides/06-day.qmd) on the room screen. It shows the activity, the time, the duration, the format, the lead, and a countdown.
+- The [course day deck](slides/06-day.qmd) on the room screen. It has a title slide for each slot, then the slides of that slot.
 - The four Lens decks and the [Panarchy deck](slides/05-panarchy.qmd) in a second window.
 
 ### Room

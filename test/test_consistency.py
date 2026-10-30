@@ -65,9 +65,9 @@ def test_local_links_resolve(page: Path):
         path = unquote(target.split("#", 1)[0].split("?", 1)[0])
         if not path:
             continue
-        resolved = (
-            REPO_ROOT / path.lstrip("/") if path.startswith("/") else page.parent / path
-        )
+        # A part in _parts/ renders inside its deck, so its links resolve there.
+        base = page.parent.parent if page.parent.name == "_parts" else page.parent
+        resolved = REPO_ROOT / path.lstrip("/") if path.startswith("/") else base / path
         if not resolved.exists():
             broken.append(target)
     assert not broken, f"{rel(page)} links to missing files: {broken}"

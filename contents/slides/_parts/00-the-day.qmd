@@ -1,0 +1,14 @@
+## The day
+
+1. Four Lenses, 15 minutes each: theory and one example.
+2. Lens groups: apply the four questions of one Lens to each Research Use.
+3. Spokespersons report to the plenary.
+4. Panarchy Block 1: your challenge, your Panarchy Chart, and a group Action Plan.
+5. Panarchy Block 2: the open challenges in pairs.
+6. Your individual Action Plan, peer review, and the course evaluation.
+
+[The edition page gives the times.]{.source}
+
+::: notes
+Do not give times on this slide. Each participant leaves with an individual Action Plan. It prepares the follow-up task: the Responsible GenAI Use Statement.
+:::

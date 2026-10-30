@@ -1,0 +1,17 @@
+## Your Research Use Card · 10 minutes
+
+**Alone.** Take Sheet 1. On the right, fill in the Research Use Card:
+
+- the task: one actual or planned use of generative AI in your research,
+- the system or tool,
+- why you might use it,
+- what you do not know about it,
+- who else is affected.
+
+This is your **Research Use**. It stays your Research Use all day. Leave the field "Lens" empty for now.
+
+Do not write confidential or personal data on the card.
+
+::: notes
+Keep strict time. The cards stay with the participants. After the four Lens inputs, each participant writes the Lens that fits their Research Use best on the card. The Lens groups form after the break.
+:::

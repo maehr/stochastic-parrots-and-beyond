@@ -43,7 +43,7 @@ These tasks hold no participant data. Keep all participant data outside this rep
 ## Materials
 
 - [ ] `[Shared]` Run `npm run handouts:build` for Sheet 1, Sheet 2, and the risk worksheet. Open each PDF and check that each page fits. Commit the generated files.
-- [ ] `[Shared]` Rehearse the course day deck (`contents/slides/06-day.qmd`) on the room screen. Check the countdown and the follow mode.
+- [ ] `[Shared]` Rehearse the course day deck (`contents/slides/06-day.qmd`) on the room screen. Check the title slides, the breaks, and the order of the slides.
 - [ ] `[Shared]` Check the seven decks for legibility and accessibility. Then offer PDF versions.
 - [ ] `[Agent]` Run veraPDF on the handouts (`quarto install verapdf`) to validate PDF/UA-1.
 - [ ] `[Shared]` Decide whether to self-host the IBM Plex fonts instead of loading them from Google Fonts.

@@ -62,7 +62,7 @@ The decks are Reveal.js presentations. Use the arrow keys to move. Press `S` for
 | [Lens 3: Lifecycle and labor](slides/03-lifecycle-labor.qmd)            | Hidden labor, the Kenyan labeling case                  | CC BY 4.0    |
 | [Lens 4: Political economy](slides/04-political-economy.qmd)            | Power, "open" claims, the EU AI Act                     | CC BY 4.0    |
 | [Panarchy](slides/05-panarchy.qmd)                                      | Block 1, Block 2, and the individual Action Plan        | CC BY-SA 4.0 |
-| [The course day](slides/06-day.qmd)                                     | Running schedule with a countdown, for the room screen  | CC BY-SA 4.0 |
+| [The course day](slides/06-day.qmd)                                     | All slides of the course day, for the room screen       | CC BY-SA 4.0 |
 
 : Slide decks {.striped}
 

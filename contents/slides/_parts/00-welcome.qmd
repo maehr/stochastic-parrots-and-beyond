@@ -1,0 +1,63 @@
+## Our question
+
+> How can we make — and defend — a responsible decision about generative AI in our own research?
+
+- Not a list of permitted and forbidden tools.
+- A transparent position that you can explain to colleagues, reviewers, and the people your research affects.
+
+::: notes
+Ask: "Who has used a generative AI system for research this month?" Do not ask for details yet. Transition: "Before we judge a use, we need ways of looking at it. We use four lenses."
+:::
+
+## Four lenses
+
+1. **Scale and environment.** What does a model cost, and where do its data come from?
+2. **Representation and Displacement.** Whose perspectives become normal?
+3. **Lifecycle and labor.** Who does the work, and who carries the risk?
+4. **Political economy.** Which incentives keep a practice in place?
+
+In the afternoon, **Panarchy** connects the lenses to the levels where change is possible.
+
+::: notes
+Name each lens with its question. Point out that the lenses overlap on purpose. A single use can raise questions in all four.
+:::
+
+## One lifecycle, six stages
+
+![](../../assets/cases/00-four-lenses.svg){fig-alt="Diagram of the six lifecycle stages in a row: design, data, training, deployment, evaluation, governance. Above the row, four bands mark which stages each lens examines most: scale and environment covers data, training, and deployment; representation covers data, training, and evaluation; lifecycle and labor covers all six stages; political economy covers design, deployment, and governance."}
+
+[Original diagram. CC BY 4.0.]{.source}
+
+::: notes
+Read the stages from left to right. Say that we will mark risks at each stage. Transition: "Let us start with one hypothetical example and look at it through all four lenses."
+:::
+
+## A short case {.smaller}
+
+[Hypothetical example]{.label}
+
+A doctoral candidate in history wants to use a hosted chatbot to summarize 200 digitized newspaper articles for a literature review.
+
+| Lens                  | First question                                                      |
+| --------------------- | ------------------------------------------------------------------- |
+| Scale and environment | What is known about the model's training data and energy use?       |
+| Representation        | Whose voices does the summary make typical, and whose does it drop? |
+| Lifecycle and labor   | Who labeled the data, and who checks the summaries?                 |
+| Political economy     | What does the provider gain, and what does the university pay?      |
+
+[This example is invented for teaching.]{.source}
+
+::: notes
+Ask the group to add one question per lens. The Lens groups later use four guiding questions for each Lens.
+:::
+
+## Concepts we use all day {.smaller}
+
+- **Stochastic parrot:** Bender et al.'s term for a system that stitches together linguistic forms from its training data "without any reference to meaning" (2021, 617). Whether such systems understand is debated (Mitchell and Krakauer 2023).
+- **Documented vs. hypothetical:** we mark every example. A product name is not evidence.
+- **Known, unknown, avoidable:** three columns for every cost.
+- **Levels:** a change in a project, a department, a university, an industry, or a law.
+
+::: notes
+Stress the difference between documented and hypothetical. Ask participants to challenge any claim that has no source. Keep four questions apart: how a system is trained, what it can do for a task, whether it understands, and whether a use is justified. The course needs no answer to the third question to ask the fourth.
+:::

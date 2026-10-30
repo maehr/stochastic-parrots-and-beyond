@@ -127,51 +127,15 @@ html:root {
   font-size: 0.72em;
 }
 
-/* Running deck of the course day (06-day.qmd and _includes/day-clock.html). */
+/* All-day deck of the course day (06-day.qmd). */
 .reveal .slot-meta {
   font-size: 0.7em;
   font-weight: 600;
   color: #52514e;
 }
 
-.reveal .countdown {
-  margin: 0.1em 0 0.2em;
-  font-size: 1.8em;
-  font-weight: 600;
-  font-variant-numeric: tabular-nums;
-}
-
-.reveal .day-slot.smaller .countdown {
-  font-size: 1em;
-}
-
-.reveal .day-slot.smaller .slot-progress {
-  margin-bottom: 0.3em;
-}
-
-.reveal .countdown.is-up {
-  color: #52514e;
-}
-
-.reveal .slot-progress {
-  height: 0.25em;
-  margin-bottom: 0.6em;
-  background: #dcdbd6;
-}
-
-.reveal .slot-progress span {
-  display: block;
-  height: 100%;
-  width: 0;
-  background: #0b0b0b;
-}
-
-.reveal .day-status {
-  position: absolute;
-  top: 0.5em;
-  right: 1em;
-  font-size: 14px;
-  color: #52514e;
+.reveal .day-slot.break h2 {
+  font-size: 2.2em;
 }
 
 /* One shared slide: four Lenses with four guiding questions each. */

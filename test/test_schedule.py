@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import importlib.util
+import re
 
 import pytest
 from conftest import REPO_ROOT
@@ -77,3 +78,30 @@ def test_four_lens_slots_of_fifteen_minutes(slots):
     ]
     assert len(lens_slots) == 4
     assert all(duration(s) == 15 for s in lens_slots)
+
+
+def test_every_part_appears_once_in_the_day_deck(slots):
+    used = [name for s in slots for name in s.get("parts", [])]
+    used += builder.DAY_LICENSE_PARTS
+    files = sorted(p.name for p in builder.PARTS_DIR.glob("*.qmd"))
+    assert sorted(used) == files, "Each part must appear exactly once in 06-day"
+
+
+def test_standalone_decks_include_their_own_parts():
+    decks = sorted((REPO_ROOT / "contents" / "slides").glob("0[0-5]-*.qmd"))
+    assert decks
+    for deck in decks:
+        names = re.findall(r"_parts/([\w-]+\.qmd)", deck.read_text(encoding="utf-8"))
+        assert names, f"{deck.name} includes no part"
+        assert all(n.startswith(deck.name[:2]) for n in names), deck.name
+
+
+def test_day_deck_has_no_clock():
+    for path in [
+        REPO_ROOT / "contents" / "slides" / "06-day.qmd",
+        REPO_ROOT / "contents" / "slides" / "slides.css",
+        REPO_ROOT / "contents" / "slides" / "_day-slots.qmd",
+    ]:
+        text = path.read_text(encoding="utf-8")
+        for word in ("countdown", "data-start", "day-clock", "slot-progress"):
+            assert word not in text, f"{word} remains in {path.name}"
